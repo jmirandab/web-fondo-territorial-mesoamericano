@@ -1,0 +1,98 @@
+section.section4 {
+  outline: none;
+  min-height: min-content;
+  text-align: center;
+
+  background-color: #0475b5;
+
+}
+
+section.section4 h2 {
+  padding: 1.5em;
+  color: white;
+}
+
+.totalScreenBackgroung {
+
+  position: relative;
+  margin: 0 auto;
+  /* min-height: 70vh; */
+  max-width: 600px;
+  min-height: 338px;
+  margin: 0 auto;
+  background-size: contain;
+}
+
+.card_top {
+  min-height: 400px;
+  position: relative;
+}
+
+.tucan_card {
+  background-image: url(../../../public/images/backtucan.png);
+  min-height: 400px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4% 6%;
+  position: relative;
+  z-index: 3;
+}
+
+.tucan_card p {
+  padding: 0 1.5em 1.5em;
+  font-size: 0.9em;
+  z-index: 2;
+  position: relative;
+}
+
+
+.tucan_card::before {
+  content: " ";
+  position: absolute;
+  height: 40%;
+  width: 5em;
+  display: block;
+  top: 25%;
+  left: 0;
+  transform: translate(-15%, 0);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-image: url(../../../public/images/hojas5.png);
+  background-size: contain;
+  z-index: 1;
+}
+
+.card_top::after {
+  content: " ";
+  position: absolute;
+  height: 75%;
+  width: 14em;
+  display: block;
+  top: 50%;
+  right: 0;
+  transform: translate(60%, -50%);
+  background-repeat: no-repeat;
+  background-position: -33px center;
+  background-image: url(../../../public/images/hojas3.png);
+  background-size: contain;
+  z-index: 1;
+  overflow: hidden;
+}
+
+
+.card_top::before {
+  content: " ";
+  position: absolute;
+  height: 75%;
+  width: 13em;
+  display: block;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -33%);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-image: url(../../../public/images/hojas4.png);
+  background-size: contain;
+  z-index: 1;
+}

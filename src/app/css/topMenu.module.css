@@ -1,0 +1,34 @@
+.logo {
+  background-image: url(../../../public/images/logo-FTM.svg);
+  height: 7em;
+  width: 14em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+.allignTop {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  min-height: 144px;
+}
+
+.allign2 {
+  display: flex;
+}
+
+.allign2 a {
+  padding: 0.2em 1em;
+  font-size: 1.1em;
+}
+
+.allign2 li {
+  list-style: none;
+  display: flex;
+}
+
+.allign2 span {
+  white-space: nowrap;
+}
+

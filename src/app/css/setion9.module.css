@@ -1,0 +1,101 @@
+section.section9 {
+  outline: none;
+  min-height: min-content;
+  text-align: center;
+
+
+  --people-size-vert: 10em;
+
+}
+
+section.section9 h2{
+  padding: 1.5em;
+}
+
+.firstRow {
+  padding-top: 2em;
+  display: flex;
+  text-align: center;
+}
+
+.col1 {
+  display: flex;
+  position: relative;
+}
+
+.col1::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2em;
+  height: var(--people-size-vert);
+  width: 100%;
+  content: " ";
+  background-image: url(../../../public/images/people1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+
+.col1>div{
+  padding-top: var(--people-size-vert);
+  width: 42%;
+}
+
+.col1>div:first-child{
+  width: 57%;
+
+}
+
+.col2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+}
+
+/*executive and women*/
+.col2>div{
+   position: relative;
+   padding: 2em 0 2em 4em;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    font-size: 0.9em;
+}
+
+.col2>div::after{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2em;
+  height: 100%;
+  width: 3em;
+  content: " ";
+  background-image: url(../../../public/images/executiveperson.png);
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.col2>div:nth-child(2):after{
+
+  background-image: url(../../../public/images/woman1.png);
+}
+/* 
+section.section6 p{
+  margin-left: 50%;
+  font-size: 0.75em;
+  padding: 0 1em;
+} */
+
+.totalScreenBackgroung {
+
+  position: relative;
+  margin: 0 auto;
+  /* min-height: 70vh; */
+  max-width: 800px;
+  min-height: 338px;
+  margin: 0 auto;
+  background-size: contain;
+}

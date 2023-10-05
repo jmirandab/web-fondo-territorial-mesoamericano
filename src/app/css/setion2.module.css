@@ -1,0 +1,98 @@
+
+
+section.section2 {
+  outline: none;
+  min-height: min-content;
+  background-image: url(../../../public/images/interna-arriba-header.png);
+  background-repeat: no-repeat;
+  background-position: left 40px;
+  /* top: 0; */
+  background-size: contain;
+
+}
+
+.totalScreenBackgroung {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  /* min-height: 70vh; */
+}
+
+.FTM_desc {
+  padding: 3em 2em;
+  text-align: center;
+}
+
+.FTM_desc h2{
+  padding: 1em 2em;
+}
+
+.FTM_desc p{
+  max-width: 27.5em;
+  margin: 0 auto;
+}
+
+.FTM_logo {
+  background-image: url(../../../public/images/logo-FTM.svg);
+  height: 4em;
+  width: 8em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin: 0 0 0 auto;
+}
+.AMBP_logo {
+  background-image: url(../../../public/images/AMPB_logo.png);
+  height: 4em;
+  width: 8em;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  display: inline-block;
+  margin: 0 auto 0 0;
+}
+
+
+.wave {
+  display: block;
+  position: relative;
+  height: 40px;
+  width: 100%;
+  background: #0475b5;
+  transform: scale(1, 1);
+}
+
+.wave:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  width: 100%;
+  height: 300px;
+  background-color: #fcf9ee;
+  right: -25%;
+  top: 20px;
+  background-image: url(../../../public/images/interna-arriba-header.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+}
+
+.wave:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  width: 100%;
+  height: 300px;
+  background-color: #0475b5;
+  left: -25%;
+  top: -240px;
+  clip-path: ellipse(100% 15% at -15% 100%);
+}
+
+.coordina {
+  background: url(https://www.alianzamesoamericana.org/en/wp-content/uploads/2021/10/interna-arriba-header.png)no-repeat center top;
+  /* top: 0; */
+  background-size: contain;
+}

@@ -1,0 +1,101 @@
+section.section5 {
+  outline: none;
+  min-height: min-content;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+section.section5 h2,
+section.section5 h3 {
+  text-align: center;
+}
+
+section.section5 h3 {
+  color: #cf6728;
+}
+
+section.section5 h2 {
+  padding: 2em 0 1em;
+}
+
+.totalScreenBackgroung {
+
+  position: relative;
+  margin: 0 auto;
+  /* min-height: 70vh; */
+  max-width: 800px;
+  min-height: 338px;
+  margin: 0 auto;
+  background-size: contain;
+}
+
+.green_card {
+  padding: 1em 0.7em;
+  background-color: #b0d673;
+  border-radius: 2em;
+}
+
+.transversal,
+.finance {
+  display: flex;
+}
+
+.finance {
+  padding: 4em 0 1em;
+}
+
+.transversal {
+  padding: 1.5em 0 1em;
+}
+
+
+
+
+.finance li {
+  font-size: 0.8em;
+  padding: 0.5em 0.4em;
+  position: relative;
+}
+
+.transversal_container {
+  background-color: #8bc53f;
+  border-radius: 2em;
+  padding: 0.8em;
+  margin: 0.5em 1em;
+}
+
+.transversal {
+  justify-content: space-around;
+}
+
+.transversal li {
+  padding: 0.5em 0.6em;
+  position: relative;
+  background-color: #cf6728;
+  border-radius: 3em;
+  padding: 0.7em 1.2em;
+  text-align: center;
+}
+
+.finance li {
+  text-align: center;
+}
+
+.finance li::after {
+  position: absolute;
+  position: absolute;
+  width: 2em;
+  height: 2.4em;
+  top: -0.2em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 50%;
+  content: attr(data-num);
+  color: white;
+  text-align: center;
+  line-height: 2em;
+  font-size: 1.6em;
+  font-weight: bold;
+  transform: translate(-50%, -100%);
+  background-image: url(../../../public/images/green_dialog.png);
+}

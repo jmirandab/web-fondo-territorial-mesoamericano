@@ -1,0 +1,78 @@
+{
+    "key": "hola hola  0000!",
+    "topH1": "FONDO TERRITORIAL MESOAMERICANO",
+    "subH1":"de la Alianza Mesoamericana de Pueblos y Bosques",
+    "to-second-page": "To second page",
+    "languageSwitcher":"Cambiar a:",
+    "menu" : {
+      "option1": "¿Quiénes somos?",
+      "option2": "Qué financiamos",
+      "option3": "Cómo funcionamos",
+      "option4": "Socios Estratégicos"
+
+    },
+    "section2": {
+      "title": "¿Quiénes somos?",
+      "text1": "El Fondo Territorial Mesoamericano (FTM) es un mecanismo financiero alternativo diseñado por la Alianza Mesoamericana de Pueblos y Bosques (AMPB), por y para los Pueblos Indígenas y Comunidades Locales (PICL).",
+      "text2": "Nuestro objetivo es promover la inversión directa basada en derechos, eficiente y efectiva en territorios mesoamericanos clave, asegurando costos de transacción más bajos y la gestión de fondos de acuerdo con protocolos claros y responsabilidad."
+    },
+    "section3": {
+      "title": "Miembros de la AMPB",
+      "text1": "El FTM centra su trabajo en Mesoamérica, colaborando estrechamente con los miembros de la AMPB y otras organizaciones de Pueblos Indígenas y Comunidades Locales (PICL)."
+    },
+    "section4": {
+      "title": "Justificación",
+      "text2": "Según un estudio realizado por la Fundación Rainforest Norway1, para 2021, menos del 1% de la financiación global para el clima ha llegado a los Pueblos Indígenas y Comunidades Locales (PICL) en el sur global en la última década.",
+      "text1": "En respuesta a esta situación, se creó el FTM con el objetivo de facilitar y promover la inversión territorial directa en favor de los Pueblos Indígenas y Comunidades Locales (PICL). Además, el FTM busca acompañar a las organizaciones de manera culturalmente adaptada, mediante la creación y el fortalecimiento de capacidades, promoviendo la sostenibilidad y los impactos positivos en la inversión."
+    },
+    "section5": {
+      "title": "¿Qué financiamos?",
+      "text1": "El FTM respalda iniciativas estratégicas definidas por las comunidades con potencial para ser replicables, escalables o convertirse en políticas públicas.",
+      "bullet1": "Mitigación y adaptación al cambio climático.",
+      "bullet2": "Conservación de la biodiversidad y manejo sostenible de los recursos naturales.",
+      "bullet3": "Gobernanza y derechos de los Pueblos Indígenas y Comunidades Locales.",
+      "bullet4": "Iniciativas sostenibles de Pueblos Indígenas y Comunidades Locales.",
+      "subTitle": "Ejes transversales",
+      "subBullet1": "Género",
+      "subBullet2": "Juventud",
+      "subBullet3": "Inclusión social"
+    },
+    "section6": {
+      "title": "Tres Instrumentos de Financiamiento por Donación se adaptan a las diferentes realidades de inversión en nuestros territorios",
+      "bullet1": "Donación pequeña",
+      "bullet2": "Donación grande",
+      "bullet3": "Donaciones ágiles de respuesta rápida",
+      "subBullet1": "(USD 10,000 a USD 50,000).",
+      "subBullet2": "(A partir de USD 51,000).",
+      "subBullet3": "para emergencias."
+    },
+    "section7": {
+      "title": "Para 2028, el FTM tiene como objetivo:",
+      "text1": "Aumentar la financiación directa a una media anual de 30 a 40 donaciones con montos a partir de USD 50,000.",
+      "text2": "Ampliar las áreas geográficas y territorios prioritarios del FTM, involucrando a más socios y aliados estratégicos y expandiendo su apoyo a otras organizaciones más allá de la membresía de la AMPB."
+    },
+    "section8": {
+      "title": "Un proceso que ya ha comenzado:",
+      "subTitle1": "CONSOLIDACIÓN",
+      "subTitle2": "ESCALAMIENTO",
+      "sub2Title1": "2023-2025",
+      "sub2Title2": "A partir de 2026",
+      "text1": "Diversificación de fuentes de financiación, consolidación del sistema de solicitud, seguimiento y evaluación de donaciones.",
+      "text2": "Capitalización, diversificación de actividades y servicios del FTM."
+    },
+    "section9": {
+      "title": "¿Cómo trabajamos?",
+      "text1": "El FTM está gobernado por un Consejo de Administración de 7 personas*, compuesto por:",
+      "text2": "4 miembros de la AMPB.",
+      "text3": "3 personas independientes",
+      "text4": "(aprobadas por el Consejo de Administración de la AMPB).",
+      "text5": "Nuestra Dirección Ejecutiva rinde cuentas al Consejo de Administración.",
+      "text6": "*Deben haber al menos 3 mujeres como miembros."
+    },
+    "section10": {
+      "title": "Iniciativas financiadas",
+      "text1": "Emprendimientos forestales impulsados por mujeres en Honduras.",
+      "text2": "Establecimiento de un jardín biointensivo comunitario en Moskitia, Honduras.",
+      "text3": "Comercialización de productos en ferias de la Red de Agricultores Agroecológicos en Texcoco, México."
+    }
+  }

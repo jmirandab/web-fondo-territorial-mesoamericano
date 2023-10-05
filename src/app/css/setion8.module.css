@@ -1,0 +1,69 @@
+section.section6 {
+  outline: none;
+  min-height: min-content;
+  background-color: #0475b5;
+  text-align: center;
+
+  color: white;
+
+}
+
+section.section8 h2{
+  padding: 1.5em;
+}
+/* 
+section.section6 p{
+  margin-left: 50%;
+  font-size: 0.75em;
+  padding: 0 1em;
+} */
+
+.totalScreenBackgroung {
+
+  position: relative;
+  margin: 0 auto;
+  /* min-height: 70vh; */
+  max-width: 800px;
+  min-height: 338px;
+  margin: 0 auto;
+  background-size: contain;
+}
+
+.maiz {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 8em;
+}
+
+.maiz li {
+  position: relative;
+  text-align: center;
+
+}
+
+.maiz li::after {
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  top: -0.2em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 50%;
+  content: " ";
+  color: white;
+  text-align: center;
+  line-height: 3em;
+  font-size: 1.1em;
+  font-weight: bold;
+  transform: translate(-50%, -100%);
+}
+
+.maiz li:nth-child(1):after {
+  background-image: url(../../../public/images/maiz1.png);
+}
+
+.maiz li:nth-child(2):after {
+  background-image: url(../../../public/images/maiz.png);
+}

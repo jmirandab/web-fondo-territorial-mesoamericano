@@ -1,0 +1,34 @@
+import React from 'react';
+import Section from './Section';
+
+import Styles from '../app/css/setion7.module.css'
+import StylesPage from '../app/page.module.css'
+import clsx from 'clsx';
+import { useTranslation } from '../app/i18n'
+
+const Section7= async ({lng}: {lng:string}) => {
+
+  const { t } = await useTranslation(lng);
+  return (
+    <Section >
+      <div className={Styles.totalScreenBackgroung}>
+        <h2> 
+          {t('section7.title')}
+        </h2>
+        <ol className={clsx(Styles.aims,StylesPage.green_card)}>
+
+          <li >
+            {t('section7.text1')}
+          </li>
+          <li>
+            <strong>{t('section7.text2')}</strong>
+            {t('section7.text3')}
+            
+          </li>
+        </ol>
+      </div>
+    </Section>
+  );
+};
+
+export default Section7;

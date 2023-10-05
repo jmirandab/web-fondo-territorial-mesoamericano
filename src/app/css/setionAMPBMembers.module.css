@@ -1,0 +1,31 @@
+section.section3 {
+  outline: none;
+  min-height: min-content;
+  background-color: #0475b5;
+  text-align: center;
+
+  color: white;
+
+}
+
+section.section3 h2{
+  padding: 1.5em;
+}
+
+section.section3 p{
+  margin-left: 50%;
+  font-size: 0.75em;
+  padding: 0 1em;
+}
+
+.totalScreenBackgroung {
+
+  position: relative;
+  margin: 0 auto;
+  /* min-height: 70vh; */
+  max-width: 800px;
+  min-height: 338px;
+  margin: 0 auto;
+  background-size: contain;
+  background-image: url(../../../public/images/map.png);
+}
