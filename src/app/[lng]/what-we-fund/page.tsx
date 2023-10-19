@@ -1,16 +1,10 @@
 
 
-import styles from './../../page.module.css'
 
-import SectionFinancingInstruments from '../../../components/SectionFinancingInstruments'
-
-
-import TopMenu from '@/components/TopMenu'
-import SectionHowWeWork8 from '../../../components/SectionHowWeWork'
+import TopMenu from '../../../components/TopMenu'
 import SectionFinancedInitiatives11 from '../../../components/SectionFinancedInitiatives'
 import SectionDirectTerritorialFinancing12 from '../../../components/SectionDirectTerritorialFinancing'
 import SectionResults13 from '../../../components/SectionResults'
-import SectionOrganigrama9 from '../../../components/SectionOrganigrama'
 import SectionGovernanceLawEntrepreneurships14 from '@/components/SectionGovernanceLawEntrepreneurships'
 import SectionFinancingInstruments10 from '../../../components/SectionFinancingInstruments'
 import Main from '@/components/Main'

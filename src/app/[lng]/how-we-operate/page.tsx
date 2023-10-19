@@ -9,7 +9,8 @@ import SectionGovernanceLawEntrepreneurships14 from '@/components/SectionGoverna
 import SectionFinancingInstruments10 from '../../../components/SectionFinancingInstruments'
 import Main from '@/components/Main'
 
-import TopMenu from '@/components/TopMenu'
+
+import TopMenu from '../../../components/TopMenu'
 //import i18next from '../../../config/initi18n';
 
 //import { useTranslation } from 'next-i18next'

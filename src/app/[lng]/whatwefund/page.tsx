@@ -14,7 +14,8 @@ import Section9 from '../../../components/Section9'
 import Section10 from '../../../components/Section10'
 import Section11 from '../../../components/Section11'
 import Section12 from '../../../components/Section12'
-import TopMenu from '@/components/topMenu'
+
+import TopMenu from '../../../components/TopMenu'
 //import i18next from '../../../config/initi18n';
 import { useTranslation } from '../../i18n'
 

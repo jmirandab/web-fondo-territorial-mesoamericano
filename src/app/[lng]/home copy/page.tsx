@@ -15,7 +15,6 @@ import Section9 from '../../../components/Section9'
 import Section10 from '../../../components/Section10'
 import Section11 from '../../../components/Section11'
 import Section12 from '../../../components/Section12'
-import TopMenu from '@/components/topMenu'
 //import i18next from '../../../config/initi18n';
 import { useTranslation } from '../../i18n'
 
@@ -29,9 +28,6 @@ export default async function Home({ params: { lng } }: { params: { lng: string 
   return (
     // <I18nProvider>
     <main className={styles.main}>
-      <div className={styles.description}>
-        <TopMenu lng={lng} ></TopMenu>
-      </div>
       <Section1 lng={lng} />
       <Section2 lng={lng} />
       <Section3 lng={lng} />

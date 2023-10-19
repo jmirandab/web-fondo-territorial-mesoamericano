@@ -1,12 +1,6 @@
 
-
-import Image from 'next/image'
-
-import styles from './../../page.module.css'
-import Section2 from '../../../components/Section2'
-import SetionAMPBMembers from '../../../components/SetionAMPBMembers'
 import Main from '@/components/Main'
-import TopMenu from '@/components/TopMenu'
+
 //import i18next from '../../../config/initi18n';
 import { useTranslation } from '../../i18n'
 import SectionLogos from '@/components/SectionLogos'
