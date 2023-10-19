@@ -45,7 +45,7 @@ jobs:
           # server side image optimization (https://nextjs.org/docs/api-reference/next/image#unoptimized).
           #
           # You may remove this line if you want to manage the configuration yourself.
-          token: ${{ secrets.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 }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           static_site_generator: next
       - name: Restore cache
         uses: actions/cache@v3
