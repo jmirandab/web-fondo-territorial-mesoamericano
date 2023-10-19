@@ -1,0 +1,39 @@
+section.section6 {
+  outline: none;
+  min-height: min-content;
+  background-color: #0475b5;
+  text-align: center;
+
+  color: white;
+
+}
+
+section.section8 h2{
+  padding: 1.5em;
+}
+/* 
+section.section6 p{
+  margin-left: 50%;
+  font-size: 0.75em;
+  padding: 0 1em;
+} */
+
+.totalScreenBackgroung {
+
+  position: relative;
+  margin: 0 auto;
+  /* min-height: 70vh; */
+  max-width: 800px;
+  min-height: 338px;
+  margin: 0 auto;
+  background-size: contain;
+}
+
+.firstList {
+  margin: 2em 1em;
+  padding: 2em 1em;
+}
+.secundList {
+  margin: 1em 1em 3em 5em;
+  padding: 2em 1em;
+}

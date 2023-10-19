@@ -1,0 +1,39 @@
+section.sectionVideo {
+  outline: none;
+  min-height: min-content;
+  background-color: #0475b5;
+
+  background-image: url(../../../public/images/plantwhite.png);
+  background-position: top var(--menu-mobile-height) left;
+  background-size: 10em;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background-blend-mode: soft-light;
+}
+
+
+@media (min-width: 800px) { 
+  section.sectionVideo {
+
+    background-position: top var(--menu-desktop-small-height) left;
+
+  
+  }
+}
+
+
+
+
+.totalScreenBackgroung {
+
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  /* min-height: 70vh; */
+  display: flex;
+}
+
+.videoWraper {
+  margin: 2em auto;
+}

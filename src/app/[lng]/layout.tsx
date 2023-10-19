@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { dir } from 'i18next'
 
-const languages = ['en', 'es']
+const languages = ['en', 'es', 'fr']
 
 export async function generateStaticParams() {
   return languages.map((lng) => ({ lng }))

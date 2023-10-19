@@ -1,0 +1,49 @@
+
+.icon {
+  font-size: 1.7em;
+  padding: 0 0.2em;
+}
+
+.link {
+  display: flex;
+  line-height: 1.5em;
+}
+
+.lngSwitcher  {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.lngSwitcher button {
+  align-items: center;
+  display: flex;
+  border: none;
+  background-color: transparent;
+  font-size: 1.1em;
+  padding: 0.2em 0.4em 0.2em 0.2em;
+}
+
+
+.lngSwitcher button>*{
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+.lngSwitcher button>*{
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+
+.lngSwitcher li {
+  list-style: none;
+}
+
+.lngSwitcher ol {
+  display: flex;
+  position: absolute;
+  top: 100%;
+  flex-direction: column;
+  background-color: wheat;
+}

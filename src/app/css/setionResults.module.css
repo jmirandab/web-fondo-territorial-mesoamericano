@@ -1,0 +1,136 @@
+section.section12 {
+  outline: none;
+  min-height: min-content;
+  background-color: #0475b5;
+  text-align: center;
+
+  color: white;
+
+}
+
+section.section12 h2{
+  padding: 1.5em;
+}
+/* 
+section.section6 p{
+  margin-left: 50%;
+  font-size: 0.75em;
+  padding: 0 1em;
+} */
+
+.totalScreenBackgroung {
+
+  position: relative;
+  margin: 0 auto;
+  /* min-height: 70vh; */
+  /* max-width: 800px; */
+  min-height: 338px;
+  margin: 0 auto;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.firstRow {
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.firstRow>li{
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 12em;
+  max-width: 12em;
+
+}
+
+.firstRow>li::after{
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  content: " ";
+  display: block;
+  height: 5em;
+  width: 100%;
+  bottom: 100%;
+  left: 0;
+  top: 1em;
+}
+
+.firstRow>li:nth-child(1)::after{
+  background-image: url(../../../public/images/results_plant.png);
+}
+
+.firstRow>li:nth-child(2)::after{
+  background-image: url(../../../public/images/results_money.png);
+}
+
+.firstRow>li:nth-child(3)::after{
+  background-image: url(../../../public/images/results_people.png);
+}
+
+.firstRow>li:nth-child(4)::after{
+  background-image: url(../../../public/images/results_magni.png);
+}
+/** */
+.firstRow>li>ol{
+  position: relative;
+  padding-top: 1em;
+  margin-top: 5em;
+}
+
+.firstRow>li>ol>li{
+  position: relative;
+  padding: 0.6em 0.5em 0.6em 3em;
+  font-size: 0.7em;
+}
+
+.firstRow>li>ol>li::after{
+  position: absolute;
+  content: attr(data-num);
+  width: auto;
+  height: 1.4em;
+  line-height: 1.4em;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: #7ecb29; */
+  
+  padding: 0.3em 0.4em;
+  left: 1.5em;
+  
+  border-radius: 3em;
+}
+
+
+.firstRow>li:nth-child(2)>ol>li {
+  padding: 0.6em 0.5em 0.6em 4em;
+}
+
+.firstRow>li:nth-child(3)>ol>li {
+  padding: 0.6em 0.5em 0.6em 4.5em;
+}
+
+
+.firstRow>li:nth-child(1)>ol>li::after{
+
+  background-color: var(--greenToBlue1);
+}
+
+.firstRow>li:nth-child(2)>ol>li::after{
+  left: 2em;
+  background-color: var(--greenToBlue2);
+}
+
+.firstRow>li:nth-child(3)>ol>li::after{
+  left: 2.25em;
+  background-color: var(--greenToBlue3);
+}
+
+.firstRow>li:nth-child(4)>ol>li::after{
+
+  background-color: var(--greenToBlue4);
+}

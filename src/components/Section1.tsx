@@ -2,6 +2,7 @@ import React from 'react';
 import Section from './Section';
 import Styles from '../app/css/setion1.module.css'
 import { useTranslation } from '../app/i18n'
+import clsx from 'clsx';
 
 
 const Section1 = async ({lng}: {lng:string}) => {
@@ -20,11 +21,8 @@ const Section1 = async ({lng}: {lng:string}) => {
                 </div>
                 <div className={Styles.layer1}>
                 <div className={Styles.titleGroup}>
-                    <h1>
-                        {t('topH1')}
-                    </h1>
-                    <div><h2>{t('subH1')}</h2>  </div>
-                    <div className={Styles.logo}>
+                    
+                    <div className={clsx(Styles.logo)}>
 
                     </div>
                 </div>
@@ -51,6 +49,7 @@ const Section1 = async ({lng}: {lng:string}) => {
                 </div>
                 
             </div>
+            
         </Section>
     );
 };

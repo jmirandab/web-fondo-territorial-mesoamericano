@@ -1,0 +1,146 @@
+section.sectionLogos {
+  outline: none;
+  min-height: min-content;
+  background-color: var(--niceBlue);
+  text-align: center;
+  background-blend-mode: multiply;
+  background-image: url(../../../public/images/carton1.jpeg);
+}
+
+.card {
+  padding: 1em;
+  border-radius: 2em;
+  box-shadow: 2px 2px 6px #222;
+  background-color:  var(--body-background-color);
+}
+
+
+section.sectionLogos h2{
+  padding: 1em;
+  color: white;
+  font-size: 2em;
+  filter: drop-shadow(2px 4px 6px #222);
+}
+
+section.sectionLogos strong{
+  font-size: 1.2em;
+  color: var(--orange1)
+}
+
+/* 
+section.section6 p{
+  margin-left: 50%;
+  font-size: 0.75em;
+  padding: 0 1em;
+} */
+
+.totalScreenBackgroung {
+
+  position: relative;
+  margin: 0 auto;
+  /* min-height: 70vh; */
+  max-width: 800px;
+  min-height: 338px;
+  margin: 0 auto;
+  background-size: contain;
+}
+
+.orgslist {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 5em;
+  z-index: 3;
+  position: relative;
+}
+
+.orgslist li {
+  position: relative;
+  margin: 0 2em 2em;
+  display: flex;
+  padding: 1em 2em;
+  flex-direction: column;
+}
+
+.logoWrap {
+  position: relative;
+  margin: 0 auto;
+}
+
+.orgslist li:nth-child(1) .logoWrap {
+  height: 3em;
+  width: 15em;
+}
+
+.orgslist li:nth-child(2) .logoWrap {
+  height: 3em;
+  width: 4.5em;
+}
+
+
+.orgslist li:nth-child(3) .logoWrap {
+  height: 3em;
+  width: 8.5em;
+}
+
+.orgslist li:nth-child(4) .logoWrap {
+  height: 3em;
+  width: 12em;
+}
+
+.orgslist li:nth-child(5) .logoWrap {
+  height: 3em;
+  width: 7.5em;
+}
+
+.orgslist li:nth-child(2)::before {
+    content: " ";
+    position: absolute;
+    height: 40%;
+    width: 5em;
+    display: block;
+    top: -0.5em;
+    left: 1em;
+    transform: rotate(45deg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url(../../../public/images/hojas5.png);
+    background-size: contain;
+    z-index: 1;
+}
+
+
+.orgslist li:nth-child(3)::before {
+  content: " ";
+  position: absolute;
+  height: 6em;
+  width: 6em;
+  display: block;
+  bottom: 0em;
+  right: -4em;
+  transform: rotate(100deg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-image: url(../../../public/images/hojas11.png);
+  background-size: contain;
+  z-index: -1;
+}
+
+
+.orgslist li:nth-child(3)::after {
+  content: " ";
+  position: absolute;
+  height: 5em;
+  width: 5em;
+  display: block;
+  bottom: 0em;
+  right: -1.5em;
+  transform: rotate(310deg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-image: url(../../../public/images/hojas9.png);
+  background-size: contain;
+  z-index: 1;
+}
+

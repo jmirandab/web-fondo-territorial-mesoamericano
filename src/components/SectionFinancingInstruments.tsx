@@ -8,7 +8,7 @@ const SectionFinancingInstruments= async ({lng}: {lng:string}) => {
 
   const { t } = await useTranslation(lng);
   return (
-    <Section >
+    <Section className={Styles.sectionFinancingInstruments}>
       <div className={Styles.totalScreenBackgroung}>
         <h2> 
           {t('section6.title')}

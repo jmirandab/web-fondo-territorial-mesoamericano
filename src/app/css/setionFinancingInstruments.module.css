@@ -1,10 +1,12 @@
-section.section6 {
+section.sectionFinancingInstruments {
   outline: none;
   min-height: min-content;
-  background-color: #0475b5;
+  background-color: #a8ce65;
   text-align: center;
 
   color: white;
+
+  background-image: url(../../../public/images/backgreen.png);
 
 }
 
@@ -26,7 +28,7 @@ section.section6 p{
   max-width: 800px;
   min-height: 338px;
   margin: 0 auto;
-  background-size: contain;
+  background-size: cover;
 }
 
 .financingInstruments {

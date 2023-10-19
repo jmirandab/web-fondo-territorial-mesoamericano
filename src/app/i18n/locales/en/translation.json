@@ -3,12 +3,16 @@
   "topH1": "MESOAMERICAN TERRITORIAL FUND",
   "subH1": "by the Mesoamerican Alliance of Peoples and Forests",
   "to-second-page": "To second page",
-  "languageSwitcher":"Switch to:",
+  "lang":"Language",
   "menu" : {
     "option1": "Who we are",
     "option2": "What we fund",
     "option3": "How we operate",
     "option4": "Strategic Partners"
+  },
+
+  "sectionLogos": {
+    "title": "Strategic Partners"
   },
   "section2": {
     "title": "Who we are",
@@ -102,5 +106,36 @@
     "col3-Text4": "communities supported",
     "col4-Text1": "audits conducted",
     "col4-Text2": "overall external evaluation of the pilot."
+  },
+  "setionorganigrama" : {
+    "title": "FTM Organizational Chart",
+    "text1": "Board of Directors",
+    "text2": "Administration and Finance Direction",
+    "text3": "Project Management",
+    "text4": "Fundraising and Management Direction",
+    "text5": "Finance Office",
+    "text6": "Administrative Officer",
+    "text7": "Project Officer",
+    "text8": "Monitoring and Follow-up Officer",
+    "text9": "Communication Officer"
+  },
+  "SectionGovernanceLawEntrepreneurships" : {
+    "title1": "GOVERNANCE AND LAW",
+    "g1SubtTitle1": "ACOFOP",
+    "g1SubtText1": "in Petén, Guatemala was supported to develop its advocacy process and achieved the renewal of 9 forestry concessions and the granting of two new concessions for 25 more years, respectively.",
+    "g1SubtTitle2": "RIBCA",
+    "g1SubtText2": "in Costa Rica promoted the executive decree of the general consultation mechanism, a legal instrument for institutions to carry out consultations under the principle of free, prior and informed consent (FPIC).",
+    
+    "title2": "ENTREPRENEURSHIPS",
+    "g2SubtTitle1": "25",
+    "g2SubtText1": "entrepreneurial ventures supported on food self-sufficiency",
+    "g2SubtTitle2": "4",
+    "g2SubtText2": "ventures supported on value-added timber products",
+    "g2SubtTitle3": "6",
+    "g2SubtText3": "enterprises supported on alternative tourism",
+    "g2SubtTitle4": "8",
+    "g2SubtText5": "community forestry initiatives supported."
+   
   }
+
 }

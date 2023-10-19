@@ -1,21 +1,108 @@
 .logo {
   background-image: url(../../../public/images/logo-FTM.svg);
-  height: 7em;
-  width: 14em;
+  height: 4em;
+  width: 8em;
+  transition: height 2s, width 2s ;
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
 }
 
+.screen_reader_text {
+  position: absolute !important;
+  height: 1px; width: 1px; 
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: polygon(0px 0px, 0px 0px,0px 0px, 0px 0px);
+ }
+
+ .menuOptions {
+  height: 100%; 
+ }
+
 .allignTop {
   display: flex;
   width: 100%;
   justify-content: space-around;
-  min-height: 144px;
+  min-height: var(--menu-mobile-height);
+  transition: min-height 1s;
+  background-color: var(--body-background-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 3px 2px 5px #555;
+
+  background-image: url(../../../public/images/hojas7.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  background-size: auto 27em;
+  background-repeat: no-repeat;
+  background-position: center top -10em;
+  background-blend-mode: hard-light;
+
+}
+
+.hambMenu {
+  background: transparent; 
+  font-size: 2.2em;
+  padding: 0.2em;
+  border: none;
+}
+
+.buttonAlign  {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 0 0 2em;
+  height: 100%;
 }
 
 .allign2 {
   display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.allign3::after {
+  
+  position: absolute;
+  content: " ";
+  display: block;
+  width: 9em;
+  height: 6em; 
+  top: 100%;
+  right: 0;
+  background-image: url(../../../public/images/hojas6.png);
+  background-size: contain;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  
+}
+
+.allign3 .menuItem{
+  transition: height 1s, padding-top, padding-bottom 1s, margin 1s, font-size 1s;
+  transition-delay: 0.2s;
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0;
+  position: relative;
+}
+
+.allign3 {
+  display: flex;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  flex-direction: column;
+  background: wheat;
+  min-width: 20em;
 }
 
 .allign2 a {
@@ -23,12 +110,210 @@
   font-size: 1.1em;
 }
 
-.allign2 li {
+.allign3 .menuItem {
   list-style: none;
   display: flex;
+  margin: 0 0 0 auto;
+  text-align: right;
 }
 
-.allign2 span {
+.allign3 .menuItem>a{
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.allign3.list_visible .menuItem {
+  list-style: none;
+  display: flex;
+  text-align: right;
+  font-size: 1em;
+  height: 2em;
+  transition-delay: 0s;
+  width: 100%;
+  flex-direction: column;
+  height: auto;
+}
+
+.allign3.list_visible .menuItem>a{
+  opacity: 1;
+  transition-delay: 0.8s;
+  width: 100%;
+  justify-content: right;
+}
+
+.allignTop a, .allignTop button {
+  border-radius: 4px;
+} 
+
+.allignTop button {
+  border-radius: 4px;
+  margin-right: 0.5em;
+} 
+
+.allign3 a:hover, .allign3 a:active, .allign3  a:focus,
+.allign2 button:hover, .allign2 button:active, .allign2  button:focus {
+  background-color: var(--orange1);
+  color:var(--body-background-color);
+}
+
+
+.subItems, .subItems .subMenuItem {
+  
+  /* transition: height 0.5s, padding-top 0.5s, padding-bottom 0.5s, margin 0.5s, font-size 0.5s, height 0.5s;
+
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0; */
+  list-style: none;
+  
+}
+
+.subItems
+{
+  display: none;
+  background-color: var(--body-background-color);
+}
+
+
+
+.allign3.list_visible .menuItem:focus-within .subItems, 
+.allign3.list_visible .menuItem:hover .subItems,
+.allign3.list_visible .menuItem:focus-within .subItems .subMenuItem, 
+.allign3.list_visible .menuItem:hover .subItems .subMenuItem
+{
+  display: block;
+  padding: 0.5em 1em;
+  background-color: var(--body-background-color);
+  font-size: 0.8em;
+  margin-top: 0.2em ;
+  height: 100%;
+  font-size: 0.8em;
+}
+/* 
+.subItems .subMenuItem a {
+  opacity: 0;
+  transition: opacity 0.4s;
+  
+}
+
+.menuItem:focus-within .subItems .subMenuItem a, 
+.menuItem:hover .subItems .subMenuItem a
+{
+  opacity: 1;
+  transition-delay: 0.5s;
+} */
+
+.allign3 .menuItem  .chevrionIcon, 
+.allign3 .menuItem .chevrionIcon
+{
+  transition: transform 0.5s;
+}
+
+.allign3 .menuItem:focus-within  .chevrionIcon, 
+.allign3 .menuItem:hover .chevrionIcon
+{
+  transform: rotate(-90deg);
+}
+
+/* 
+.allign3.list_visible .menuItem {
+    text-align: right;
+    font-size: inherit;
+    height: 2em;
+} */
+
+
+
+.allign3 span {
   white-space: nowrap;
 }
 
+@media (min-width: 800px) { 
+  .allignTop {
+    min-height: var(--menu-desktop-height);
+    box-shadow: none;
+  }
+
+
+  .chevrionIcon {
+    display: none;
+  } 
+
+  .smallMenu.allignTop {
+    min-height: var(--menu-desktop-small-height);
+    box-shadow: 3px 2px 5px #555;
+  }
+
+  .smallMenu.allignTop .logo {
+    height: 5em;
+    width: 10em;
+  }
+
+  .hambMenu{
+    display: none;
+  }
+
+  .allign3 {
+    display: flex;
+    height: 100%;
+  }
+
+  .allign3, .allign3.list_visible{
+    display: flex;
+    position: static  ;
+    background-color: transparent ;
+    flex-direction: row;
+  }
+
+  .allign3 .menuItem, .allign3.list_visible .menuItem {
+    text-align: center;
+    height: min-content;
+    align-self: center;
+    font-size: 1em;
+    width: auto;
+  }
+
+  .allign3 .menuItem>a{
+    opacity: 1;
+  }
+
+  .logo {
+    height: 7em;
+    width: 14em;
+  }
+
+  .menuOptions {
+    height: auto; 
+    justify-content: center;
+   }
+
+   .subItems {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    white-space: nowrap;
+   }
+
+   .subMenuItem {
+    padding: 0.3em;
+    margin: 0.3em 0;
+    background-color: wheat;
+
+  }
+   .allign3 .menuItem:focus-within .subItems, 
+  .allign3 .menuItem:hover .subItems,
+  .allign3 .menuItem:focus-within .subItems .subMenuItem, 
+  .allign3 .menuItem:hover .subItems .subMenuItem {
+    display: block;
+    font-size: 0.9em;
+    background-color: wheat;
+
+
+    
+  }
+
+}

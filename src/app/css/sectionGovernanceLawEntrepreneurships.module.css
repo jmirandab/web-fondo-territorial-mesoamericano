@@ -1,0 +1,123 @@
+section.section7 {
+  outline: none;
+  min-height: min-content;
+  background-color: #0475b5;
+  text-align: center;
+
+  color: white;
+
+}
+
+/* 
+section.section6 p{
+  margin-left: 50%;
+  font-size: 0.75em;
+  padding: 0 1em;
+} */
+
+.totalScreenBackgroung {
+
+  position: relative;
+  margin: 0 auto;
+  /* min-height: 70vh; */
+  max-width: 800px;
+  min-height: 338px;
+  margin: 0 auto;
+  background-size: contain;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+
+  padding: 4em 0;
+  font-size: 0.8em;
+}
+
+
+.totalScreenBackgroung {
+
+  position: relative;
+  margin: 0 auto;
+  max-width: 800px;
+  min-height: 338px;
+  margin: 0 auto;
+  background-size: contain;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+  padding: 4em 0;
+}
+
+
+
+.totalScreenBackgroung::after {
+  position: absolute;
+    content: " ";
+    display: block;
+    height: 11em;
+    width: 9em;
+    bottom: -5em;
+    left: 50%;
+    background-size: 9em;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(-50%, -50%);
+    background-image: url(../../../public/images/comuni4.png);
+}
+
+
+.aims {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-start;
+  position: relative;
+  padding: 1em 1em 4em;
+  color: var(--body-background-color);
+}
+
+.aims h2{
+  font-size: 0.9em;
+  margin: 1em auto 2em;
+  background-color: #26326f;
+  border-radius: 3em;
+
+}
+
+.aims li {
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.aims strong {
+  padding-right: 0.5em;
+}
+
+.aims::after {
+  position: absolute;
+    content: " ";
+    display: block;
+    height: 5em;
+    width: 5em;
+    top: 0;
+    left: 50%;
+    background-size: 5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(-50%, -50%);
+}
+
+.aims:nth-child(1)::after {
+  background-image: url(../../../public/images/iconComuni1.png);
+}
+
+.aims:nth-child(2)::after {
+  background-image: url(../../../public/images/iconIdea.png);
+}
+
+.aims:nth-child(1) {
+  background-color: #24aae1;
+}
+
+.aims:nth-child(2) {
+  background-color: #2371b8;
+}

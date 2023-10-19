@@ -5,7 +5,8 @@ import i18next from 'i18next';
 // import { universalLanguageDetect } from '@unly/universal-language-detector';
 export const defaultNS = 'translation'
 export const fallbackLng = 'en'
-export const languages = [fallbackLng, 'es']
+export const languages = [fallbackLng, 'es', 'fr']
+export const cookieName = 'i18next'
 
 interface IDictionary {
   [index: string]: string;
@@ -13,6 +14,7 @@ interface IDictionary {
 let languagesNames  = {} as IDictionary;
 languagesNames['en'] = 'English'; 
 languagesNames['es'] = 'Español'; 
+languagesNames['fr'] = 'Français'; 
 export {languagesNames}; //= {'en': "english", 'es':"español"}
 
 

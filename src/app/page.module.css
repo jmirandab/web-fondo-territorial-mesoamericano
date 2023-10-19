@@ -4,6 +4,9 @@
   justify-content: space-between;
   align-items: center;
   min-height: 80vh;
+  max-height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .description {
@@ -12,9 +15,21 @@
   align-items: inherit;
   font-size: 0.85rem;
   max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
+  min-width: 100%;
+  z-index: 100;
+
+
+  background-image: url(../../public/images/hojas7.png);
+  background-color: var(--body-background-color);
+
+  background-size: auto 27em;
+  background-repeat: no-repeat;
+  background-position: center top -10em;
+  background-blend-mode: hard-light;
 }
+
+
+
 
 .description a {
   display: flex;
@@ -97,6 +112,7 @@
 .logo {
   position: relative;
 }
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -159,6 +175,7 @@
   from {
     transform: rotate(360deg);
   }
+
   to {
     transform: rotate(0deg);
   }
@@ -173,13 +190,13 @@
 
 .sectionHeight {
   /* min-height: 500px; */
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   width: 100%;
   padding-bottom: 1em;
 }
 
 .sectionHeight li {
-  list-style-type: none; 
+  list-style-type: none;
 }
 
 .green_card {
@@ -187,7 +204,20 @@
   background-color: #b0d673;
   border-radius: 2em;
 }
-/* 
-.sectionHeight.section1 {
-  .background-image: url(../../../public/images/green1.jpg);
-} */
+
+
+
+/**  JM Responsive */
+.description {
+  min-height: var(--menu-mobile-height);
+  transition: min-height 3s ;
+  /* background-color: var(--blue-background-color); */
+}
+
+
+@media (min-width: 800px) {
+  .description {
+    min-height: var(--menu-desktop-height);
+  }
+}
+

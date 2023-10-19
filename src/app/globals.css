@@ -41,6 +41,20 @@
   --greenToBlue3: #50ba63;
   --greenToBlue4: #90cb85;
 
+  --niceBlue: #0475b5;
+
+  --orange1: #cf5928;
+
+  --responsive-media-min-width: 800px;
+  --menu-mobile-height: 60px;
+  --menu-desktop-height: 144px;
+  --menu-desktop-small-height: 72px;
+
+  --body-background-color: #fcf9ee;
+  
+
+  --blue-background-color:#0475b5
+
 }
 
 * {
@@ -56,9 +70,7 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background-color: #fcf9ee;
-  font-size: 18px;
+  background-color: var(--body-background-color);
 }
 
 a {
@@ -73,4 +85,16 @@ p {
 h2 {
   text-align: center;
   padding: 1em 2em;
+}
+
+/* JM Responsive*/
+
+body {
+  font-size: 15px;
+}
+
+@media (min-width: 800px) { 
+  body {
+    font-size: 18px;
+  }
 }

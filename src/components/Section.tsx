@@ -5,15 +5,17 @@ import clsx from 'clsx';
 type SectionProps = {
     children: React.ReactNode,
     className?: string,
+    id?: string
   }
 
 export default function Section(props: SectionProps) {
     let {
         className,
         children,
+        id,
       } = props
     return (
-        <section className={clsx(className, Styles.sectionHeight)} >
+        <section {...props} className={clsx(className, Styles.sectionHeight)} >
            {children}
         </section>
     );
