@@ -10,15 +10,18 @@ const SectionOrganigrama = async ({ lng }: { lng: string }) => {
 
   const { t } = await useTranslation(lng);
   return (
-    <Section >
+    <Section id={"FTM-Organizational-Chart"}>
       <div className={Styles.totalScreenBackgroung}>
         <h2>
           {t('setionorganigrama.title')}
         </h2>
 
         <div>
-          <div className={Styles.bubble}>
+          <div className={clsx(Styles.board, Styles.bubble)}>
             {t('setionorganigrama.text1')}
+          </div>
+          <div className={clsx(Styles.management, Styles.bubble)}>
+            {t('setionorganigrama.subText1')}
           </div>
           <div className={Styles.directTop}>
             <div>
@@ -38,7 +41,7 @@ const SectionOrganigrama = async ({ lng }: { lng: string }) => {
               </div>
             </div>
             <div className={Styles.direct}>
-              <div className={Styles.bubble}>
+              <div className={clsx(Styles.directTitle, Styles.bubble)}>
                 {t('setionorganigrama.text4')}
               </div>
             </div>

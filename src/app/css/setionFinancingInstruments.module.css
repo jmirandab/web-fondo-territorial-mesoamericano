@@ -3,8 +3,6 @@ section.sectionFinancingInstruments {
   min-height: min-content;
   background-color: #a8ce65;
   text-align: center;
-
-
   background-image: url(../../../public/images/backgreen.png);
 
 }
@@ -42,9 +40,9 @@ section.section6 p{
 .financingInstruments li {
   position: relative;
   text-align: center;
-  margin-top: 9em;
-  flex-basis: 13em;
-  max-width: 13em;
+  margin-top: 10em;
+  flex-basis: 10em;
+  max-width: 10em;
 
 }
 
@@ -53,7 +51,7 @@ section.section6 p{
   width: 7em;
     height: 7em;
     filter: drop-shadow(2px 4px 6px #333);
-  top: -0.2em;
+  top: -1em;
   background-size: contain;
   background-repeat: no-repeat;
   left: 50%;

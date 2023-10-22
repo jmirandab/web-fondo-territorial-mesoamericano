@@ -9,7 +9,7 @@ const SectionResults= async ({lng}: {lng:string}) => {
 
   const { t } = await useTranslation(lng);
   return (
-    <Section >
+    <Section className={Styles.section12} >
       <div className={Styles.totalScreenBackgroung}>
         <h2>
           {t('section12.title')}

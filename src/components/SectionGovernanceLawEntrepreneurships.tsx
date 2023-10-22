@@ -10,8 +10,16 @@ const Section7 = async ({ lng }: { lng: string }) => {
 
   const { t } = await useTranslation(lng);
   return (
-    <Section >
+    <Section className={Styles.section7}>
+      <div className={Styles.layerBackGround}>
+        <div className={Styles.ground}></div>
+        <div className={clsx(Styles.bush, Styles.bushCornerRight )}></div>
+        <div className={clsx(Styles.bush, Styles.bushLeft )}></div>
+
+
+      </div>
       <div className={Styles.totalScreenBackgroung}>
+        
 
         <ol className={clsx(Styles.aims, StylesPage.green_card)}>
           <h2>

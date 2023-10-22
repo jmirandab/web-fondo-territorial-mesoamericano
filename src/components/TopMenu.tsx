@@ -7,16 +7,12 @@ import { useState } from 'react';
 // import imf from "../../public/images/logo-FTM.svg"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars,  faChevronLeft } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 
 import Styles from '../app/css/topMenu.module.css'
 import { useTranslation } from '../app/i18n/client'
 import clsx from 'clsx';
 // import { useTranslation } from '../../../i18n/client'
-
-
-
-
 
 const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) => {
 
@@ -51,34 +47,31 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
           text: "video",
         },
         {
-          href: `/${lng}/home#rationale`,
+          href: `/${lng}/home#FTM-Organizational-Chart`,
           text: t("menu.option1"),
         },
       ]
     }, {
       href: `/${lng}/what-we-fund`,
       text: t("menu.option2"),
-      
-    }, 
+
+    },
     // {
     //   href: `/${lng}/how-we-operate`,
     //   text: t("menu.option3")
     // },
-     {
+    {
       href: `/${lng}/strategic-partners`,
       text: t("menu.option4")
     },
   ]
 
+  const SubMenuOptions = (subItems: { href: string, text: string }[]) => subItems.map((item) => <li className={Styles.subMenuItem} key={item.href}>
+    <Link href={item.href} onClick={menuOff}>
+      {item.text}
 
-
-
-const SubMenuOptions = (subItems: {href: string, text:string}[]) => subItems.map((item) => <li className={Styles.subMenuItem} key={item.href}>
-<Link href={item.href} onClick={menuOff}>
-  {item.text}
-  
-</Link>
-</li>)
+    </Link>
+  </li>)
 
   const menuOptions = menuItems.map((item) => <li className={Styles.menuItem} key={item.href}>
     <Link href={item.href} onClick={menuOff}>
@@ -86,8 +79,8 @@ const SubMenuOptions = (subItems: {href: string, text:string}[]) => subItems.map
       <FontAwesomeIcon className={Styles.chevrionIcon} icon={faChevronLeft} />
     </Link>
     {item.subItems && <ol className={Styles.subItems}>
-        {SubMenuOptions(item.subItems)}
-      </ol>}
+      {SubMenuOptions(item.subItems)}
+    </ol>}
   </li>)
 
 
@@ -100,7 +93,7 @@ const SubMenuOptions = (subItems: {href: string, text:string}[]) => subItems.map
       </Link>
 
       <div className={Styles.allign2}>
-        
+
         <div className={Styles.menuOptions} onBlur={hideListForMobile}>
           <div className={Styles.buttonAlign}>
             <button aria-label='navigation menu' onClick={toggleMenu} className={Styles.hambMenu} >

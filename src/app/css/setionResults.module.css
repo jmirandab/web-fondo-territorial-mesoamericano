@@ -1,10 +1,8 @@
 section.section12 {
   outline: none;
   min-height: min-content;
-  background-color: #0475b5;
-  text-align: center;
-
-  color: white;
+  background-color: var(--olive-background-green);
+  position: relative;
 
 }
 

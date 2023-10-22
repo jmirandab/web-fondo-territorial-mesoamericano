@@ -109,7 +109,9 @@
   },
   "setionorganigrama" : {
     "title": "FTM Organizational Chart",
+    
     "text1": "Board of Directors",
+    "subText1": "Management", 
     "text2": "Administration and Finance Direction",
     "text3": "Project Management",
     "text4": "Fundraising and Management Direction",

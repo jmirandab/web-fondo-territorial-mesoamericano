@@ -1,16 +1,26 @@
 section.section6 {
   outline: none;
   min-height: min-content;
-  background-color: #0475b5;
   text-align: center;
 
-  color: white;
+  background-image:url(../../../public/images/croc.png) ;
+  background-size: 26em auto;
+  background-position: left -13em bottom 0;
+  background-repeat: no-repeat;
+  position: relative;
 
 }
 
-section.section8 h2 {
-  padding: 1.5em;
+.layerBackGround {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
+
 
 /* 
 section.section6 p{
@@ -30,6 +40,9 @@ section.section6 p{
   background-size: contain;
 }
 
+.totalScreenBackgroung ol {
+  padding: 0 1em;
+}
 
 .totalScreenBackgroung ol li {
   margin-bottom: 1em;
@@ -41,6 +54,7 @@ section.section6 p{
   min-height: 6em;
   position: relative;
   font-size: 1.2em;
+  background-color: var(--olive-green);
 }
 
 .totalScreenBackgroung ol li::after {
@@ -67,3 +81,53 @@ section.section6 p{
 .totalScreenBackgroung ol li:nth-child(3):after {
   background-image: url(../../../public/images/mexico1.png);
 }
+/* 
+.wave {
+  display: block;
+  position: relative;
+  min-height: 40px;
+  width: 100%;
+  background-image: url(../../../public/images/backgreen.png);
+  transform: scale(1, 1);
+  margin-bottom: 40px;
+}
+
+.wave:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  width: 100%;
+  height: 300px;
+  background-color: #fcf9ee;
+  right: -25%;
+  top: 20px;
+
+}
+
+.wave:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  width: 100%;
+  height: 300px;
+  background-image: url(../../../public/images/backgreen.png);
+  left: -25%;
+  top: -240px;
+  clip-path: ellipse(100% 15% at -15% 100%);
+} */
+
+/* 
+.wcontainer {
+  position: relative; overflow: hidden; width: 200px; height: 300px; background-color: #161f6e;
+}
+
+.wdivider {
+
+  position: absolute; left: 26px; top: -100px; width: 300px; height: 500px; border-radius: 100% 0 0 60%; background-color: #52b9c0;
+}
+
+.wimage {
+position: absolute; left: 60px; top: -100px; width: 300px; height: 500px; border-radius: 50% 0 0 50%; background-color: #000000;
+} */

@@ -3,36 +3,10 @@ section.section7 {
   min-height: min-content;
   background-color: #0475b5;
   text-align: center;
-
   color: white;
 
 }
 
-.bubble {
-  padding: 0.5em 1em;
-  border-radius: 2em;
-  background-color: #2c70b7;
-  margin:0.3em;
-}
-
-.directTop {
-  display: flex ;
-}
-
-.officers {
-  padding-left: 3em;
-  padding-right: 1em;
-}
-
-section.section7 h2{
-  padding: 1.5em;
-}
-/* 
-section.section6 p{
-  margin-left: 50%;
-  font-size: 0.75em;
-  padding: 0 1em;
-} */
 
 .totalScreenBackgroung {
 
@@ -44,7 +18,108 @@ section.section6 p{
   margin: 0 auto;
   background-size: contain;
   text-align: center;
+
+  --organig-left-lines-size: 3em;
 }
+
+
+.bubble {
+  padding: 1em 1em;
+  border-radius: 2em;
+  background-color: var(--blueOrg1);
+  margin: 0.5em auto;
+  width: fit-content;
+  color: var(--body-background-color);
+}
+
+.bubble.directTitle {
+  background-color: var(--blueOrg2);
+  margin: 0.5em auto 0.5em 0;
+}
+
+.bubble.management {
+  background-color: var(--blueOrg3);
+}
+
+.bubble.board {
+  background-color: var(--blueOrg4);
+}
+
+
+
+
+.directTop {
+  display: flex ;
+  font-size: 0.7em;
+  gap: 0.5em;
+  overflow-wrap: anywhere;
+  justify-content: space-around;
+}
+
+.officers {
+  font-size: 0.9em;
+  padding-left: var( --organig-left-lines-size );
+  padding-right: 1em;
+  position: relative;
+}
+
+.officers:after {
+content: " ";
+    background: black;
+    width: 0.3em;
+    display: block;
+    height: 50%;
+    position: absolute;
+    left: calc(var( --organig-left-lines-size ) / 2);
+    top: -2em;
+    /* transform: translate(0, -50%); */
+    z-index: -1;
+
+}
+
+.officers .bubble{ 
+  position: relative;
+  margin: 0.5em auto 0.5em 0  ;
+}
+
+.officers .bubble::after{ 
+  content: " ";
+  background: black;
+  height: 0.3em;
+  display: block;
+  width: 50%;
+  position: absolute;
+  left: calc((var(--organig-left-lines-size) / 2) * -1);
+  top: 50%;
+  z-index: -1;
+}
+
+.officers .bubble::before{ 
+    content: " ";
+    background: black;
+    width: 0.3em;
+    display: block;
+    height: calc(100% + 0.5em);
+    position: absolute;
+    left: calc((var(--organig-left-lines-size) / 2) * -1);
+    top: 0;
+    z-index: -1;
+}
+
+.officers .bubble:last-child:before{ 
+  transform: translate(0, -50%);
+}
+
+
+section.section7 h2{
+  padding: 1.5em;
+}
+/* 
+section.section6 p{
+  margin-left: 50%;
+  font-size: 0.75em;
+  padding: 0 1em;
+} */
 
 .aims {
   display: flex;
@@ -75,7 +150,13 @@ section.section6 p{
   background-image: url(../../../public/images/map1.png);
 }
 
-
 .aims li:nth-child(2)::after {
   background-image: url(../../../public/images/map2.png);
+}
+
+@media (min-width: 800px) { 
+  .directTop {
+    display: flex ;
+    font-size: 0.9em;
+  }
 }

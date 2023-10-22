@@ -6,27 +6,28 @@ import StylesPage from '../app/page.module.css'
 import { useTranslation } from '../app/i18n'
 import clsx from 'clsx';
 
-const SectionFinancedInitiatives= async ({lng}: {lng:string}) => {
+const SectionFinancedInitiatives = async ({ lng }: { lng: string }) => {
 
   const { t } = await useTranslation(lng);
   return (
-    <Section >
+    <Section className={Styles.section6}>
       <div className={Styles.totalScreenBackgroung}>
+   
         <h2>
           {t('section10.title')}
         </h2>
-
+       
         <ol>
-          <li className={StylesPage.green_card}>{t('section10.text1')}</li>
- 
-          <li className={StylesPage.green_card}>{t('section10.text2')}</li>
-
-          <li className={StylesPage.green_card}>{t('section10.text3')}</li>
+          <li className={clsx(StylesPage.green_card, Styles.initiative)}>{t('section10.text1')}</li>
+          <li className={clsx(StylesPage.green_card, Styles.initiative)}>{t('section10.text2')}</li>
+          <li className={clsx(StylesPage.green_card, Styles.initiative)}>{t('section10.text3')}</li>
         </ol>
 
-
-
       </div>
+      {/* <div className={Styles.wcontainer} >
+          <div className={Styles.wdivider} ></div>
+          <div className={Styles.wimage} ></div>
+        </div> */}
     </Section>
   );
 };

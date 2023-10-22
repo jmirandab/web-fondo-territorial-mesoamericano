@@ -36,19 +36,31 @@
   --card-border-rgb: 131, 134, 135;
 
   /** new **/
-  --greenToBlue1: #7ecb29;
-  --greenToBlue2: #4aaca7;
-  --greenToBlue3: #50ba63;
-  --greenToBlue4: #90cb85;
 
-  --niceBlue: #0475b5;
-
-  --orange1: #cf5928;
 
   --responsive-media-min-width: 800px;
   --menu-mobile-height: 60px;
   --menu-desktop-height: 144px;
   --menu-desktop-small-height: 72px;
+
+  --olive-green: #d1e28d;
+  --olive-background-green: #cbe3bd;
+  --olive-background-green2: #93c23dff;
+
+  
+  --greenToBlue1: #7ecb29;
+  --greenToBlue2: #4aaca7;
+  --greenToBlue3: #50ba63;
+  --greenToBlue4: #90cb85;
+
+  --blueOrg1: #32bfc2;
+  --blueOrg2: #2c70b7;
+  --blueOrg3: #2a5292;
+  --blueOrg4: #293473;
+
+  --niceBlue: #0475b5;
+
+  --orange1: #cf5928;
 
   --body-background-color: #fcf9ee;
   

@@ -1,10 +1,8 @@
 section.section7 {
   outline: none;
   min-height: min-content;
-  background-color: #0475b5;
-  text-align: center;
-
-  color: white;
+  background-color: var(--olive-background-green);
+  position: relative;
 
 }
 
@@ -15,53 +13,111 @@ section.section6 p{
   padding: 0 1em;
 } */
 
+
 .totalScreenBackgroung {
 
   position: relative;
   margin: 0 auto;
-  /* min-height: 70vh; */
-  max-width: 800px;
   min-height: 338px;
   margin: 0 auto;
   background-size: contain;
   display: flex;
   flex-direction: row;
   gap: 1.5em;
-
-  padding: 4em 0;
-  font-size: 0.8em;
+  padding: 5em 1em;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 
-.totalScreenBackgroung {
+.layerBackGround {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  z-index: 0;
+  overflow: hidden;
+}
 
-  position: relative;
-  margin: 0 auto;
-  max-width: 800px;
-  min-height: 338px;
-  margin: 0 auto;
-  background-size: contain;
-  display: flex;
-  flex-direction: row;
-  gap: 1.5em;
-  padding: 4em 0;
+.layerBackGround .ground {
+  width: 150%;
+  height: 40em;
+  position: absolute;
+  content: " ";
+  bottom: 0;
+  left: 50%;
+  background-color: var(--olive-background-green2);
+  border-radius: 78%;
+  transform: translate(-50%, 27em);
+}
+
+.bush {
+  width: 9em;
+  height: 4em;
+  position: absolute;
+  content: " ";
+  bottom: -0.5em;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../../public/images/bush1.png");
+
+}
+
+.bush::before {
+  width: 9em;
+    height: auto;
+    aspect-ratio: 83/57;
+    position: absolute;
+    content: " ";
+    bottom: 2.5em;
+    right: -1em;
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-image: url("../../../public/images/hoja1.png");
+
 }
 
 
+.bushLeft  {
+  width: 7em;
+    min-width: 2em;
+    height: auto;
+    left: 10%;
+    aspect-ratio: 4/1;
+    bottom: 2em;
+    display: block;
+    z-index: 1;
+    transform: translate(-50%, 0);
+}
+
+.bushLeft::before {
+
+  width: 2em;
+    aspect-ratio: 1/1;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: -1;
+  background-image: url("../../../public/images/hoja.png");
+}
 
 .totalScreenBackgroung::after {
   position: absolute;
-    content: " ";
-    display: block;
-    height: 11em;
-    width: 9em;
-    bottom: -5em;
-    left: 50%;
-    background-size: 9em;
-    background-repeat: no-repeat;
-    background-position: center;
-    transform: translate(-50%, -50%);
-    background-image: url(../../../public/images/comuni4.png);
+  content: " ";
+  display: block;
+  height: 11em;
+  width: 9em;
+  bottom: -5em;
+  left: 50%;
+  background-size: 9em;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translate(-50%, -50%);
+  background-image: url(../../../public/images/comuni4.png);
 }
 
 
@@ -71,11 +127,13 @@ section.section6 p{
   width: 100%;
   justify-content: flex-start;
   position: relative;
-  padding: 1em 1em 4em;
+  padding: 1em 1.5em 4em;
   color: var(--body-background-color);
+  flex-basis: 23em;
+  min-width: 23em;
 }
 
-.aims h2{
+.aims h2 {
   font-size: 0.9em;
   margin: 1em auto 2em;
   background-color: #26326f;
@@ -94,16 +152,16 @@ section.section6 p{
 
 .aims::after {
   position: absolute;
-    content: " ";
-    display: block;
-    height: 5em;
-    width: 5em;
-    top: 0;
-    left: 50%;
-    background-size: 5em;
-    background-repeat: no-repeat;
-    background-position: center;
-    transform: translate(-50%, -50%);
+  content: " ";
+  display: block;
+  height: 5em;
+  width: 5em;
+  top: 0;
+  left: 50%;
+  background-size: 5em;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translate(-50%, -50%);
 }
 
 .aims:nth-child(1)::after {
@@ -115,9 +173,10 @@ section.section6 p{
 }
 
 .aims:nth-child(1) {
-  background-color: #24aae1;
+  background-color: #2371b8;
 }
 
 .aims:nth-child(2) {
-  background-color: #2371b8;
+  background-color: #24aae1;
+  padding-bottom: 7em;
 }
