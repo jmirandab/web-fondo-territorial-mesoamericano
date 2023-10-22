@@ -1,16 +1,30 @@
-section.section6 {
-  outline: none;
+section.SetionDirectTerritorialFinancing {
   min-height: min-content;
-  background-color: #0475b5;
-  text-align: center;
+  position: relative;
 
-  color: white;
+  background-image: url(../../../public/images/hojasTansp1.png);
+  background-position: bottom -1em right -1em;
+  background-size: 12em;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: soft-light;
+  padding-bottom: 0;
 
 }
 
-section.section8 h2{
+section.section8 h2 {
   padding: 1.5em;
 }
+
+.sectionTransition {
+  display: block;
+  width: 100%;
+  aspect-ratio: 50/9;
+  height: auto;
+  background-image: url(../../../public/images/transition1.svg);
+  margin-top: 4em;
+}
+
 /* 
 section.section6 p{
   margin-left: 50%;
@@ -29,11 +43,31 @@ section.section6 p{
   background-size: contain;
 }
 
+.leftLeaves {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  content: " ";
+  display: block;
+  height: 18em;
+  width: 15em;
+  transform: scaleX(-1);
+  bottom: 9em;
+  z-index: -1;
+  left: -1em;
+  background-image: url(../../../public/images/hojas13.png);
+
+}
+
 .firstList {
   margin: 2em 1em;
   padding: 2em 1em;
+  background-color: var(--background-green1);
 }
+
 .secundList {
-  margin: 1em 1em 3em 5em;
+  margin: 1em 1em 0 5em;
   padding: 2em 1em;
+  background-color: var(--background-orange1);
 }

@@ -6,9 +6,11 @@ section.section12 {
 
 }
 
-section.section12 h2{
-  padding: 1.5em;
+section.section12 h2 {
+  padding: 0 1.5em 0.5em;
 }
+
+
 /* 
 section.section6 p{
   margin-left: 50%;
@@ -28,6 +30,7 @@ section.section6 p{
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding-bottom: 6em;
 }
 
 .firstRow {
@@ -37,7 +40,7 @@ section.section6 p{
   justify-content: center;
 }
 
-.firstRow>li{
+.firstRow>li {
   position: relative;
   flex-grow: 1;
   flex-basis: 12em;
@@ -45,7 +48,7 @@ section.section6 p{
 
 }
 
-.firstRow>li::after{
+.firstRow>li::after {
   position: absolute;
   background-repeat: no-repeat;
   background-size: contain;
@@ -59,35 +62,36 @@ section.section6 p{
   top: 1em;
 }
 
-.firstRow>li:nth-child(1)::after{
+.firstRow>li:nth-child(1)::after {
   background-image: url(../../../public/images/results_plant.png);
 }
 
-.firstRow>li:nth-child(2)::after{
+.firstRow>li:nth-child(2)::after {
   background-image: url(../../../public/images/results_money.png);
 }
 
-.firstRow>li:nth-child(3)::after{
+.firstRow>li:nth-child(3)::after {
   background-image: url(../../../public/images/results_people.png);
 }
 
-.firstRow>li:nth-child(4)::after{
+.firstRow>li:nth-child(4)::after {
   background-image: url(../../../public/images/results_magni.png);
 }
+
 /** */
-.firstRow>li>ol{
+.firstRow>li>ol {
   position: relative;
   padding-top: 1em;
   margin-top: 5em;
 }
 
-.firstRow>li>ol>li{
+.firstRow>li>ol>li {
   position: relative;
   padding: 0.6em 0.5em 0.6em 3em;
   font-size: 0.7em;
 }
 
-.firstRow>li>ol>li::after{
+.firstRow>li>ol>li::after {
   position: absolute;
   content: attr(data-num);
   width: auto;
@@ -96,10 +100,10 @@ section.section6 p{
   top: 50%;
   transform: translate(-50%, -50%);
   /* background-color: #7ecb29; */
-  
+
   padding: 0.3em 0.4em;
   left: 1.5em;
-  
+
   border-radius: 3em;
 }
 
@@ -113,22 +117,38 @@ section.section6 p{
 }
 
 
-.firstRow>li:nth-child(1)>ol>li::after{
+.firstRow>li:nth-child(1)>ol>li::after {
 
   background-color: var(--greenToBlue1);
 }
 
-.firstRow>li:nth-child(2)>ol>li::after{
+.firstRow>li:nth-child(2)>ol>li::after {
   left: 2em;
   background-color: var(--greenToBlue2);
 }
 
-.firstRow>li:nth-child(3)>ol>li::after{
+.firstRow>li:nth-child(3)>ol>li::after {
   left: 2.25em;
   background-color: var(--greenToBlue3);
 }
 
-.firstRow>li:nth-child(4)>ol>li::after{
+.firstRow>li:nth-child(4)>ol>li::after {
 
   background-color: var(--greenToBlue4);
+}
+
+.bottomLeftLeaves {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  content: " ";
+  display: block;
+  height: 6em;
+  width: 6em;
+  right: -1em;
+  bottom: 1em;
+  transform: rotate(-90deg);
+  background-image: url(../../../public/images/hojas12.png);
+
 }

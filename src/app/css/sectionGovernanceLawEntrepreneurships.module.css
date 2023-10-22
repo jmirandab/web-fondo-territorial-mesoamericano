@@ -24,7 +24,7 @@ section.section6 p{
   display: flex;
   flex-direction: row;
   gap: 1.5em;
-  padding: 5em 1em;
+  padding: 0 1em 5em;
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
@@ -69,39 +69,39 @@ section.section6 p{
 
 .bush::before {
   width: 9em;
-    height: auto;
-    aspect-ratio: 83/57;
-    position: absolute;
-    content: " ";
-    bottom: 2.5em;
-    right: -1em;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: auto;
+  aspect-ratio: 83/57;
+  position: absolute;
+  content: " ";
+  bottom: 2.5em;
+  right: -1em;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url("../../../public/images/hoja1.png");
 
 }
 
 
-.bushLeft  {
-  width: 7em;
-    min-width: 2em;
-    height: auto;
-    left: 10%;
-    aspect-ratio: 4/1;
-    bottom: 2em;
-    display: block;
-    z-index: 1;
-    transform: translate(-50%, 0);
+.bushLeft {
+  width: 10em;
+  min-width: 2em;
+  height: auto;
+  left: 10%;
+  aspect-ratio: 4/1;
+  bottom: 2em;
+  display: block;
+  z-index: 1;
+  transform: translate(-50%, 0);
 }
 
 .bushLeft::before {
 
   width: 2em;
-    aspect-ratio: 1/1;
-    top: -50%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    z-index: -1;
+  aspect-ratio: 1/1;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: -1;
   background-image: url("../../../public/images/hoja.png");
 }
 

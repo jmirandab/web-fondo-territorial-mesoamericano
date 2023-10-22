@@ -1,9 +1,13 @@
 section.sectionFinancingInstruments {
   outline: none;
   min-height: min-content;
-  background-color: #a8ce65;
   text-align: center;
-  background-image: url(../../../public/images/backgreen.png);
+  background-image: url(../../../public/images/backgreen.png), url(../../../public/images/plantwhite.png);
+  /* background-image: url(../../../public/images/plantwhite.png); */
+  background-size: auto, 12em;
+  background-repeat: repeat, no-repeat;
+  background-attachment: local, fixed;
+  background-blend-mode: soft-light;
 
 }
 
@@ -100,6 +104,8 @@ section.section6 p{
   background-color: #fcf9ee;
   right: -25%;
   top: 20px;
+
+
 
 }
 

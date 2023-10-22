@@ -13,6 +13,7 @@ const Section5= async ({lng}: {lng:string}) => {
     <Section className={Styles.section5}>
       <div className={Styles.totalScreenBackgroung}>
         <h2>{t('section5.title')}</h2>
+        
         <p>{t('section5.text1')}</p>
         
         <div className={StylesPage.green_card}>

@@ -12,17 +12,21 @@ const SectionFinancedInitiatives = async ({ lng }: { lng: string }) => {
   return (
     <Section className={Styles.section6}>
       <div className={Styles.totalScreenBackgroung}>
-   
+
         <h2>
           {t('section10.title')}
         </h2>
-       
+
         <ol>
           <li className={clsx(StylesPage.green_card, Styles.initiative)}>{t('section10.text1')}</li>
           <li className={clsx(StylesPage.green_card, Styles.initiative)}>{t('section10.text2')}</li>
           <li className={clsx(StylesPage.green_card, Styles.initiative)}>{t('section10.text3')}</li>
         </ol>
 
+      </div>
+      <div className={Styles.wave_container}>
+        <div className={Styles.wave}>
+        </div>
       </div>
       {/* <div className={Styles.wcontainer} >
           <div className={Styles.wdivider} ></div>

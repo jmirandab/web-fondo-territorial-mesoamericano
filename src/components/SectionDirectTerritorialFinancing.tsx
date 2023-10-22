@@ -6,11 +6,11 @@ import StylesPage from '../app/page.module.css'
 import { useTranslation } from '../app/i18n'
 import clsx from 'clsx';
 
-const Section10= async ({lng}: {lng:string}) => {
+const SetionDirectTerritorialFinancing= async ({lng}: {lng:string}) => {
 
   const { t } = await useTranslation(lng);
   return (
-    <Section >
+    <Section className={Styles.SetionDirectTerritorialFinancing} >
       <div className={Styles.totalScreenBackgroung}>
         <h2>
           {t('section11.title')}
@@ -35,9 +35,12 @@ const Section10= async ({lng}: {lng:string}) => {
 
 
 
+      
       </div>
+      <div className={Styles.leftLeaves}></div>
+      <div className={Styles.sectionTransition}></div>
     </Section>
   );
 };
 
-export default Section10;
+export default SetionDirectTerritorialFinancing;

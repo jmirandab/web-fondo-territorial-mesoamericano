@@ -3,11 +3,15 @@ section.section6 {
   min-height: min-content;
   text-align: center;
 
-  background-image:url(../../../public/images/croc.png) ;
-  background-size: 26em auto;
-  background-position: left -13em bottom 0;
+  background-image:url(../../../public/images/croc.png),  url(../../../public/images/hojasTansp1.png) ;
+  background-size: auto 14em, 12em;;
+    background-position: left -10em bottom -2em, bottom -1em right -1em;
   background-repeat: no-repeat;
+  background-attachment: local, fixed;
   position: relative;
+
+
+
 
 }
 
@@ -41,7 +45,7 @@ section.section6 p{
 }
 
 .totalScreenBackgroung ol {
-  padding: 0 1em;
+  padding: 0 1em 5em;
 }
 
 .totalScreenBackgroung ol li {
@@ -131,3 +135,88 @@ section.section6 p{
 .wimage {
 position: absolute; left: 60px; top: -100px; width: 300px; height: 500px; border-radius: 50% 0 0 50%; background-color: #000000;
 } */
+
+/* 
+.wave_vertical {
+  display: block;
+  position: relative;
+  width: 40px;
+  height: 100%;
+  background: #0475b5;
+  transform: scale(1, 1);
+  overflow: hidden;
+}
+
+.wave_vertical:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  width: 300px;
+  height: 100%;
+  background-color: #fcf9ee;
+  top: -25%;
+  left: 20px;
+
+  transform: rotate(90deg);
+}
+
+.wave_vertical:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  width: 300px;
+  height: 100%;
+  background-color: #0475b5;
+  top: -25%;
+  left: -240px;
+  clip-path: ellipse(15% 100% at 100% -15%);
+} */
+.wave_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 25%;
+  z-index: -1;
+}
+
+.wave {
+  width: 100%;
+    height: 100%;
+    background: #4aaca7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.wave:after {
+  content: " ";
+  position: absolute;
+  width: 2em;
+  height: 2em;
+}
+
+/* .wave:before {
+  left: 0;
+  border-top-left-radius: 50% 30px;
+  border-bottom-left-radius: 50% 30px;
+} */
+
+.wave:after {
+  right: 0;
+    bottom: -1em;
+    height: 120%;
+    width: 150%;
+    transform: translate(50%, -0);
+    border-radius: 50%;
+    box-shadow: 1px 2px 3px #555 inset;
+
+  background-color: var(--body-background-color);
+}
+
+/* To make it responsive and grow with the content, adjust the width of .wave-container and the border radius values as needed. */
+
+/* To make it responsive and grow with the content, adjust the width of .wave-container and the border radius values as needed. */

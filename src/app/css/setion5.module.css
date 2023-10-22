@@ -23,9 +23,10 @@ section.section5 h2 {
   position: relative;
   margin: 0 auto;
   /* min-height: 70vh; */
-  max-width: 800px;
+  max-width: 1000px;
   min-height: 338px;
   margin: 0 auto;
+  padding: 0 1em;
   background-size: contain;
 }
 
@@ -41,24 +42,28 @@ section.section5 h2 {
 }
 
 .finance {
-  padding: 4em 0 1em;
+  padding: 1em 0 1em;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .transversal {
   padding: 1.5em 0 1em;
 }
 
-
-
-
 .finance li {
   font-size: 0.8em;
-  padding: 0.5em 0.4em;
+  padding: 4.5em 0.4em 1em;
   position: relative;
+  max-width: 12em;
+  flex-basis: 12em;
+  text-align: center;
+
+
 }
 
 .transversal_container {
-  background-color: #8bc53f;
+  background-color: var(--background-green1);
   border-radius: 2em;
   padding: 0.8em;
   margin: 0.5em 1em;
@@ -77,16 +82,14 @@ section.section5 h2 {
   text-align: center;
 }
 
-.finance li {
-  text-align: center;
-}
+
 
 .finance li::after {
   position: absolute;
   position: absolute;
   width: 2em;
   height: 2.4em;
-  top: -0.2em;
+  top: 2.5em;
   background-size: contain;
   background-repeat: no-repeat;
   left: 50%;
