@@ -88,7 +88,7 @@ section.section6 p{
 .firstRow>li>ol>li {
   position: relative;
   padding: 0.6em 0.5em 0.6em 3em;
-  font-size: 0.7em;
+  font-size: 15px;
 }
 
 .firstRow>li>ol>li::after {

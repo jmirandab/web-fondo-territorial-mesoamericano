@@ -48,6 +48,7 @@ section.section5 h2 {
 }
 
 .transversal {
+  color: var(--body-background-color);
   padding: 1.5em 0 1em;
 }
 

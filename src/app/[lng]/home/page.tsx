@@ -37,9 +37,9 @@ export default function Home({ params: { lng } }: { params: { lng: string } }) {
       <Section2 lng={lng} />
 
 
-      <SectionRational lng={lng} />
 
       <SetionAMPBMembers lng={lng} />
+      <SectionRational lng={lng} />
 
 
       <Section5 lng={lng} />
@@ -47,12 +47,6 @@ export default function Home({ params: { lng } }: { params: { lng: string } }) {
       <Section8 lng={lng} />
       <SectionHowWeWork8 lng={lng} />
       <SectionOrganigrama9 lng={lng} />
-      <SectionFinancingInstruments10 lng={lng} />
-      <SectionFinancedInitiatives11 lng={lng} />
-      <SectionDirectTerritorialFinancing12 lng={lng} />
-      <SectionResults13 lng={lng} />
-      <SectionGovernanceLawEntrepreneurships14 lng={lng} />
-
 
 
       {/* <div className={styles.center}>

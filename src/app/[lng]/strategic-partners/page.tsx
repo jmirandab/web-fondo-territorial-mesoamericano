@@ -3,7 +3,7 @@ import Main from '@/components/Main'
 
 //import i18next from '../../../config/initi18n';
 import { useTranslation } from '../../i18n'
-import SectionLogos from '@/components/SectionLogos'
+import SectionLogos from '../../../components/SectionLogos'
 
 
 //import { useTranslation } from 'next-i18next'
