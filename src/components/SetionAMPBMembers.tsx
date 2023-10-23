@@ -14,7 +14,7 @@ const SetionAMPBMembers = async ({ lng }: { lng: string }) => {
 
 
   return (
-    <Section className={Styles.section3}>
+    <Section id="AMPBMembers" className={Styles.section3}>
       
       <div className={Styles.totalScreenBackgroung}>
       <h2>

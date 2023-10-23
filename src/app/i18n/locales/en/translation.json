@@ -8,7 +8,14 @@
     "option1": "Who we are",
     "option2": "What we fund",
     "option3": "How we operate",
-    "option4": "Strategic Partners"
+    "option4": "Strategic Partners",
+    "submenu1_1": "Home",
+    "submenu1_2": "Who we are",
+    "submenu1_3": "AMPB Members",
+    "submenu1_4": "Rationale",
+    "submenu1_5": "What do we finance?",
+    "submenu1_6": "How we work?",
+    "submenu1_7":"Organizational Chart"
   },
 
   "sectionLogos": {

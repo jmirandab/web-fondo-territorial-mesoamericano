@@ -38,18 +38,34 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
       href: `/${lng}/home`,
       text: t("menu.option1"),
       subItems: [
+        // {
+        //   href: `/${lng}/home`,
+        //   text: t("menu.submenu1_1"),
+        // },
         {
-          href: `/${lng}/home`,
-          text: t("menu.option3"),
+          href: `/${lng}/home#whoarewe`,
+          text: t("menu.submenu1_2"),
         },
         {
-          href: `/${lng}/home#video`,
-          text: "video",
+          href: `/${lng}/home#AMPBMembers`,
+          text: t("menu.submenu1_3"),
+        },
+        {
+          href: `/${lng}/home#rational`,
+          text: t("menu.submenu1_4"),
+        },
+        {
+          href: `/${lng}/home#whatdowefinance`,
+          text: t("menu.submenu1_5"),
+        },
+        {
+          href: `/${lng}/home#HowWeWork`,
+          text: t("menu.submenu1_6"),
         },
         {
           href: `/${lng}/home#FTM-Organizational-Chart`,
-          text: t("menu.option1"),
-        },
+          text: t("menu.submenu1_7"),
+        }
       ]
     }, {
       href: `/${lng}/what-we-fund`,

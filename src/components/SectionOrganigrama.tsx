@@ -10,7 +10,7 @@ const SectionOrganigrama = async ({ lng }: { lng: string }) => {
 
   const { t } = await useTranslation(lng);
   return (
-    <Section id={"FTM-Organizational-Chart"}>
+    <Section className={Styles.setionorganigrama} id={"FTM-Organizational-Chart"}>
       <div className={Styles.totalScreenBackgroung}>
         <h2>
           {t('setionorganigrama.title')}

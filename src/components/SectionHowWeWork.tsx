@@ -9,14 +9,15 @@ const SectionHowWeWork= async ({lng}: {lng:string}) => {
 
   const { t } = await useTranslation(lng);
   return (
-    <Section className={Styles.section9}>
+    <Section id="HowWeWork" className={Styles.section9}>
+      <div className={Styles.wave}></div>
+      
       <div className={Styles.totalScreenBackgroung}>
         <h2>
           {t('section9.title')}
         </h2>
 
-
-        <div className={StylesPage.green_card}>{t('section9.text1')}</div>
+        <div className={Styles.greenText}>{t('section9.text1')}</div>
         <div className={Styles.firstRow}>
           <div className={Styles.col1}>
             <div>{t('section9.text2')}</div>
@@ -29,11 +30,10 @@ const SectionHowWeWork= async ({lng}: {lng:string}) => {
 
           <div className={Styles.col2}>
             <div>{t('section9.text5')}</div>
-
             <div>{t('section9.text6')}</div>
           </div>
         </div>
-
+        
       </div>
     </Section>
   );

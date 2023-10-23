@@ -34,6 +34,9 @@ section.section6 p{
   flex-direction: column;
   width: 100%;
   justify-content: space-between;
+  margin: 0 1em;
+  /* padding-bottom: 7em;
+  background-image: url(../../../public/images/deer.png); */
 }
 
 .aims li {

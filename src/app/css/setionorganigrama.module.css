@@ -1,15 +1,17 @@
-section.section7 {
-  outline: none;
+section.setionorganigrama {
   min-height: min-content;
-  background-color: #0475b5;
   text-align: center;
-  color: white;
-
+  background-image: url(../../../public/images/backgreen.png), url(../../../public/images/plantwhite.png), url(../../../public/images/steps.png);
+  /* background-image: url(../../../public/images/plantwhite.png); */
+  background-size: auto, 12em, 12em;
+  background-repeat: repeat, no-repeat, no-repeat;
+  background-attachment: local, fixed, local;
+  background-blend-mode: soft-light;
+  background-position: center, bottom left, top 2em right 2em;
 }
 
 
 .totalScreenBackgroung {
-
   position: relative;
   margin: 0 auto;
   /* min-height: 70vh; */
@@ -21,7 +23,6 @@ section.section7 {
 
   --organig-left-lines-size: 3em;
 }
-
 
 .bubble {
   padding: 1em 1em;
@@ -45,46 +46,45 @@ section.section7 {
   background-color: var(--blueOrg4);
 }
 
-
-
-
 .directTop {
-  display: flex ;
+  display: flex;
   font-size: 0.7em;
   gap: 0.5em;
   overflow-wrap: anywhere;
   justify-content: space-around;
+  position: relative;
+  z-index: 1;
 }
 
 .officers {
   font-size: 0.9em;
-  padding-left: var( --organig-left-lines-size );
+  padding-left: var(--organig-left-lines-size);
   padding-right: 1em;
   position: relative;
 }
 
 .officers:after {
-content: " ";
-    background: black;
-    width: 0.3em;
-    display: block;
-    height: 50%;
-    position: absolute;
-    left: calc(var( --organig-left-lines-size ) / 2);
-    top: -2em;
-    /* transform: translate(0, -50%); */
-    z-index: -1;
-
-}
-
-.officers .bubble{ 
-  position: relative;
-  margin: 0.5em auto 0.5em 0  ;
-}
-
-.officers .bubble::after{ 
   content: " ";
-  background: black;
+  background-color: var(--body-background-color);
+  width: 0.3em;
+  display: block;
+  height: 50%;
+  position: absolute;
+  left: calc(var(--organig-left-lines-size) / 2);
+  top: -2em;
+  /* transform: translate(0, -50%); */
+  z-index: -1;
+
+}
+
+.officers .bubble {
+  position: relative;
+  margin: 0.5em auto 0.5em 0;
+}
+
+.officers .bubble::after {
+  content: " ";
+  background-color: var(--body-background-color);
   height: 0.3em;
   display: block;
   width: 50%;
@@ -94,26 +94,27 @@ content: " ";
   z-index: -1;
 }
 
-.officers .bubble::before{ 
-    content: " ";
-    background: black;
-    width: 0.3em;
-    display: block;
-    height: calc(100% + 0.5em);
-    position: absolute;
-    left: calc((var(--organig-left-lines-size) / 2) * -1);
-    top: 0;
-    z-index: -1;
+.officers .bubble::before {
+  content: " ";
+  background-color: var(--body-background-color);
+  width: 0.3em;
+  display: block;
+  height: calc(100% + 0.5em);
+  position: absolute;
+  left: calc((var(--organig-left-lines-size) / 2) * -1);
+  top: 0;
+  z-index: -1;
 }
 
-.officers .bubble:last-child:before{ 
+.officers .bubble:last-child:before {
   transform: translate(0, -50%);
 }
 
 
-section.section7 h2{
+section.section7 h2 {
   padding: 1.5em;
 }
+
 /* 
 section.section6 p{
   margin-left: 50%;
@@ -154,9 +155,9 @@ section.section6 p{
   background-image: url(../../../public/images/map2.png);
 }
 
-@media (min-width: 800px) { 
+@media (min-width: 800px) {
   .directTop {
-    display: flex ;
+    display: flex;
     font-size: 0.9em;
   }
 }

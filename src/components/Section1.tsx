@@ -14,6 +14,8 @@ const Section1 = async ({lng}: {lng:string}) => {
                 <div className={Styles.layerBackGround}>
                     <div className={Styles.comunity}>
                     </div>
+                    {/* <div className={Styles.comunityWave}>
+                    </div> */}
                     <div className={Styles.Left}>
                     </div>
                     <div className={Styles.RightJaguar}>
