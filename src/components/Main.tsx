@@ -23,10 +23,10 @@ export default function Main({
   const scrollListener: React.UIEventHandler<HTMLElement>  = (e) => {
 
     if(!isSmallDesktopMenu && e.currentTarget.scrollTop > 70) {
-      console.log("Scroll set true")
+  
       setIsSmallDesktopMenu(true);
     } else if (isSmallDesktopMenu && e.currentTarget.scrollTop < 69 ){
-    console.log("Scroll set true")
+   
       setIsSmallDesktopMenu(false);
     }
   }

@@ -19,7 +19,8 @@ const SectionLogos = async ({ lng }: { lng: string }) => {
           className={Styles.imgLogo}
           src={"/images/" + org.file}
           fill={true}
-          alt={org.name + " logo"}
+          alt={org.name + " logo"}          
+          unoptimized={true}
         />
       </div>
       <div>
