@@ -5,14 +5,15 @@ import i18next from 'i18next'
 import { initReactI18next, useTranslation as useTranslationOrg } from 'react-i18next'
 import { useCookies } from 'react-cookie'
 import resourcesToBackend from 'i18next-resources-to-backend'
-// import LanguageDetector from 'i18next-browser-languagedetector'
+ import LanguageDetector from 'i18next-browser-languagedetector'
 import { getOptions, languages, cookieName } from '../../config/initi18n'
 
 const runsOnServerSide = typeof window === 'undefined'
-
+console.log("executed")
 // 
 i18next
   .use(initReactI18next)
+  .use(LanguageDetector)
   .use(resourcesToBackend((language, namespace) => import(`./locales/${language}/${namespace}.json`)))
   .init({
     ...getOptions(),
@@ -24,6 +25,7 @@ i18next
   })
 
 export function useTranslation(lng, ns, options) {
+  console.log("useTranslation")
   const [cookies, setCookie] = useCookies([cookieName])
   const ret = useTranslationOrg(ns, options)
   const { i18n } = ret
