@@ -1,21 +1,18 @@
 import { NextResponse } from 'next/server'
 import acceptLanguage from 'accept-language'
-import { fallbackLng, languages, cookieName } from '../config/initi18n'
+import { fallbackLng, languages, cookieName } from './config/initi18n'
 
 
 acceptLanguage.languages(languages)
 
 export const config = {
-  // matcher: '/:lng*'
-  matcher: ['/((?!api|_next/static|_next/image|assets|favicon.ico|sw.js).*)']
+    matcher: '/:lng*'
+ // matcher: ['/((?!api|_next/static|_next/image|assets|favicon.ico|sw.js).*)']
 }
 
-
+console.log('req.nextUrl.pathname 3v ')
 
 export function middleware(req) {
-
-  const cookieStore = cookies()
-  console.log(cookieStore)
 
   let lng
   if (req.cookies.has(cookieName)) lng = acceptLanguage.get(req.cookies.get(cookieName).value)
@@ -23,11 +20,16 @@ export function middleware(req) {
   if (!lng) lng = fallbackLng
 
   // Redirect if lng in path is not supported
+
+
+
   if (
     !languages.some(loc => req.nextUrl.pathname.startsWith(`/${loc}`)) &&
     !req.nextUrl.pathname.startsWith('/_next')
   ) {
-    return NextResponse.redirect(new URL(`/${lng}${req.nextUrl.pathname}`, req.url))
+
+    let subPathTo = req.nextUrl.pathname == "/"? "/home":  req.nextUrl.pathname 
+    return NextResponse.redirect(new URL(`/${lng}${subPathTo}`, req.url))
   }
 
   if (req.headers.has('referer')) {

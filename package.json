@@ -25,6 +25,8 @@
     "eslint-config-next": "13.4.19",
     "font-awesome": "^4.7.0",
     "i18next": "^23.5.1",
+    "i18next-express-middleware": "^2.0.0",
+    "i18next-http-middleware": "^3.4.1",
     "i18next-resources-to-backend": "^1.1.4",
     "next": "13.4.19",
     "next-i18next": "^14.0.3",
