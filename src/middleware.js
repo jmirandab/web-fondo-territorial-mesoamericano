@@ -10,7 +10,6 @@ export const config = {
  // matcher: ['/((?!api|_next/static|_next/image|assets|favicon.ico|sw.js).*)']
 }
 
-console.log('req.nextUrl.pathname 3v ')
 
 export function middleware(req) {
 

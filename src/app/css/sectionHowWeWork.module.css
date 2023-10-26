@@ -9,20 +9,21 @@ section.section9 {
   background-blend-mode: soft-light;
   background-position: center, bottom left, top 2em right 2em;
   text-align: center;
-  
+
   --people-size-vert: 10em;
 
 }
 
 .greenText {
   padding: 0.5em 1em;
-  background-color: var(--greenToBlue2);
+  background-color: #4fad51;
   border-radius: 2em;
   margin: 0 7em 0 1em;
   width: fit-content;
+  color: var(--body-background-color);
 }
 
-section.section9 h2{
+section.section9 h2 {
   padding: 1.5em;
 }
 
@@ -30,56 +31,66 @@ section.section9 h2{
   padding: 2em 1em 0;
   display: flex;
   text-align: center;
-  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color:var(--blueOrg4);
 }
 
 .col1 {
   display: flex;
   position: relative;
+  flex-direction: column;
+  width: min-content;
 }
 
-.col1::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 2em;
+.peopleTextWrap {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.peopleImage {
   height: var(--people-size-vert);
-  width: 100%;
   content: " ";
   background-image: url(../../../public/images/people1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  aspect-ratio: 466/189;
 }
 
 
 
-.col1>div{
-  padding-top: var(--people-size-vert);
+.col1PeopleSub {
   width: 42%;
+  padding: 0 6px;
 }
 
-.col1>div:first-child{
-  width: 57%;
+.col1PeopleSub1 {
+  width: 54%;
 
 }
 
 .col2 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   max-width: 30%;
+  justify-content: center;
 }
 
 /*executive and women*/
-.col2>div{
-   position: relative;
-   padding: 2em 0 2em 4em;
-    margin-left: 1.5em;
-    margin-top: 1.5em;
-    font-size: 0.9em;
+.col2>div {
+  position: relative;
+  padding: 2em 0 2em 4em;
+  margin-left: 1.5em;
+  margin-top: 1.5em;
+  font-size: 0.9em;
 }
 
-.col2>div::after{
+.col2>div::after {
   position: absolute;
   top: 0;
   left: 0;
@@ -89,14 +100,15 @@ section.section9 h2{
   content: " ";
   background-image: url(../../../public/images/executiveperson.png);
   background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+  background-position: center;
+  background-size: contain;
 }
 
-.col2>div:nth-child(2):after{
+.col2>div:nth-child(2):after {
 
   background-image: url(../../../public/images/woman1.png);
 }
+
 /* 
 section.section6 p{
   margin-left: 50%;
@@ -109,10 +121,11 @@ section.section6 p{
   position: relative;
   margin: 0 auto;
   /* min-height: 70vh; */
-  max-width: 800px;
+  max-width: 60em;
   min-height: 338px;
   margin: 0 auto;
   background-size: contain;
+  padding: 0 1em;
 }
 
 
@@ -153,4 +166,51 @@ section.section6 p{
   left: -25%;
   top: -240px;
   clip-path: ellipse(100% 15% at -15% 100%);
+}
+
+.bracket {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  margin: 13px 0;
+  position: relative;
+}
+
+.bracket:after,
+.bracket:before {
+  position: absolute;
+  width: 3px;
+  height: 9px;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  content: " ";
+}
+
+.bracket:before {
+  right: 0;
+  left: auto;
+}
+
+.bracketArrow {
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+
+@media (min-width: 60em) {
+  .firstRow {
+    flex-direction: row;
+  }
+
+  .col2 {
+    flex-direction: column;
+  }
 }

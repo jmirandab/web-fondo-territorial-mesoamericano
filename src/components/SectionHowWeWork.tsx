@@ -4,14 +4,14 @@ import Section from './Section';
 import Styles from '../app/css/sectionHowWeWork.module.css'
 import StylesPage from '../app/page.module.css'
 import { useTranslation } from '../app/i18n'
-
-const SectionHowWeWork= async ({lng}: {lng:string}) => {
+import clsx from 'clsx'
+const SectionHowWeWork = async ({ lng }: { lng: string }) => {
 
   const { t } = await useTranslation(lng);
   return (
     <Section id="HowWeWork" className={Styles.section9}>
       <div className={Styles.wave}></div>
-      
+
       <div className={Styles.totalScreenBackgroung}>
         <h2>
           {t('section9.title')}
@@ -20,10 +20,26 @@ const SectionHowWeWork= async ({lng}: {lng:string}) => {
         <div className={Styles.greenText}>{t('section9.text1')}</div>
         <div className={Styles.firstRow}>
           <div className={Styles.col1}>
-            <div>{t('section9.text2')}</div>
-            <div>
-              <div>{t('section9.text3')}</div>
-              <div>{t('section9.text4')}</div>
+            <div className={Styles.peopleImage} ></div>
+            <div className={Styles.peopleTextWrap}>
+              <div className={clsx(Styles.col1PeopleSub, Styles.col1PeopleSub1)}>
+                <div className={Styles.bracket}>
+                  <div className={Styles.bracketArrow}></div>
+                </div>
+                {t('section9.text2')}
+              </div>
+              <div className={Styles.col1PeopleSub}>
+                <div className={Styles.bracket}>
+                  <div className={Styles.bracketArrow}></div>
+                </div>
+                <div>
+
+                  {t('section9.text3')}
+                </div>
+                <div>
+                  {t('section9.text4')}
+                </div>
+              </div>
             </div>
           </div>
 
@@ -33,7 +49,7 @@ const SectionHowWeWork= async ({lng}: {lng:string}) => {
             <div>{t('section9.text6')}</div>
           </div>
         </div>
-        
+
       </div>
     </Section>
   );

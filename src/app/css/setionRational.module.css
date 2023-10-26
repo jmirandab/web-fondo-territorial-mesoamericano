@@ -140,3 +140,15 @@ section.section4 h2 {
   top: -240px;
   clip-path: ellipse(100% 15% at -15% 100%);
 }
+
+
+
+@media (min-width: 800px) { 
+  .tucan_card {
+
+    padding: 2em 2em 8em;
+
+  }
+}
+
+

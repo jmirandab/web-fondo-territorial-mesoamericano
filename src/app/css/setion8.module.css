@@ -40,6 +40,7 @@ section.section6 p{
 .maiz li {
   position: relative;
   text-align: center;
+  background-image: url(../../../public/images/processGround.png);
 
 }
 

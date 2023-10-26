@@ -42,6 +42,8 @@
   background-position: center top -10em;
   background-blend-mode: hard-light;
 
+  color: var(--brown2);
+
 }
 
 .hambMenu {

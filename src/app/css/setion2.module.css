@@ -16,6 +16,7 @@ section.section2 {
   max-width: 800px;
   margin: 0 auto;
   /* min-height: 70vh; */
+  color: var(--brown2);
 }
 
 .FTM_desc {

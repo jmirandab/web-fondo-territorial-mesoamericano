@@ -11,7 +11,7 @@ section.section5 h3 {
 }
 
 section.section5 h3 {
-  color: #cf6728;
+  color: var(--brown2);
 }
 
 section.section5 h2 {
@@ -72,6 +72,8 @@ section.section5 h2 {
 
 .transversal {
   justify-content: space-around;
+  display: flex;
+    gap: 0.5em;
 }
 
 .transversal li {
@@ -81,6 +83,8 @@ section.section5 h2 {
   border-radius: 3em;
   padding: 0.7em 1.2em;
   text-align: center;
+  display: flex;
+    align-items: center;
 }
 
 
