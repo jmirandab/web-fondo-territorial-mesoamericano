@@ -31,6 +31,7 @@ section.section2 {
 .FTM_desc p{
   max-width: 27.5em;
   margin: 0 auto;
+  background-color: var(--body-background-color);
 }
 
 .FTM_logo {

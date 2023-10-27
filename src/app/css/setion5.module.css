@@ -11,7 +11,7 @@ section.section5 h3 {
 }
 
 section.section5 h3 {
-  color: var(--brown2);
+  color: var(--orange2);
 }
 
 section.section5 h2 {
@@ -34,6 +34,8 @@ section.section5 h2 {
   padding: 1em 0.7em;
   background-color: #b0d673;
   border-radius: 2em;
+  width: fit-content;
+    margin: auto;
 }
 
 .transversal,
@@ -50,6 +52,7 @@ section.section5 h2 {
 .transversal {
   color: var(--body-background-color);
   padding: 1.5em 0 1em;
+  justify-content: center;
 }
 
 .finance li {
@@ -71,7 +74,7 @@ section.section5 h2 {
 }
 
 .transversal {
-  justify-content: space-around;
+  justify-content: center;
   display: flex;
     gap: 0.5em;
 }
@@ -79,7 +82,8 @@ section.section5 h2 {
 .transversal li {
   padding: 0.5em 0.6em;
   position: relative;
-  background-color: #cf6728;
+  background-color: var(--orange2);
+  color: white;
   border-radius: 3em;
   padding: 0.7em 1.2em;
   text-align: center;

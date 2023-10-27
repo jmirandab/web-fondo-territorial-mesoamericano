@@ -26,8 +26,11 @@ export function middleware(req) {
     !languages.some(loc => req.nextUrl.pathname.startsWith(`/${loc}`)) &&
     !req.nextUrl.pathname.startsWith('/_next')
   ) {
-
+    console.log(">>> req.nextUrl.pathname")
+    console.log(req.nextUrl.pathname)
     let subPathTo = req.nextUrl.pathname == "/"? "/home":  req.nextUrl.pathname 
+    console.log(">>> subPathTo")
+    console.log(subPathTo)
     return NextResponse.redirect(new URL(`/${lng}${subPathTo}`, req.url))
   }
 

@@ -16,7 +16,7 @@ const Section5= async ({lng}: {lng:string}) => {
         
         <p>{t('section5.text1')}</p>
         
-        <div className={StylesPage.green_card}>
+        <div className={Styles.green_card}>
           <ol className={Styles.finance}>
 
             <li data-num='1'>{t('section5.bullet1')}</li>
