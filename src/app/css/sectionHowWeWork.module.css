@@ -134,8 +134,7 @@ section.section6 p{
   position: relative;
   min-height: 40px;
   width: 100%;
-  /* background: #0475b5; */
-  background-color: #fcf9ee;
+  background-image: url(../../../public/images/processGround.png);
   transform: scale(1, 1);
   margin-bottom: 40px;
 }
@@ -160,9 +159,8 @@ section.section6 p{
   border-radius: 100%;
   width: 100%;
   height: 300px;
-  /* background-color: #0475b5; */
 
-  background-color: #fcf9ee;
+  background-image: url(../../../public/images/processGround.png);
   left: -25%;
   top: -240px;
   clip-path: ellipse(100% 15% at -15% 100%);

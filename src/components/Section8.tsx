@@ -8,7 +8,7 @@ const Section8= async ({lng}: {lng:string}) => {
 
   const { t } = await useTranslation(lng);
   return (
-    <Section >
+    <Section className={Styles.section8}>
       <div className={Styles.totalScreenBackgroung}>
         <h2> 
           {t('section8.title')}
@@ -22,6 +22,7 @@ const Section8= async ({lng}: {lng:string}) => {
           </li>
 
           <li >
+            <div className={Styles.maizDecor}></div>
             <div>{t('section8.subTitle2')}</div>
             <strong>{t('section8.sub2Title2')}</strong>
             <div>{t('section8.text2')}</div>

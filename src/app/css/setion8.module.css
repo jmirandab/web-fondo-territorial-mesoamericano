@@ -1,70 +1,111 @@
-section.section6 {
-  outline: none;
-  min-height: min-content;
-  background-color: #0475b5;
-  text-align: center;
-
-  color: white;
-
-}
-
-section.section8 h2{
-  padding: 1.5em;
-}
-/* 
-section.section6 p{
-  margin-left: 50%;
-  font-size: 0.75em;
-  padding: 0 1em;
-} */
-
 .totalScreenBackgroung {
 
   position: relative;
   margin: 0 auto;
-  /* min-height: 70vh; */
-  max-width: 800px;
   min-height: 338px;
   margin: 0 auto;
   background-size: contain;
 }
 
+.section8 {
+  padding: 0;
+}
+
+.section8 h2{
+  padding: 1 2em 0;
+}
+
 .maiz {
+  color: var(--body-background-color);
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: space-between;
-  padding-top: 8em;
+  padding: 0 1em;
+  margin-top: 11em;
+  justify-content: center;
+  gap: 1em;
+  background-image: url(../../../public/images/processGround.png);
+  position: relative;
+}
+
+
+.maiz::after {
+  position: absolute;
+  width: 100%;
+  aspect-ratio: 41/12;
+  bottom: 96%;
+  left: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: " ";
+
+  z-index: -1;
+
+  background-image: url(../../../public/images/processSky2.svg);
 }
 
 .maiz li {
   position: relative;
   text-align: center;
-  background-image: url(../../../public/images/processGround.png);
+  max-width: 20em;
+  padding: 4.2em 0 0;
+  width: 49%;
 
 }
 
 .maiz li::after {
   position: absolute;
-  width: 5em;
-  height: 5em;
-  top: -0.2em;
+  height: 12em;
+  aspect-ratio: 199/261;
+  top: 3.7em;
   background-size: contain;
   background-repeat: no-repeat;
   left: 50%;
   content: " ";
-  color: white;
-  text-align: center;
-  line-height: 3em;
-  font-size: 1.1em;
-  font-weight: bold;
+  filter: drop-shadow(2px 3px 2px rgba(6, 6, 6, 0.8));
   transform: translate(-50%, -100%);
+
 }
 
 .maiz li:nth-child(1):after {
+  height: 9em;
+  aspect-ratio: 239/502;
   background-image: url(../../../public/images/maiz1.png);
 }
 
 .maiz li:nth-child(2):after {
   background-image: url(../../../public/images/maiz.png);
+}
+
+.maizDecor {
+  width: 7.5em;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+
+.maizDecor::before,
+.maizDecor::after {
+  filter: drop-shadow(2px 5px 3px rgba(6, 6, 6, 0.7));
+  position: absolute;
+  height: 7.5em;
+  aspect-ratio: 205/323;
+  bottom: 100%;
+  right: 0;
+  opacity: 0.9;
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: " ";
+  background-image: url(../../../public/images/maiz3.png);
+}
+
+.maizDecor::before
+ {
+  opacity: 0.8;
+  height: 7em;
+  right: auto;
+  left: 0;
+  background-image: url(../../../public/images/maiz4.png);
 }
