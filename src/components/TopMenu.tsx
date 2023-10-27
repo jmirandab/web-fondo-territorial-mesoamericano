@@ -114,7 +114,7 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
           <div className={Styles.buttonAlign}>
             <button aria-label='navigation menu' onClick={toggleMenu} className={Styles.hambMenu} >
               <FontAwesomeIcon className={Styles.icon} icon={faBars} />
-            </button>
+            </button >
           </div>
 
           {/* <ol className={clsx(Styles.allign3, menuOpen && Styles.list_visible)}> */}

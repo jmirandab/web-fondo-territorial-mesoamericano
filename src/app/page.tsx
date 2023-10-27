@@ -1,18 +1,6 @@
-import Image from 'next/image'
+
 
 import styles from './page.module.css'
-import Section1 from '../components/Section1'
-import Section2 from '../components/Section2'
-import Section3 from '../components/SetionAMPBMembers'
-import Section4 from '../components/SectionRational'
-import Section5 from '../components/Section5'
-import Section6 from '../components/SectionFinancingInstruments'
-import Section7 from '../components/Section7'
-import Section8 from '../components/Section8'
-import Section9 from '../components/Section9'
-import Section10 from '../components/Section10_old'
-import Section11 from '../components/Section11'
-import Section12 from '../components/Section12_old'
 // import i18next from '../config/initi18n';
 
 export default function Home() {

@@ -1,7 +1,6 @@
 
 
 
-import TopMenu from '../../../components/TopMenu'
 import SectionFinancedInitiatives11 from '../../../components/SectionFinancedInitiatives'
 import SectionDirectTerritorialFinancing12 from '../../../components/SectionDirectTerritorialFinancing'
 import SectionResults13 from '../../../components/SectionResults'

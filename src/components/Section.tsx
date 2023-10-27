@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 import Styles from '../app/page.module.css'
 import clsx from 'clsx';
 
