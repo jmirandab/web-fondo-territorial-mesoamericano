@@ -32,7 +32,7 @@ export default function Main({
   }
 
   return (
-    <main onScroll={scrollListener} className={styles.main}>
+    <main className={styles.main}>
       <div className={styles.description}>
        <TopMenu isSmall={isSmallDesktopMenu} lng={lng} ></TopMenu>
       </div>
