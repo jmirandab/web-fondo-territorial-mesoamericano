@@ -7,6 +7,7 @@
   background-size: contain;
 }
 
+
 .section8 {
   padding: 0;
 }
@@ -48,9 +49,21 @@
   position: relative;
   text-align: center;
   max-width: 20em;
-  padding: 5em 0 0;
   width: 49%;
 
+}
+
+.maiz strong {
+  position: relative;
+  z-index: 2;
+  padding: 0.4em 1em;
+  background: lightgreen;
+  margin: 1.5em auto;
+  display: block;
+  width: fit-content;
+  color: var(--blueOrg4);
+  background-color: var(--greenToBlue4);
+  border-radius: 2em;
 }
 
 .maiz li::after {

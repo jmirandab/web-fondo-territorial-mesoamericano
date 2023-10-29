@@ -2,7 +2,6 @@ import React from 'react';
 import Section from './Section';
 
 import Styles from '../app/css/sectionHowWeWork.module.css'
-import StylesPage from '../app/page.module.css'
 import { useTranslation } from '../app/i18n'
 import clsx from 'clsx'
 const SectionHowWeWork = async ({ lng }: { lng: string }) => {
