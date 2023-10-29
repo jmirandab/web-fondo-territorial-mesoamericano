@@ -4,11 +4,9 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import Styles from '../app/css/langSwitch.module.css'
-import { Trans } from 'react-i18next/TransWithoutContext'
 import { languages, languagesNames } from '../config/initi18n'
 // import { useTranslation } from '../app/i18n'
 
-import { FocusEventHandler } from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLanguage } from '@fortawesome/free-solid-svg-icons'

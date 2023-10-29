@@ -1,8 +1,19 @@
-
+"use client"
 
 import styles from './page.module.css'
-// import i18next from '../config/initi18n';
+import { languages, languagesNames } from '../config/initi18n';
 
+
+let navigatorLanguage = global.navigator?.language?.toLocaleLowerCase();
+let foundLang = languages.find(l=>navigator.language.includes(l));
+if (foundLang) {
+  window.location.href = "/"+foundLang+"/home";
+} else  {
+  window.location.href = "/en/home";
+}
+
+
+console.log(languages);
 export default function Home() {
   return (
       // <I18nProvider>

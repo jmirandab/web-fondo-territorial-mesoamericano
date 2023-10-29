@@ -23,7 +23,7 @@ section.section7 {
   padding-bottom: 5em;
 }
 
-.years {
+.aims strong {
   z-index: 2;
   position: relative;
 }
@@ -77,7 +77,7 @@ section.section7 {
   aspect-ratio: 238/165;
 
   height: 7em;
-  bottom: -0.7em;
+  bottom: 1.3em;
   right: -2em;
   z-index: 0;
   background-size: contain;
