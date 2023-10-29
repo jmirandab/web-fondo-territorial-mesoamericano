@@ -16,14 +16,14 @@ const Section8= async ({lng}: {lng:string}) => {
         <ol className={Styles.maiz}>
 
           <li >
-            <div>{t('section8.subTitle1')}</div>
+            <div  className={Styles.subTitle}>{t('section8.subTitle1')}</div>
             <strong>{t('section8.sub2Title1')}</strong>
-            <div>{t('section8.text1')}</div>
+            <div >{t('section8.text1')}</div>
           </li>
 
           <li >
             <div className={Styles.maizDecor}></div>
-            <div>{t('section8.subTitle2')}</div>
+            <div  className={Styles.subTitle}>{t('section8.subTitle2')}</div>
             <strong>{t('section8.sub2Title2')}</strong>
             <div>{t('section8.text2')}</div>
           </li>

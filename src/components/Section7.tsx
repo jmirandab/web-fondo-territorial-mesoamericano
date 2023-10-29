@@ -10,21 +10,23 @@ const Section7= async ({lng}: {lng:string}) => {
 
   const { t } = await useTranslation(lng);
   return (
-    <Section >
+    <Section className={Styles.section7}>
       <div className={Styles.totalScreenBackgroung}>
         <h2> 
           {t('section7.title')}
         </h2>
         <ol className={clsx(Styles.aims,StylesPage.green_card)}>
-
+       
           <li >
             {t('section7.text1')}
           </li>
           <li>
-            <strong>{t('section7.text2')}</strong>
+            <strong>{t('section7.text2')}</strong> <br/>
             {t('section7.text3')}
             
           </li>
+          <div className={Styles.deerDecor}></div>
+          <div className={Styles.hojasDecor}></div>
         </ol>
       </div>
     </Section>
