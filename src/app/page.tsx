@@ -12,7 +12,7 @@ export default function Home() {
     let navigatorLanguage = window.navigator?.language?.toLocaleLowerCase();
     let foundLang = languages.find(l=>navigatorLanguage?.includes(l));
     if (foundLang) {
-      window.location.href = "/"+foundLang+"/home";
+      window.location.href = window.location.href + "/"+foundLang+"/home";
     } else  {
       window.location.href = window.location.href + "/en/home";
     }
