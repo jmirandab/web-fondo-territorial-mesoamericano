@@ -23,6 +23,8 @@ section.section8 h2 {
   height: auto;
   background-image: url(../../../public/images/transition1.svg);
   margin-top: 4em;
+  position: relative;
+    top: 2px;
 }
 
 /* 
