@@ -16,11 +16,11 @@ export default function Home() {
     console.log(">>> foundLang")
     console.log(foundLang )
     if (foundLang) {
-      console.log(window.location.href + "/"+foundLang+"/home");
-     // window.location.href = window.location.href + "/"+foundLang+"/home";
+      alert(window.location.href +foundLang+"/home");
+      window.location.href = window.location.href +foundLang+"/home";
     } else  {
-      console.log(window.location.href + "/en/home");
-     // window.location.href = window.location.href + "/en/home";
+      alert(window.location.href + "en/home");
+      window.location.href = window.location.href + "/en/home";
     }
   });
 
