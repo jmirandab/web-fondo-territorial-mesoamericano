@@ -4,7 +4,7 @@ section.section5 {
   padding-bottom: 2em;
   text-align: center;
 
-    background-image: url(../../../public/images/hojasTansp1.png);
+  background-image: url(../../../public/images/hojasTansp1.png);
   background-position: bottom -1em right -1em;
   background-size: 12em;
   background-repeat: no-repeat;
@@ -36,8 +36,8 @@ section.section5 h2 {
   padding: 0 1em;
   background-size: contain;
   display: flex;
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .green_card {
@@ -45,7 +45,8 @@ section.section5 h2 {
   background-color: #b0d673;
   border-radius: 2em;
   width: fit-content;
-    margin: auto;
+  margin: auto;
+  max-width: 100%;
 }
 
 .transversal,
@@ -86,7 +87,7 @@ section.section5 h2 {
 .transversal {
   justify-content: center;
   display: flex;
-    gap: 0.5em;
+  gap: 0.5em;
 }
 
 .transversal li {
@@ -98,7 +99,7 @@ section.section5 h2 {
   padding: 0.7em 1.2em;
   text-align: center;
   display: flex;
-    align-items: center;
+  align-items: center;
 }
 
 
