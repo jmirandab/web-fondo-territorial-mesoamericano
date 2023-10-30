@@ -14,7 +14,7 @@ export default function Home() {
     if (foundLang) {
       window.location.href = "/"+foundLang+"/home";
     } else  {
-      window.location.href = "/en/home";
+      window.location.href = window.location.href + "/en/home";
     }
   });
 
