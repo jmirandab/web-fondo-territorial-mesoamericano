@@ -11,15 +11,10 @@ export default function Home() {
     // Update the document title using the browser API
     let navigatorLanguage = window.navigator?.language?.toLocaleLowerCase();
     let foundLang = languages.find(l=>navigatorLanguage?.includes(l));
-    console.log(">>>> window.location.href" )
-    console.log(window.location.href )
-    console.log(">>> foundLang")
-    console.log(foundLang )
+
     if (foundLang) {
-      alert(window.location.href +foundLang+"/home");
       window.location.href = window.location.href +foundLang+"/home";
     } else  {
-      alert(window.location.href + "en/home");
       window.location.href = window.location.href + "/en/home";
     }
   });
