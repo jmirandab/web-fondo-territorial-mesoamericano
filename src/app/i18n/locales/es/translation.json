@@ -1,28 +1,27 @@
 {
-  "key": "Hi there!",
   "topH1": "FONDO TERRITORIAL MESOAMERICANO",
   "subH1": "de la Alianza Mesoamericana de Pueblos y Bosques",
   "to-second-page": "To second page",
   "lang":"Language",
   "menu" : {
-    "option1": "¿Quiénes somos?",
+    "option1": "Quiénes somos",
     "option2": "Qué financiamos",
     "option3": "Cómo funcionamos",
     "option4": "Socios Estratégicos",
     "submenu1_1": "Home",
-    "submenu1_2": "Who we are",
-    "submenu1_3": "AMPB Members",
-    "submenu1_4": "Rationale",
-    "submenu1_5": "What do we finance?",
-    "submenu1_6": "How we work?",
-    "submenu1_7":"Organizational Chart"
+    "submenu1_2": "Quiénes somos",
+    "submenu1_3": "Miembros de la AMPB",
+    "submenu1_4": "Razón de ser",
+    "submenu1_5": "Qué financiamos",
+    "submenu1_6": "Cómo trabajamos",
+    "submenu1_7": "Organigrama FTM"
   },
 
   "sectionLogos": {
     "title": "Strategic Partners"
   },
   "section2": {
-    "title": "Who we are",
+    "title": "Quiénes somos",
     "text1": "El Fondo Territorial Mesoamericano (FTM) es un mecanismo financiero alternativo diseñado por la Alianza Mesoamericana de Pueblos y Bosques (AMPB), por y para los Pueblos Indígenas y Comunidades Locales (PICLs)",
     "text2": "Nuestro objetivo es promover la inversión directa con enfoque de derechos, eficiente y eficaz en los territorios claves de Mesoamérica y, a su vez, garantizar costos menores de transacción y manejo de los fondos apegado a protocolos claros y rendición de cuentas."
   },
@@ -36,7 +35,7 @@
     "text1": "Ante esta situación, surge el FTM, con el objetivo de facilitar y promover la inversión territorial directa en favor de los Pueblos indígenas y Comunidades Locales (PICLs). Asimismo, el FTM busca acompañar de manera culturalmente adaptada a las organizaciones, mediante la creación y fortalecimiento de capacidades, fomentando la sostenibilidad e impactos positivos en la inversión."
   },
   "section5": {
-    "title": "¿Qué financiamos?",
+    "title": "Qué financiamos",
     "text1": "El FTM apoya iniciativas estratégicas definidas por las propias comunidades y que tienen potencial para ser replicables, escalables o de convertirse en política pública. Dentro de las diferentes ventanillas temáticas de financiación, están:",
     "bullet1": "Mitigación y adaptación al Cambio Climático.",
     "bullet2": "Conservación de biodiversidad y manejo sostenible de recursos naturales.",
@@ -72,7 +71,7 @@
     "text2": "Capitalización, diversificación de actividades y servicios del FTM."
   },
   "section9": {
-    "title": "¿Cómo trabajamos?",
+    "title": "Cómo trabajamos",
     "text1": "El FTM está gobernado por una Junta Directiva de 7 personas*, compuesta por:",
     "text2": "4 miembros de la AMPB.",
     "text3": "3 personas independientes",

@@ -5,17 +5,21 @@ section.sectionLogos {
   background-blend-mode: multiply;
   background-image: url(../../../public/images/carton1.jpeg);
 
-  background-color: var(--niceBlue);
   position: relative;
 }
 
 section.sectionLogos::before {
   position: absolute;
+  content: " ";
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  background-image: url(../../../public/images/carton1.jpeg);
+  
+  opacity: 0.7;
+  background-color: #0ea4fa;
+/* 
+  background-color: var(--niceBlue); */
 }
 
 .card {
@@ -42,8 +46,7 @@ section.sectionLogos strong {
 
   position: relative;
   margin: 0 auto;
-  max-width: 800px;
-  min-height: 338px;
+  min-height: 85vh;
   margin: 0 auto;
   background-size: contain;
 }
@@ -60,20 +63,21 @@ section.sectionLogos strong {
   gap: 1em;
   justify-content: center;
   padding: 0 1em;
+
 }
 
 .orgslist li {
   position: relative;
-  margin: 0 2em 2em;
-  display: flex;
-  padding: 1em 2em;
-  flex-direction: column;
-  max-width: 20em;
-  flex-basis: 20em;
+    margin: 0 0 2em;
+    display: flex;
+    padding: 1em 1em;
+    flex-direction: column;
+    max-width: 17em;
+    flex-basis: 17em;
 }
 
 .orgslist li a {
-  font-size: 0.9em;
+  font-size: 0.75em;
 }
 
 .logoWrap {
