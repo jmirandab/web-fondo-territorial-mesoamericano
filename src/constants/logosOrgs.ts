@@ -24,6 +24,11 @@ export default [
         file: "USAID_Horiz_Spanish_RGB_2-Color.png",
         descKey: "",
         url: "www.usaid.gov"
+    },{
+        name: "rewild",
+        file: "Re-wild_Logo_RGB_green.png",
+        descKey: "",
+        url: "www.rewild.org"
     }
 
 ]
