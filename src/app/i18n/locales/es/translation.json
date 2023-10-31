@@ -1,78 +1,150 @@
 {
-    "key": "hola hola  0000!",
-    "topH1": "FONDO TERRITORIAL MESOAMERICANO",
-    "subH1":"de la Alianza Mesoamericana de Pueblos y Bosques",
-    "to-second-page": "To second page",
-    "lang":"Idioma",
-    "menu" : {
-      "option1": "¿Quiénes somos?",
-      "option2": "Qué financiamos",
-      "option3": "Cómo funcionamos",
-      "option4": "Socios Estratégicos"
+  "key": "Hi there!",
+  "topH1": "FONDO TERRITORIAL MESOAMERICANO",
+  "subH1": "de la Alianza Mesoamericana de Pueblos y Bosques",
+  "to-second-page": "To second page",
+  "lang":"Language",
+  "menu" : {
+    "option1": "¿Quiénes somos?",
+    "option2": "Qué financiamos",
+    "option3": "Cómo funcionamos",
+    "option4": "Socios Estratégicos",
+    "submenu1_1": "Home",
+    "submenu1_2": "Who we are",
+    "submenu1_3": "AMPB Members",
+    "submenu1_4": "Rationale",
+    "submenu1_5": "What do we finance?",
+    "submenu1_6": "How we work?",
+    "submenu1_7":"Organizational Chart"
+  },
 
-    },
-    "section2": {
-      "title": "¿Quiénes somos?",
-      "text1": "El Fondo Territorial Mesoamericano (FTM) es un mecanismo financiero alternativo diseñado por la Alianza Mesoamericana de Pueblos y Bosques (AMPB), por y para los Pueblos Indígenas y Comunidades Locales (PICL).",
-      "text2": "Nuestro objetivo es promover la inversión directa basada en derechos, eficiente y efectiva en territorios mesoamericanos clave, asegurando costos de transacción más bajos y la gestión de fondos de acuerdo con protocolos claros y responsabilidad."
-    },
-    "section3": {
-      "title": "Miembros de la AMPB",
-      "text1": "El FTM centra su trabajo en Mesoamérica, colaborando estrechamente con los miembros de la AMPB y otras organizaciones de Pueblos Indígenas y Comunidades Locales (PICL)."
-    },
-    "section4": {
-      "title": "Justificación",
-      "text2": "Según un estudio realizado por la Fundación Rainforest Norway1, para 2021, menos del 1% de la financiación global para el clima ha llegado a los Pueblos Indígenas y Comunidades Locales (PICL) en el sur global en la última década.",
-      "text1": "En respuesta a esta situación, se creó el FTM con el objetivo de facilitar y promover la inversión territorial directa en favor de los Pueblos Indígenas y Comunidades Locales (PICL). Además, el FTM busca acompañar a las organizaciones de manera culturalmente adaptada, mediante la creación y el fortalecimiento de capacidades, promoviendo la sostenibilidad y los impactos positivos en la inversión."
-    },
-    "section5": {
-      "title": "¿Qué financiamos?",
-      "text1": "El FTM respalda iniciativas estratégicas definidas por las comunidades con potencial para ser replicables, escalables o convertirse en políticas públicas.",
-      "bullet1": "Mitigación y adaptación al cambio climático.",
-      "bullet2": "Conservación de la biodiversidad y manejo sostenible de los recursos naturales.",
-      "bullet3": "Gobernanza y derechos de los Pueblos Indígenas y Comunidades Locales.",
-      "bullet4": "Iniciativas sostenibles de Pueblos Indígenas y Comunidades Locales.",
-      "subTitle": "Ejes transversales",
-      "subBullet1": "Género",
-      "subBullet2": "Juventud",
-      "subBullet3": "Inclusión social"
-    },
-    "section6": {
-      "title": "Tres Instrumentos de Financiamiento por Donación se adaptan a las diferentes realidades de inversión en nuestros territorios",
-      "bullet1": "Donación pequeña",
-      "bullet2": "Donación grande",
-      "bullet3": "Donaciones ágiles de respuesta rápida",
-      "subBullet1": "(USD 10,000 a USD 50,000).",
-      "subBullet2": "(A partir de USD 51,000).",
-      "subBullet3": "para emergencias."
-    },
-    "section7": {
-      "title": "Para 2028, el FTM tiene como objetivo:",
-      "text1": "Aumentar la financiación directa a una media anual de 30 a 40 donaciones con montos a partir de USD 50,000.",
-      "text2": "Ampliar las áreas geográficas y territorios prioritarios del FTM, involucrando a más socios y aliados estratégicos y expandiendo su apoyo a otras organizaciones más allá de la membresía de la AMPB."
-    },
-    "section8": {
-      "title": "Un proceso que ya ha comenzado:",
-      "subTitle1": "CONSOLIDACIÓN",
-      "subTitle2": "ESCALAMIENTO",
-      "sub2Title1": "2023-2025",
-      "sub2Title2": "A partir de 2026",
-      "text1": "Diversificación de fuentes de financiación, consolidación del sistema de solicitud, seguimiento y evaluación de donaciones.",
-      "text2": "Capitalización, diversificación de actividades y servicios del FTM."
-    },
-    "section9": {
-      "title": "¿Cómo trabajamos?",
-      "text1": "El FTM está gobernado por un Consejo de Administración de 7 personas*, compuesto por:",
-      "text2": "4 miembros de la AMPB.",
-      "text3": "3 personas independientes",
-      "text4": "(aprobadas por el Consejo de Administración de la AMPB).",
-      "text5": "Nuestra Dirección Ejecutiva rinde cuentas al Consejo de Administración.",
-      "text6": "*Deben haber al menos 3 mujeres como miembros."
-    },
-    "section10": {
-      "title": "Iniciativas financiadas",
-      "text1": "Emprendimientos forestales impulsados por mujeres en Honduras.",
-      "text2": "Establecimiento de un jardín biointensivo comunitario en Moskitia, Honduras.",
-      "text3": "Comercialización de productos en ferias de la Red de Agricultores Agroecológicos en Texcoco, México."
-    }
+  "sectionLogos": {
+    "title": "Strategic Partners"
+  },
+  "section2": {
+    "title": "Who we are",
+    "text1": "El Fondo Territorial Mesoamericano (FTM) es un mecanismo financiero alternativo diseñado por la Alianza Mesoamericana de Pueblos y Bosques (AMPB), por y para los Pueblos Indígenas y Comunidades Locales (PICLs)",
+    "text2": "Nuestro objetivo es promover la inversión directa con enfoque de derechos, eficiente y eficaz en los territorios claves de Mesoamérica y, a su vez, garantizar costos menores de transacción y manejo de los fondos apegado a protocolos claros y rendición de cuentas."
+  },
+  "section3": {
+    "title": "Miembros de la AMPB",
+    "text1": "Nuestra cooperación se enfoca en Mesoamérica, colaborando estrechamente con la membrecía de la AMPB y otras organizaciones de Pueblos Indígenas y Comunidades Locales (PICLs)."
+  },
+  "section4": {
+    "title": "Razón de ser",
+    "text2": "Según un estudio realizado por Rainforest Foundation Norway1, en 2021, menos del 1% del financiamiento climático global ha llegado a los Pueblos Indígenas y Comunidades Locales (PICLs) del sur global durante los últimos diez años.",
+    "text1": "Ante esta situación, surge el FTM, con el objetivo de facilitar y promover la inversión territorial directa en favor de los Pueblos indígenas y Comunidades Locales (PICLs). Asimismo, el FTM busca acompañar de manera culturalmente adaptada a las organizaciones, mediante la creación y fortalecimiento de capacidades, fomentando la sostenibilidad e impactos positivos en la inversión."
+  },
+  "section5": {
+    "title": "¿Qué financiamos?",
+    "text1": "El FTM apoya iniciativas estratégicas definidas por las propias comunidades y que tienen potencial para ser replicables, escalables o de convertirse en política pública. Dentro de las diferentes ventanillas temáticas de financiación, están:",
+    "bullet1": "Mitigación y adaptación al Cambio Climático.",
+    "bullet2": "Conservación de biodiversidad y manejo sostenible de recursos naturales.",
+    "bullet3": "Gobernanza y Derechos de los Pueblos Indígenas y Comunidades Locales.",
+    "bullet4": "Emprendimientos indígenas y comunitarios sostenibles.",
+    "subTitle": "Ejes transversales",
+    "subBullet1": "Género",
+    "subBullet2": "Juventud",
+    "subBullet3": "Inclusión social"
+  },
+  "section6": {
+    "title": "Tres Instrumentos Financieros de Donativos se adecuan a las diferentes realidades de inversión en nuestros territorios:",
+    "bullet1": "Pequeño donativo a comunidades con poca experiencia administrativa ",
+    "bullet2": "Gran donativo a comunidades con más experiencia administrativa ",
+    "bullet3": "Donativos ágiles de respuesta rápida",
+    "subBullet1": "(USD 10 000 - USD 15 000).",
+    "subBullet2": "(USD 200 000 - USD 1 000 000).",
+    "subBullet3": "para emergencias."
+  },
+  "section7": {
+    "title": "Al 2028 el FTM aspira a:",
+    "text1": "ncrementar financiamiento directo a un promedio anual de 30 a 40 donativos con montos a partir de USD 50 mil.",
+    "text2": "Extender las zonas geográficas y territorios priorizados por el FTM, ",
+    "text3": "involucrando a más socios y aliados estratégicos y expandiendo su apoyo a otras organizaciones más allá de la membresía de la AMPB."
+  },
+  "section8": {
+    "title": "Un proceso que ya inició:",
+    "subTitle1": "CONSOLIDACIÓN",
+    "subTitle2": "ESCALAMIENTO",
+    "sub2Title1": "2023-2025",
+    "sub2Title2": "2026 en adelante",
+    "text1": "Diversificación de fuentes de financiamiento, consolidación del sistema de aplicación, monitoreo y evaluación de donaciones.",
+    "text2": "Capitalización, diversificación de actividades y servicios del FTM."
+  },
+  "section9": {
+    "title": "¿Cómo trabajamos?",
+    "text1": "El FTM está gobernado por una Junta Directiva de 7 personas*, compuesta por:",
+    "text2": "4 miembros de la AMPB.",
+    "text3": "3 personas independientes",
+    "text4": "(aprobadas por la Junta Directiva de la AMPB).",
+    "text5": "La Gerencia del FTM responde a la Junta Directiva.",
+    "text6": "*Al menos 3 mujeres deben integrarla."
+  },
+  "section10": {
+    "title": "Iniciativas financiadas",
+    "text1": "Emprendimiento de vivero forestal impulsado por mujeres en Honduras.",
+    "text2": "Establecimiento de huerto biointensivo comunitario en la Moskitia, Honduras.",
+    "text3": "Integrante de la Red de Agricultoras Agroecológicas en Texcoco, México, comercializando sus productos."
+  },
+  "section11": {
+    "title": "Financiamiento territorial directo:",
+    "text1": "Empoderando a los Pueblos Indígenas y Comunidades Locales, protegiendo los bosques y la biodiversidad",
+    "text2": "Menos del 1% del financiamiento climático global llega directamente a los Pueblos Indígenas y Comunidades Locales (PICLs),",
+    "text3": "a pesar de que son actores determinantes en la protección de los bosques y la biodiversidad.",
+    "text4": "Apoyar el financiamiento territorial directo es clave para fortalecer sus derechos y estrategias ancladas a territorios para combatir el cambio climático.",
+    "text5": "La Alianza Mesoamericana de Pueblos y Bosques (AMPB) gestiona el 24% de los bosques de la región que alberga el 26% del total del carbono almacenado.",
+    "text6": "En Mesoamérica, hablar de bosques y biodiversidad es hablar de derechos de los Pueblos Indígenas y Comunidades Locales."
+  },
+  "section12": {
+    "title": "Resultados",
+    "text1": "Primer ciclo de proyectos al 2022:",
+    "col1-Text1": "proyectos apoyados",
+    "col1-Text2": "paises",
+    "col1-Text3": "organizaciones de Pueblos Indígenas",
+    "col1-Text4": "organizaciones de Comunidades Locales",
+    "col1-Text5": "organización mixta: Pueblos Indígenas y Comunidades Locales",
+    "col2-Text1": "600 000 invertidos",
+    "col2-Text2": "de inversión directa en territorio",
+    "col2-Text3": "de administración, operación y acompañamiento",
+    "col2-Text4": "47 000 en inversión promedio por proyecto",
+    "col3-Text1": "personas apoyadas",
+    "col3-Text2": "mujeres apoyadas (39.7%)",
+    "col3-Text3": "men supported(60,3%)",
+    "col3-Text4": "comunidades apoyadas",
+    "col4-Text1": "auditorías realizadas",
+    "col4-Text2": "evaluación externa general del piloto"
+  },
+  "setionorganigrama" : {
+    "title": "Organigrama FTM",
+    
+    "text1": "Junta Directiva",
+    "subText1": "Gerencia", 
+    "text2": "Dirección Administración y finanzas",
+    "text3": "Dirección de proyectos",
+    "text4": "Dirección de gestión de fondos",
+    "text5": "Oficial de Finanzas",
+    "text6": "Oficial Administrativo",
+    "text7": "Oficial de Proyectos",
+    "text8": "Oficial de Monitoreo y Seguimiento",
+    "text9": "Oficial de Comunicación"
+  },
+  "SectionGovernanceLawEntrepreneurships" : {
+    "title1": "GOBERNANZA Y DERECHOS",
+    "g1SubtTitle1": "ACOFOP",
+    "g1SubtText1": "en Petén, Guatemala fue apoyado para desarrollar su proceso de incidencia y lograr la renovación de 9 concesiones forestales y el otorgamiento de dos nuevas concesiones por 25 años más, respectivamente.",
+    "g1SubtTitle2": "RIBCA",
+    "g1SubtText2": "en Costa Rica, impulsó el decreto ejecutivo del mecanismo general de consulta, un instrumento legal para que las instituciones realicen las consultas bajo el principio de consentimiento libre , previo e informado (CLPI).",
+    
+    "title2": "EMPRENDIMIENTOSS",
+    "g2SubtTitle1": "25",
+    "g2SubtText1": "emprendimientos apoyados sobre autosuficiencia alimentaria",
+    "g2SubtTitle2": "4",
+    "g2SubtText2": "emprendimientos apoyados sobre valor agregado en productos maderables",
+    "g2SubtTitle3": "6",
+    "g2SubtText3": "emprendimientos apoyados sobre turismo alternativo",
+    "g2SubtTitle4": "8",
+    "g2SubtText5": "iniciativas forestales comunitarias apoyadas"
+   
   }
+
+}
