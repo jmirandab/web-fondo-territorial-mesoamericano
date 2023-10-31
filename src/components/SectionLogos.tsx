@@ -17,7 +17,7 @@ const SectionLogos = async ({ lng }: { lng: string }) => {
       <div className={clsx(Styles.logoWrap, Styles.logoWrap + indx )}>
         <Image
           className={Styles.imgLogo}
-          src={"/images/" + org.file}
+          src={"../images/" + org.file}
           fill={true}
           alt={org.name + " logo"}          
           unoptimized={true}

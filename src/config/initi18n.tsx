@@ -1,8 +1,4 @@
 
-
-import i18next from 'i18next';
-//import LanguageDetector from 'i18next-browser-languagedetector';
-// import { universalLanguageDetect } from '@unly/universal-language-detector';
 export const defaultNS = 'translation'
 export const fallbackLng = 'en'
 export const languages = [fallbackLng, 'es', 'fr']
