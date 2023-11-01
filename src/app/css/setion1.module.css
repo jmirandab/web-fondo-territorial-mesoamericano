@@ -9,8 +9,8 @@ section.section1 {
   background-attachment: fixed;
   background-blend-mode: soft-light;
 
-  --logo-height: 9em;
-  --logo-width: 18em;
+  --logo-height: 14em;
+  --logo-width: 28em;
 
 }
 
@@ -35,7 +35,7 @@ section.section1 .titleGroup::after
   top: 3em;
   background-size: contain;
   background-repeat: no-repeat;
-  right: -5.5em;
+  right: -3.5em;
   transform: rotate(-240deg);
   z-index: -1;
   display: block;
@@ -52,7 +52,7 @@ section.section1 .titleGroup::before
   top: 2em;
   background-size: contain;
   background-repeat: no-repeat;
-  left: -5em;
+  left: -4em;
   opacity: 0.7;
   transform: scaleX(-1) rotate(131deg);
   z-index: -1;
@@ -70,12 +70,13 @@ section.section1 .titleGroup::before
 .titleGroup {
   color: white;
   filter: drop-shadow(2px 4px 6px black);
-  padding: 3em 2em 12em;
+  padding: 3em 2em 0;
   height: var(--logo-height);
   width: var(--logo-width);
   margin: 0 auto;
   text-align: center;
   position: relative;
+  max-width: 100%;
 }
 
 .titleGroup h1, .titleGroup h2 {
@@ -97,7 +98,7 @@ section.section1 .titleGroup::before
   position: relative;
   padding-bottom: 8.5em;
 }
-
+/* 
 .comunity {
   display: block;
   margin: 0 auto;
@@ -111,7 +112,7 @@ section.section1 .titleGroup::before
   background-size: 80% auto;
   filter: drop-shadow(2px 4px 6px #222);
   background-image: url(../../../public/images/comuni3.png);
-}
+} */
 
 .comunityWave {
   display: block;
@@ -197,8 +198,8 @@ a.email {
 .logo {
   position: relative;
   background-image: url(../../../public/images/logo-FTM.svg);
-  height: var(--logo-height);
-  width: var(--logo-width);
+  /* height: var(--logo-height); */
+  max-width: var(--logo-width);
 
   background-repeat: no-repeat;
   background-size: contain;
@@ -206,6 +207,8 @@ a.email {
   transform: translateX(-50%);
   background-color: var(--body-background-color);
   border-radius: 2em;
+  min-width: 100%;
+  aspect-ratio: 2/1;
 }
 
 

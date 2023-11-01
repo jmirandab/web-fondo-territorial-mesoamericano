@@ -120,6 +120,7 @@ section.section3 p {
   top: 27%;
   left: 18%;
   font-size: 14px;
+  
 }
 
 .orgs:after,
@@ -154,7 +155,7 @@ section.section3 p {
 }
 
 .org4 {
-  top: 82%;
+  top: 83%;
   left: 35%;
   white-space: nowrap;
 
@@ -198,8 +199,44 @@ section.section3 p {
   color: var(--blueOrg4);
 }
 
+.org9 {
+  top: 63%;
+    left: 21%;
+    /* white-space: nowrap; */
+    transform: translateX(-50%);
+    color: var(--blueOrg4);
+    max-width: 22em;
+  color: var(--blueOrg4);
+}
+
+.org10 {
+  top: 73%;
+  left: 23%;
+  white-space: nowrap;
+  transform: translateX(-50%);
+  color: var(--blueOrg4);
+}
+
 
 @media (min-width: 800px) {
+  .org10::after {
+    top: -2.5em;
+    right: -1em;
+    width: 3em;
+    height: 2px;
+    background-color: var(--blueOrg4);
+    transform: rotate(-45deg);
+    transform-origin: right;
+  }
+
+  .org9::after {
+    top: 50%;
+    right: -2em;
+    width: 2em;
+    height: 2px;
+    background-color: var(--blueOrg4);
+  }
+
   .org8::after {
     top: 110%;
     right: 90%;

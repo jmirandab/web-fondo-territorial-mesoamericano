@@ -1,12 +1,10 @@
 .totalScreenBackgroung {
-
   position: relative;
   margin: 0 auto;
   min-height: 338px;
   margin: 0 auto;
   background-size: contain;
 }
-
 
 .section8 {
   padding: 0;
@@ -22,13 +20,12 @@
   flex-direction: row;
   width: 100%;
   padding: 0 1em;
-  margin-top: 11em;
+  margin-top: 12em;
   justify-content: center;
   gap: 1em;
   background-image: url(../../../public/images/processGround.png);
   position: relative;
 }
-
 
 .maiz::after {
   position: absolute;
@@ -39,9 +36,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   content: " ";
-
   z-index: -1;
-
   background-image: url(../../../public/images/processSky2.svg);
 }
 
@@ -98,7 +93,6 @@
   transform: translate(-50%, 0);
 }
 
-
 .maizDecor::before,
 .maizDecor::after {
   filter: drop-shadow(2px 5px 3px rgba(6, 6, 6, 0.7));
@@ -124,10 +118,12 @@
 
 .subTitle {
   position: absolute;
-  top: -11.5em;
+  top: -12.5em;
   font-weight: bold;
   left: 50%;
   color: var(--blueOrg4);
+  background-color: var(--body-background-color);
   transform: translate(-50%, 0);
-
+  padding: 0.5em 1em;
+  border-radius: 2em;
 }
