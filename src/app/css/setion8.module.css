@@ -27,7 +27,7 @@
   position: relative;
 }
 
-.maiz::after {
+/* .maiz::after {
   position: absolute;
   width: 100%;
   aspect-ratio: 41/12;
@@ -38,6 +38,23 @@
   content: " ";
   z-index: -1;
   background-image: url(../../../public/images/processSky2.svg);
+} */
+
+.maizAlign {
+  position: relative;
+}
+
+
+.maizAlign .sky{
+  position: absolute;
+  width: 100%;
+  height: 12em;
+  bottom: 98%;
+  left: 0;
+}
+
+.maizAlign .sky img{
+  object-fit: cover;
 }
 
 .maiz li {
