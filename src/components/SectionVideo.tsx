@@ -11,9 +11,9 @@ const Section1 = async () => {
         <Section id="video"  className={Styles.sectionVideo}>
             <div  className={Styles.totalScreenBackgroung}>
 
+                <iframe className={Styles.videoWraper} width="560" height="315" src="https://www.youtube.com/embed/pxUXD5nEVX8?si=4CjKa06tzI92BXv7" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
-
-                <iframe className={Styles.videoWraper} width="560" height="315" src="https://www.youtube.com/embed/m7sPTFwCWUE?si=iu0KbJAX-_o3rQgj" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> 
+                {/* <iframe className={Styles.videoWraper} width="560" height="315" src="https://www.youtube.com/embed/m7sPTFwCWUE?si=iu0KbJAX-_o3rQgj" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>  */}
             </div>
         </Section>
     );

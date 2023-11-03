@@ -3,7 +3,7 @@ section.section9 {
   text-align: center;
   background-image: url(../../../public/images/backgreen.png), url(../../../public/images/plantwhite.png), url(../../../public/images/steps.png);
   /* background-image: url(../../../public/images/plantwhite.png); */
-  background-size: auto, 12em, 12em;
+  background-size: cover, 12em, 12em;
   background-repeat: repeat, no-repeat, no-repeat;
   background-attachment: local, fixed, local;
   background-blend-mode: soft-light;
@@ -14,11 +14,21 @@ section.section9 {
 
 }
 
+.section9 h2 {
+  color: var(--body-background-color)
+}
+
+.section9 p {
+  color: var(--blueOrg4)
+}
+
+
+
 .greenText {
   padding: 0.5em 1em;
   background-color: #4fad51;
   border-radius: 2em;
-  margin: 0 7em 0 1em;
+  margin: 0 auto 0 1em;
   width: fit-content;
   color: var(--body-background-color);
 }

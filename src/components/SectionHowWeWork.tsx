@@ -15,6 +15,11 @@ const SectionHowWeWork = async ({ lng }: { lng: string }) => {
         <h2>
           {t('section9.title')}
         </h2>
+        <p>{t('section9.pre_text1')}</p>
+
+        <p>{t('section9.pre_text2')}</p>
+
+        <p>{t('section9.pre_text3')}</p>
 
         <div className={Styles.greenText}>{t('section9.text1')}</div>
         <div className={Styles.firstRow}>

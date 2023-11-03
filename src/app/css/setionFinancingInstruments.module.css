@@ -4,7 +4,7 @@ section.sectionFinancingInstruments {
   text-align: center;
   background-image: url(../../../public/images/backgreen.png), url(../../../public/images/plantwhite.png), url(../../../public/images/steps.png);
   /* background-image: url(../../../public/images/plantwhite.png); */
-  background-size: auto, 12em, 12em ;
+  background-size: cover, 12em, 12em ;
   background-repeat: repeat, no-repeat, no-repeat;
   background-attachment: local, fixed, local;
   background-blend-mode: soft-light;
