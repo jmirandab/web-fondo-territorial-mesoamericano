@@ -3,11 +3,9 @@ section.section7 {
   min-height: min-content;
   background-color: var(--olive-background-green);
   position: relative;
-
 }
 
 .totalScreenBackgroung {
-
   position: relative;
   margin: 0 auto;
   min-height: 338px;

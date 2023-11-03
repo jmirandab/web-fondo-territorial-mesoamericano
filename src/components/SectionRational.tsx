@@ -19,8 +19,14 @@ const SectionRational = async ({ lng }: { lng: string }) => {
           <div className={Styles.card_top}>
             <div className={Styles.tucan_card}>
               <div className={Styles.scrollArea}>
+                <p>
+                  {t('section4.text1_part1')}
+                  <span>{t('section4.text1_super')}</span>
+                  {t('section4.text1_part2')}
+                </p>
                 <p>{t('section4.text2')}</p>
-                <p>{t('section4.text1')}</p>
+
+                <p className={Styles.small}>{t('section4.text3')}</p>
               </div>
             </div>
           </div>

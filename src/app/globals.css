@@ -103,7 +103,7 @@ p {
 h2 {
   text-align: center;
   font-size: var(--fontSizeL);
-  padding: 1em 2em;
+  padding: 1em 2em 0.5em;
 }
 
 /* JM Responsive*/
