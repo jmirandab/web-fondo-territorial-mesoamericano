@@ -3,30 +3,24 @@
   --border-radius: 12px;
   --font-mono: "public sans", "sans-serif"
 
-  --primary-glow: conic-gradient(
-    from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
-  );
-  --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
-  );
+    --primary-glow: conic-gradient(from 180deg at 50% 50%,
+      #16abff33 0deg,
+      #0885ff33 55deg,
+      #54d6ff33 120deg,
+      #0071ff33 160deg,
+      transparent 360deg);
+  --secondary-glow: radial-gradient(rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0));
 
   --tile-start-rgb: 239, 245, 249;
   --tile-end-rgb: 228, 232, 233;
-  --tile-border: conic-gradient(
-    #00000080,
-    #00000040,
-    #00000030,
-    #00000020,
-    #00000010,
-    #00000010,
-    #00000080
-  );
+  --tile-border: conic-gradient(#00000080,
+      #00000040,
+      #00000030,
+      #00000020,
+      #00000010,
+      #00000010,
+      #00000080);
 
   --callout-rgb: 238, 240, 241;
   --callout-border-rgb: 172, 175, 176;
@@ -48,10 +42,10 @@
   --olive-background-green2: #93c23d;
 
   --background-green1: #8bc53f;
-  --background-orange1:#f7941c;
+  --background-orange1: #f7941c;
   --orange1: #be5211;
 
-  
+
   --greenToBlue1: #7ecb29;
   --greenToBlue2: #4aaca7;
   --greenToBlue3: #50ba63;
@@ -76,8 +70,8 @@
 
   --blue-background-color: #0475b5;
 
-  --fontSizeM: 16px;
-  --fontSizeL: 30px;
+  --fontSizeM: 15px;
+  --fontSizeL: 22px;
 
 }
 
@@ -118,13 +112,14 @@ body {
   font-size: 16px;
 }
 
-@media (min-width: 800px) { 
+@media (min-width: 800px) {
   body {
     font-size: 18px;
   }
+
   :root {
-    --fontSizeM: 15px;
-    --fontSizeL: 19px;
+    --fontSizeM: 16px;
+    --fontSizeL: 30px;
   }
 
 }
