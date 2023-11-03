@@ -122,4 +122,9 @@ body {
   body {
     font-size: 18px;
   }
+  :root {
+    --fontSizeM: 15px;
+    --fontSizeL: 19px;
+  }
+
 }
