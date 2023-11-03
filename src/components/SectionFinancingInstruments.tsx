@@ -2,21 +2,22 @@ import React from 'react';
 import Section from './Section';
 
 import Styles from '../app/css/setionFinancingInstruments.module.css'
+import StylesPage from '../app/page.module.css'
 import { useTranslation } from '../app/i18n'
 
-const SectionFinancingInstruments= async ({lng}: {lng:string}) => {
+const SectionFinancingInstruments = async ({ lng }: { lng: string }) => {
 
   const { t } = await useTranslation(lng);
-  return ( <>
+  return (<>
     <Section className={Styles.sectionFinancingInstruments}>
       <div className={Styles.totalScreenBackgroung}>
-        <h2> 
+        <h2 className={StylesPage.whiteH2}>
           {t('section6.title')}
         </h2>
         <ol className={Styles.financingInstruments}>
 
           <li>
-          <strong>{t('section6.bullet1')}</strong>
+            <strong>{t('section6.bullet1')}</strong>
             <div>
               {t('section6.subBullet1')}
             </div>
@@ -28,18 +29,18 @@ const SectionFinancingInstruments= async ({lng}: {lng:string}) => {
             </div>
           </li>
           <li>
-          <strong>{t('section6.bullet3')}</strong>
+            <strong>{t('section6.bullet3')}</strong>
             <div>
               {t('section6.subBullet3')}
             </div>
           </li>
         </ol>
       </div>
-      
+
     </Section>
     <div className={Styles.wave}>
-      </div>
-    </>
+    </div>
+  </>
   );
 };
 

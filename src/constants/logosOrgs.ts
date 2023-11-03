@@ -20,7 +20,7 @@ export default [
         descKey: "",
         url: "www.rainforestfoundation.org"
     },{
-        name: "Rights + Resources",
+        name: "USAID",
         file: "USAID_Horiz_Spanish_RGB_2-Color.png",
         descKey: "",
         url: "www.usaid.gov"

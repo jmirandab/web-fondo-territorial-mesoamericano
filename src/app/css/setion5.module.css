@@ -67,13 +67,14 @@ section.section5 h2 {
 }
 
 .finance li {
-  font-size: 0.8em;
+  font-size: var(--fontSizeM);
   padding: 4.5em 0.4em 1em;
   position: relative;
   max-width: 12em;
   flex-basis: 12em;
   text-align: center;
 
+  color: var(--greenfont2);
 
 }
 

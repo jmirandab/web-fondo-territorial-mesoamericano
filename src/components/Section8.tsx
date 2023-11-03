@@ -2,6 +2,7 @@ import React from 'react';
 import Section from './Section';
 
 import Styles from '../app/css/setion8.module.css'
+import StylesPages from '../app/page.module.css'
 import { useTranslation } from '../app/i18n'
 import Image from 'next/image';
 
@@ -11,7 +12,7 @@ const Section8 = async ({ lng }: { lng: string }) => {
   return (
     <Section className={Styles.section8}>
       <div className={Styles.totalScreenBackgroung}>
-        <h2>
+        <h2 className={StylesPages.greenH2}>
           {t('section8.title')}
         </h2>
         <div className={Styles.maizAlign}>

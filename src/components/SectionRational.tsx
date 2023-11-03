@@ -1,7 +1,9 @@
 import React from 'react';
 import Section from './Section';
 import Styles from '../app/css/setionRational.module.css'
+import StylesPage from '../app/page.module.css'
 import { useTranslation } from '../app/i18n'
+import clsx from 'clsx';
 
 
 const SectionRational = async ({ lng }: { lng: string }) => {
@@ -11,7 +13,7 @@ const SectionRational = async ({ lng }: { lng: string }) => {
     <>
       <Section id='rational' className={Styles.section4}>
         <div className={Styles.totalScreenBackgroung}>
-          <h2>
+          <h2 className={StylesPage.whiteH2}>
             {t('section4.title')}
           </h2>
           <div className={Styles.card_top}>

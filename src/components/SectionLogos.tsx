@@ -2,7 +2,7 @@ import React from 'react';
 import Section from './Section';
 
 import Styles from '../app/css/sectionLogos.module.css'
-
+import StylesPage from '../app/page.module.css'
 import clsx from 'clsx';
 import { useTranslation } from '../app/i18n'
 import logosOrgs from '../constants/logosOrgs'
@@ -35,7 +35,7 @@ const SectionLogos = async ({ lng }: { lng: string }) => {
     <Section className={Styles.sectionLogos}>
 
       <div className={Styles.totalScreenBackgroung}>
-        <h2>  
+        <h2 className={StylesPage.whiteH2}>  
           {t('sectionLogos.title')}
         </h2>
         <ol className={Styles.orgslist}>

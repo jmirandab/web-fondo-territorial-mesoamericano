@@ -1,9 +1,11 @@
 {
-  "key": "Hi there!",
   "topH1": "MESOAMERICAN TERRITORIAL FUND",
   "subH1": "by the Mesoamerican Alliance of Peoples and Forests",
   "to-second-page": "To second page",
   "lang":"Language",
+  "aria": {
+    "homeLogo": "Navigate home"
+  },
   "menu" : {
     "option1": "Who we are",
     "option2": "What we fund",

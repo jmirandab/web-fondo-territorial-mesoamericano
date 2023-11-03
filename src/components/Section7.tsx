@@ -12,7 +12,7 @@ const Section7= async ({lng}: {lng:string}) => {
   return (
     <Section className={Styles.section7}>
       <div className={Styles.totalScreenBackgroung}>
-        <h2> 
+        <h2 className={StylesPage.greenH2}> 
           {t('section7.title')}
         </h2>
         <ol className={clsx(Styles.aims,StylesPage.green_card)}>

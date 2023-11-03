@@ -2,6 +2,7 @@ import React from 'react';
 import Section from './Section';
 
 import Styles from '../app/css/setionorganigrama.module.css'
+import StylesPage from '../app/page.module.css'
 import clsx from 'clsx';
 import { useTranslation } from '../app/i18n'
 
@@ -11,7 +12,7 @@ const SectionOrganigrama = async ({ lng }: { lng: string }) => {
   return (
     <Section className={Styles.setionorganigrama} id={"FTM-Organizational-Chart"}>
       <div className={Styles.totalScreenBackgroung}>
-        <h2>
+        <h2 className={StylesPage.whiteH2}>
           {t('setionorganigrama.title')}
         </h2>
 

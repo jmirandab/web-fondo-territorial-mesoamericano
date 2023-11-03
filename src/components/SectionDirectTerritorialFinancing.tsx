@@ -12,7 +12,7 @@ const SetionDirectTerritorialFinancing= async ({lng}: {lng:string}) => {
   return (
     <Section className={Styles.SetionDirectTerritorialFinancing} >
       <div className={Styles.totalScreenBackgroung}>
-        <h2>
+        <h2 className={StylesPage.greenH2}>
           {t('section11.title')}
         </h2>
 

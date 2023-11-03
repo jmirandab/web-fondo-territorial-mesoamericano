@@ -2,6 +2,7 @@ import React from 'react';
 import Section from './Section';
 
 import Styles from '../app/css/setionFinancedInitiatives.module.css'
+import StylesPages from '../app/page.module.css'
 import StylesPage from '../app/page.module.css'
 import { useTranslation } from '../app/i18n'
 import clsx from 'clsx';
@@ -13,7 +14,7 @@ const SectionFinancedInitiatives = async ({ lng }: { lng: string }) => {
     <Section className={Styles.section6}>
       <div className={Styles.totalScreenBackgroung}>
 
-        <h2>
+        <h2 className={StylesPages.greenH2}>
           {t('section10.title')}
         </h2>
 

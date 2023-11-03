@@ -31,9 +31,6 @@ section.sectionLogos::before {
 
 section.sectionLogos h2 {
   padding: 1em;
-  color: white;
-  font-size: 2em;
-  filter: drop-shadow(2px 4px 6px #222);
 }
 
 section.sectionLogos strong {

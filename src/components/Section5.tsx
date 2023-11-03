@@ -3,7 +3,7 @@ import Section from './Section';
 
 import Styles from '../app/css/setion5.module.css';
 import StylesPage from '../app/page.module.css'
-import clsx from 'clsx';
+
 import { useTranslation } from '../app/i18n'
 
 const Section5= async ({lng}: {lng:string}) => {
@@ -12,7 +12,7 @@ const Section5= async ({lng}: {lng:string}) => {
   return (
     <Section id="whatdowefinance" className={Styles.section5}>
       <div className={Styles.totalScreenBackgroung}>
-        <h2>{t('section5.title')}</h2>
+        <h2 className={StylesPage.greenH2}>{t('section5.title')}</h2>
         
         <p>{t('section5.text1')}</p>
         

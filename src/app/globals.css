@@ -1,9 +1,7 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: "public sans", "sans-serif"
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -38,6 +36,8 @@
   /** new **/
 
 
+
+
   --responsive-media-min-width: 800px;
   --menu-mobile-height: 60px;
   --menu-desktop-height: 144px;
@@ -62,6 +62,9 @@
   --blueOrg3: #2a5292;
   --blueOrg4: #293473;
 
+  --greenfont1: #2fa09d;
+  --greenfont2: #185f2b;
+
   --niceBlue: #0475b5;
 
   --orange2: #cf5928;
@@ -72,6 +75,9 @@
 
 
   --blue-background-color: #0475b5;
+
+  --fontSizeM: 16px;
+  --fontSizeL: 30px;
 
 }
 
@@ -102,6 +108,7 @@ p {
 
 h2 {
   text-align: center;
+  font-size: var(--fontSizeL);
   padding: 1em 2em;
 }
 

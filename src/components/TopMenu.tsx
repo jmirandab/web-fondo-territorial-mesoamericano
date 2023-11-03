@@ -103,7 +103,7 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
 
   return (
     <header className={clsx(Styles.allignTop, isSmall && Styles.smallMenu)}>
-      <Link href={`/${lng}/home`}>
+      <Link aria-label={t('aria.homeLogo')} href={`/${lng}/home`}>
         <span className={Styles.logo}>
         </span>
       </Link>

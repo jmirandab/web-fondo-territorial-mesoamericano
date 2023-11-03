@@ -2,6 +2,7 @@ import React from 'react';
 import Section from './Section';
 
 import Styles from '../app/css/sectionHowWeWork.module.css'
+import StylesPage from '../app/page.module.css'
 import { useTranslation } from '../app/i18n'
 import clsx from 'clsx'
 const SectionHowWeWork = async ({ lng }: { lng: string }) => {
@@ -12,7 +13,7 @@ const SectionHowWeWork = async ({ lng }: { lng: string }) => {
       <div className={Styles.wave}></div>
 
       <div className={Styles.totalScreenBackgroung}>
-        <h2>
+        <h2 className={StylesPage.whiteH2}>
           {t('section9.title')}
         </h2>
         <p>{t('section9.pre_text1')}</p>
