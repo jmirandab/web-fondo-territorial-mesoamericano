@@ -15,12 +15,6 @@ section.sectionFinancingInstruments {
 section.sectionFinancingInstruments h2{
   padding: 1.5em;
 }
-/* 
-section.section6 p{
-  margin-left: 50%;
-  font-size: 0.75em;
-  padding: 0 1em;
-} */
 
 .totalScreenBackgroung {
 
@@ -40,6 +34,7 @@ section.section6 p{
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 0 auto;
+  font-size: var(--fontSizeM);
 }
 
 .financingInstruments li {

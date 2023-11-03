@@ -55,7 +55,7 @@ section.section5 h2 {
 }
 
 .finance {
-  padding: 1em 0 1em;
+  padding: 1em 0 0.4em;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }

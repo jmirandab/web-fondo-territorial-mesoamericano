@@ -15,11 +15,7 @@ const SetionDirectTerritorialFinancing= async ({lng}: {lng:string}) => {
         <h2 className={StylesPage.greenH2}>
           {t('section11.title')}
         </h2>
-
-    
-          <div>{t('section11.text1')}</div>
-
-
+          <div className={Styles.subHead}>{t('section11.text1')}</div>
           <div className={clsx(StylesPage.green_card, Styles.firstList)}>
             <strong>{t('section11.text2')}</strong>
             <span>{t('section11.text3')}</span>

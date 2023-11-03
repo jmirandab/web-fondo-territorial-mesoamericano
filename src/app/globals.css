@@ -70,8 +70,8 @@
 
   --blue-background-color: #0475b5;
 
-  --fontSizeM: 15px;
-  --fontSizeL: 22px;
+  --fontSizeM: 16px;
+  --fontSizeL: 24px;
 
 }
 
@@ -109,16 +109,16 @@ h2 {
 /* JM Responsive*/
 
 body {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 @media (min-width: 800px) {
   body {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   :root {
-    --fontSizeM: 16px;
+    --fontSizeM: 18px;
     --fontSizeL: 30px;
   }
 

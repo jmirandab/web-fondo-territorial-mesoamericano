@@ -9,11 +9,15 @@ section.SetionDirectTerritorialFinancing {
   background-attachment: fixed;
   background-blend-mode: soft-light;
   padding-bottom: 0;
-
 }
 
 section.section8 h2 {
   padding: 1.5em;
+}
+
+.subHead {
+  font-size: var(--fontSizeM);
+  color: var(----greenfont1)
 }
 
 .sectionTransition {
@@ -27,13 +31,6 @@ section.section8 h2 {
     top: 2px;
 }
 
-/* 
-section.section6 p{
-  margin-left: 50%;
-  font-size: 0.75em;
-  padding: 0 1em;
-} */
-
 .totalScreenBackgroung {
 
   position: relative;
@@ -41,7 +38,7 @@ section.section6 p{
   /* min-height: 70vh; */
   max-width: 800px;
   min-height: 338px;
-  margin: 0 auto;
+  margin: 1em auto;
   background-size: contain;
 }
 
@@ -63,13 +60,13 @@ section.section6 p{
 }
 
 .firstList {
-  margin: 2em 1em;
+  margin: 2em 0;
   padding: 2em 1em;
   background-color: var(--background-green1);
 }
 
 .secundList {
-  margin: 1em 1em 0 5em;
+  margin: 1em 0 0 5em;
   padding: 2em 1em;
   background-color: var(--background-orange1);
 }

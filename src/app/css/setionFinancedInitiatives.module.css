@@ -5,15 +5,10 @@ section.section6 {
 
   background-image: url(../../../public/images/croc.png), url(../../../public/images/hojasTansp1.png);
   background-size: auto 14em, 12em;
-  ;
   background-position: left -7.5em bottom -2em, bottom -1em right -1em;
   background-repeat: no-repeat;
   background-attachment: local, fixed;
   position: relative;
-
-
-
-
 }
 
 .layerBackGround {
@@ -26,13 +21,9 @@ section.section6 {
   z-index: 1;
 }
 
-
-/* 
-section.section6 p{
-  margin-left: 50%;
-  font-size: 0.75em;
-  padding: 0 1em;
-} */
+.initiative {
+  font-size: var(--fontSizeM);
+}
 
 .totalScreenBackgroung {
 
@@ -58,7 +49,6 @@ section.section6 p{
   padding-left: 2em;
   min-height: 6em;
   position: relative;
-  font-size: 1.2em;
   background-color: var(--olive-green);
 }
 

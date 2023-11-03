@@ -13,10 +13,13 @@ const SectionResults = async ({ lng }: { lng: string }) => {
       <Section className={Styles.section12} >
       
         <div className={Styles.totalScreenBackgroung}>
-          <h2>
-            {t('section12.title')}
-          </h2>
-          {t('section12.text1')}
+        <div >
+          <div className={Styles.header}>
+            <h2>
+              {t('section12.title')}
+            </h2>
+            <span>{t('section12.text1')}</span>
+          </div>
 
           <ol className={Styles.firstRow}>
             <li>
@@ -53,7 +56,7 @@ const SectionResults = async ({ lng }: { lng: string }) => {
           </ol>
 
 
-
+          </div>
 
         </div>
         <div className={Styles.bottomLeftLeaves}></div>
