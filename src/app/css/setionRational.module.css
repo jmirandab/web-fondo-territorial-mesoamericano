@@ -54,7 +54,6 @@ section.section4 h2 {
 
 .tucan_card .scrollArea {
   height: 100%;
-  overflow: auto;
   font-size: var(--fontSizeM);
 }
 
@@ -76,7 +75,7 @@ section.section4 h2 {
   display: block;
   top: 6em;
   left: 0;
-  transform: translate(-15%, 0);
+  transform: translate(-50%, 0);
   background-repeat: no-repeat;
   background-position: left center;
   background-image: url(../../../public/images/hojas5.png);
