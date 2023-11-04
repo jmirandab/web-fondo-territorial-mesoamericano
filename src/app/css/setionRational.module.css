@@ -63,8 +63,12 @@ section.section4 h2 {
   position: relative;
 }
 
-.tucan_card p span {
+.tucan_card span.super {
   vertical-align: super;
+}
+
+.tucan_card span.green {
+  color: var(--greenfont3);
 }
 
 .tucan_card::before {
