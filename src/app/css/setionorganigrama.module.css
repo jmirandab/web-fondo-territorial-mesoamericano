@@ -116,7 +116,7 @@ section.setionorganigrama {
 
 .directTop {
   display: flex;
-  font-size: 14px;
+  font-size: 0.8em;
   gap: 0.5em;
   justify-content: space-around;
   position: relative;
@@ -139,7 +139,7 @@ section.setionorganigrama {
   padding-top: 2.4em;
   position: relative;
   transform: translate(25%, 0);
-  font-size: 13px;
+  font-size: 0.9em;
 }
 
 .officers:after {
