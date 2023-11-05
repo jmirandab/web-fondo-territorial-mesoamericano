@@ -87,20 +87,20 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
     },
   ]
 
-  const SubMenuOptions = (subItems: { href: string, text: string }[]) => subItems.map((item) => <li className={Styles.subMenuItem} key={item.href}>
+  const SubMenuOptions = (subItems: { href: string, text: string }[]) => subItems.map((item) => <li className={Styles.subMenuItem} key={item?.href}>
     <Link href={item.href} onClick={menuOff}>
       {item.text}
 
     </Link>
   </li>)
 
-  const menuOptions = menuItems.map((item) => <li className={Styles.menuItem} key={item.href}>
-    <Link href={item.href} onClick={menuOff}>
-      {item.text}
+  const menuOptions = menuItems.map((item) => <li className={Styles.menuItem} key={item?.href}>
+    <Link href={item?.href || "#"} onClick={menuOff}>
+      {item?.text}
       <FontAwesomeIcon className={Styles.chevrionIcon} icon={faChevronLeft} />
     </Link>
-    {item.subItems && <ol className={Styles.subItems}>
-      {SubMenuOptions(item.subItems)}
+    {item?.subItems && <ol className={Styles.subItems}>
+      {SubMenuOptions(item?.subItems)}
     </ol>}
   </li>)
 
