@@ -12,7 +12,7 @@
   "menu" : {
     "option1": "Who we are",
     "option2": "What we fund",
-    "option3": "How we operate",
+    "option3": "Board of Directors",
     "option4": "Strategic Partners",
     "submenu1_1": "Home",
     "submenu1_2": "Who we are",
@@ -171,7 +171,26 @@
     "g2SubtText3": "enterprises supported on alternative tourism",
     "g2SubtTitle4": "8",
     "g2SubtText5": "community forestry initiatives supported."
+  },
+  "sectionBoard": {
+    "title": "Board of Directors",
+    "JeffreyCampbell_Name": "Jeffrey Campbell",
+    "JeffreyCampbell_Desc1": "Currently retired in the US after over thirty years of experience in the empowerment of communities in landscapes. Work experience in the United Nations (FAO) as Manager, The Forest and Farm Facility, philanthropy (The Christensen Fund, Ford Foundation), bilateral assistance (AAAS/USAID), university extension (University of Connecticut) consulting (Winrock International, FAO), advisor/board member (PROFOR, RECOFTC, NFP Facility..). ",
+    "JeffreyCampbell_Desc2": "Focused on Forest and Farm Producer Organizations, Community Forestry, Forest Policy, Biocultural diversity and Food Sovereignty, Indigenous Peoples Empowerment, Landscape-based Rural Livelihoods, Sustainable Development and Resilience and Adaptation to Climate Change.",
+    "JeffreyCampbell_Desc3": "Also publish poetry, perform and record music as jhaffur khan azad darakth, co-founder and composer with Orchestra naiF. ",
+    "JeffreyCampbell_Desc4": " Born and raised in India, husband, father and grand-father.",
    
+    "SusanKandel_Name": "Susan Kandel",
+    "SusanKandel_Desc1": "Susan Kandel is the Deputy Director and a senior researcher of PRISMA. ",
+    "SusanKandel_Desc2": "She holds a B.A in Sociology, a M.A. in Regional and International Development from the University of California, Los Angeles (UCLA), and post-graduate studies in both Sustainable Resource Development from UC Berkeley, as well as in International Human Rights from the International Institute of Human Rights in France. ",
+    "SusanKandel_Desc3": "Ms. Kandel’s areas of expertise include: Territorial governance and rural development; Climate Change and adaptation based mitigation; Migration, development and natural resource management; among other relevant topics. Before working at PRISMA, Ms. Kandel was the Director of the Human Rights Department of a Central American Refugee Center located in Los Angeles and Project Coordinator of the Index to Accountability, which directly informed the work of the UN-mandated Ad Hoc and Truth Commissions of El Salvador as part of the Peace Accords process.",
+    
+    "KirsiChavda_Name": "Kirsi Chavda",
+    "KirsiChavda_Desc1": "Kirsi Chavda is a programme coordinator at Siemenpuu Foundation, where she has supported Civil Society Organisations (CSOs) in several African, Asian and Latin American countries in varied environmental themes, including community-based forest conservation and sustainable use, as well as food sovereignty.",
+    "KirsiChavda_Desc2": "Currently Ms. Chavda manages Siemenpuu’s programme on Feminist Agroecology and Community Forests with partners in Liberia and Mozambique. ",
+    "KirsiChavda_Desc3": "Ms. Chavda has experience in the field of development cooperation from varied angles. At the UN Population Fund, UNFPA, she focused on sexual and reproductive health and rights themes in Honduras for two years. ",
+    "KirsiChavda_Desc4": "At the Finnish CSO Kepa’s country office in Nicaragua, she contributed to the strengthening of the civil society, awareness on the impacts of extractive industries and territorial governance in Mesoamerica for three years. ",
+    "KirsiChavda_Desc5": "Ms. Chavda holds a MSSc. in both Social Policy and Social Work from the Universities of Eastern Finland and Jyväskylä."
   }
 
 }

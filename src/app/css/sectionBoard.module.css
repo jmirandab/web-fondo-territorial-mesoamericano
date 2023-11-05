@@ -1,0 +1,148 @@
+section.sectionBoard {
+  outline: none;
+  min-height: min-content;
+  text-align: center;
+  background-blend-mode: multiply;
+  background-image: url(../../../public/images/blue_backg.png);
+
+  position: relative;
+}
+
+.baordList img {
+  width: 10em;
+  height: 10em;
+}
+
+section.sectionBoard h2 {
+  padding: 1em;
+}
+
+section.sectionBoard h3 {
+  color: var(--body-background-color);
+    filter: drop-shadow(0 2px 2px #222);
+}
+
+.totalScreenBackgroung {
+
+  position: relative;
+  margin: 0 auto;
+  min-height: 85vh;
+  margin: 0 auto;
+  background-size: contain;
+}
+
+.baordList {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 5em;
+  z-index: 3;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  padding: 0 1em;
+
+}
+
+.baordList li {
+  position: relative;
+  margin: 0 0 2em;
+  display: flex;
+  padding: 1em 1em;
+  flex-direction: column;
+  max-width: 24em;
+  flex-basis: 24em;
+  background-image: url(../../../public/images/backgreen.png);
+  border-radius: 2em;
+}
+
+.baordList li a {
+  font-size: 0.75em;
+}
+
+
+.jeffrey .imgWrap {
+  aspect-ratio: 419/559;
+}
+
+.susan .imgWrap {
+  aspect-ratio: 2/3;
+}
+
+.Kirse .imgWrap {
+  aspect-ratio: 4/3;
+}
+
+.imgWrap2 {
+  min-width: 70%;
+  background-position: center;
+  background-size: cover;
+  aspect-ratio: 2/3;
+  border-radius: 2em;
+  border: 4px solid var(--olive-green);
+  margin: 0.5em auto;
+}
+
+.jeffrey .imgWrap2 {
+  background-image: url(../../../public/images/jeffrey_photo.jpeg);
+}
+
+.susan .imgWrap2 {
+
+  background-image: url(../../../public/images/SUSAN_KANDEL_foto.png);
+}
+
+.Kirse .imgWrap2 {
+  background-image: url(../../../public/images/KC_foto.png);
+}
+
+/* 
+.baordList li:nth-child(2)::before {
+  content: " ";
+  position: absolute;
+  height: 40%;
+  width: 5em;
+  display: block;
+  top: -0.5em;
+  left: 1em;
+  transform: rotate(45deg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-image: url(../../../public/images/hojas5.png);
+  background-size: contain;
+  z-index: 1;
+} */
+/* 
+.baordList li:nth-child(3)::before {
+  content: " ";
+  position: absolute;
+  height: 6em;
+  width: 6em;
+  display: block;
+  bottom: 0em;
+  right: -4em;
+  transform: rotate(100deg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-image: url(../../../public/images/hojas11.png);
+  background-size: contain;
+  z-index: -1;
+} */
+/* 
+.baordList li:nth-child(3)::after {
+  content: " ";
+  position: absolute;
+  height: 5em;
+  width: 5em;
+  display: block;
+  bottom: 0em;
+  right: -1.5em;
+  transform: rotate(310deg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-image: url(../../../public/images/hojas9.png);
+  background-size: contain;
+  z-index: 1;
+} */

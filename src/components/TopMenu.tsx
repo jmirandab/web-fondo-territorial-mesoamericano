@@ -72,6 +72,11 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
       text: t("menu.option2"),
 
     },
+    , {
+      href: `/${lng}/board`,
+      text: t("menu.option3"),
+
+    },
     // {
     //   href: `/${lng}/how-we-operate`,
     //   text: t("menu.option3")
