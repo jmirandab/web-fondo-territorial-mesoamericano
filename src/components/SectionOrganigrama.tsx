@@ -31,24 +31,26 @@ const SectionOrganigrama = async ({ lng }: { lng: string }) => {
               </div>
               <div className={Styles.firstImg}>
                 <Image
-                  src={"/images/AMPB_logo.png"}
+                  src={"../images/AMPB_logo.png"}
                   fill={true}
                   alt={"aria.imgAMPBLogo"}
                   lang="es"
+                  unoptimized={true}
                 />
               </div>
               <div className={Styles.secImg}>
                 <Image
-                  src={"/images/coordinadmujereslogo.png"}
+                  src={"../images/coordinadmujereslogo.png"}
                   fill={true}
                   alt={"aria.imgEMDLLogo"}
                   lang="es"
+                  unoptimized={true}
                 />
               </div>
               <div className={Styles.lastImg}>
                 <Image
-                  
-                  src={"/images/escuela_meso_logo.png"}
+                  unoptimized={true}
+                  src={"../images/escuela_meso_logo.png"}
                   fill={true}
                   alt={"aria.imgCMLTMLogo"}
                   lang="es"
