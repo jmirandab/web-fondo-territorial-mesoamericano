@@ -2,7 +2,6 @@ section.setionorganigrama {
   min-height: min-content;
   text-align: center;
   background-image: url(../../../public/images/backgreen.png), url(../../../public/images/plantwhite.png), url(../../../public/images/steps.png);
-  /* background-image: url(../../../public/images/plantwhite.png); */
   background-size: cover, 12em, 12em;
   background-repeat: repeat, no-repeat, no-repeat;
   background-attachment: local, fixed, local;
@@ -10,11 +9,59 @@ section.setionorganigrama {
   background-position: center, bottom left, top 2em right 2em;
 }
 
+.gridTop {
+  display: grid;
+
+  position: relative;
+  z-index: 2;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    'sectec b1 n'
+    'sectec b2 n'
+    'd1 d1 d1';
+}
+
+.secretariaTecnica {
+  position: relative;
+  grid-area: sectec;
+  width: 100%;
+}
+
+.secretariaTecnicaImgWrap {
+  padding: 0 1em;
+}
+
+.secretariaTecnicaImgWrap div {
+  width: 100%;
+  margin-bottom: 0.5em;
+  position: relative;
+  background-color: var(--body-background-color);
+
+  border: 6px solid var(--body-background-color);
+
+}
+
+.secretariaTecnica img {
+  max-width: 100%;
+  background-color: var(--body-background-color);
+}
+
+.firstImg {
+  aspect-ratio: 207/91;
+}
+
+.secImg {
+  aspect-ratio: 159/77;
+}
+
+.secretariaTecnica .lastImg {
+  margin-bottom: 0;
+  aspect-ratio: 270/113;
+}
 
 .totalScreenBackgroung {
   position: relative;
   margin: 0 auto;
-  /* min-height: 70vh; */
   max-width: 800px;
   min-height: 338px;
   margin: 0 auto;
@@ -32,36 +79,67 @@ section.setionorganigrama {
   margin: 0.5em auto;
   width: fit-content;
   color: var(--body-background-color);
+  height: fit-content;
 }
 
 .bubble.directTitle {
   background-color: var(--blueOrg2);
-  margin: 0.5em auto 0.5em 0;
+  margin: 0.5em auto;
+  z-index: 2;
+  position: relative;
 }
 
 .bubble.management {
   background-color: var(--blueOrg3);
+  grid-area: b2;
+  align-self: center;
+  font-size: 18px;
+}
+
+.bubble.management:after {
+  content: " ";
+  position: absolute;
+  height: 3px;
+  width: 33%;
+  left: 17%;
+  z-index: -1;
+  transform: translate(0, 50%);
+  border-bottom: 5px dashed var(--body-background-color);
 }
 
 .bubble.board {
   background-color: var(--blueOrg4);
+  grid-area: b1;
+  align-self: end;
+  font-size: 18px;
 }
 
 .directTop {
   display: flex;
-  font-size: 0.7em;
+  font-size: 14px;
   gap: 0.5em;
-  overflow-wrap: anywhere;
   justify-content: space-around;
   position: relative;
   z-index: 1;
+  grid-area: d1;
+  padding: 0 1em;
+}
+
+.directTop>div {
+  max-width: 33%;
+}
+
+.directTop>div:first-child {
+  z-index: 2;
 }
 
 .officers {
-  font-size: 0.9em;
   padding-left: var(--organig-left-lines-size);
   padding-right: 1em;
+  padding-top: 2.4em;
   position: relative;
+  transform: translate(25%, 0);
+  font-size: 13px;
 }
 
 .officers:after {
@@ -148,9 +226,44 @@ section.section7 h2 {
   background-image: url(../../../public/images/map2.png);
 }
 
+
+.firstDecor {
+  border-radius: 80% 80% 0px 0px / 20px 20px 0px 0px;
+  padding-top: 7px;
+  font-size: 14px;
+  color: var(--blueOrg4);
+  margin-bottom: 0 !important;
+}
+
+.lastDecor {
+  background-color: var(--body-background-color);
+  height: 15px;
+  border-radius: 0px 0px 80% 80% / 0px 0px 20px 20px;
+  border-bottom: 5px solid var(--body-background-color);
+
+}
+
 @media (min-width: 800px) {
   .directTop {
     display: flex;
-    font-size: 0.9em;
+  }
+
+  .gridTop {
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+      'sectec b1'
+      'sectec b2'
+      'sectec d1';
+  }
+
+
+  .bubble.management:after {
+    width: 50%;
+    left: 12%;
+  }
+
+  .officers,
+  .directTop {
+    font-size: 15px;
   }
 }

@@ -3,7 +3,10 @@
   "subH1": "de la Alianza Mesoamericana de Pueblos y Bosques",
   "lang":"Language",
   "aria": {
-    "homeLogo": "Ir al inicio"
+    "homeLogo": "Ir al inicio",
+    "imgAMPBLogo": "Alianza Mesoamericana de Pueblos y Bosques",
+    "imgEMDLLogo": "Escuela Mesoamericana de Liderazgo",
+    "imgCMLTMLogo": "Coordinadora de Mujeres Líderes Territoriales de Mesoamérica"
   },
   "menu" : {
     "option1": "Quiénes somos",
@@ -51,8 +54,9 @@
     "text2_part3": " con el objetivo de facilitar y promover la inversión territorial directa en favor de los Pueblos indígenas y Comunidades Locales (PICLs).",
     "text3_part1": "Asimismo, el FTM busca acompañar de manera culturalmente adaptada a las organizaciones, mediante la ",
     "text3_part2": "creación y fortalecimiento de capacidades, fomentando la sostenibilidad e impactos positivos en la inversión.",
-    
-    "text4": "1. 2021. Rainforest Foundation Norway. Falling Short: Donor funding for Indigenous Peoples and local communities to secure tenure rights and manage forests in tropical countries  (2011–2020)."
+    "text4_part1": "1.",
+    "text4_part2": " 2021. Rainforest Foundation Norway. Falling Short: Donor funding for Indigenous Peoples and local communities to secure tenure rights and manage forests in tropical countries  (2011–2020)."
+  
   },
   "section5": {
     "title": "Qué financiamos",
@@ -138,7 +142,7 @@
   },
   "setionorganigrama" : {
     "title": "Organigrama FTM",
-    
+    "testaside": "Secretaría Técnica de la",
     "text1": "Junta Directiva",
     "subText1": "Gerencia", 
     "text2": "Dirección Administración y finanzas",

@@ -34,7 +34,10 @@ const SectionRational = async ({ lng }: { lng: string }) => {
                   <span className={Styles.green}>{t('section4.text3_part2')}</span>
                 </p>
 
-                <p className={Styles.small}>{t('section4.text4')}</p>
+                <p className={Styles.small}>
+                  <span className={Styles.green}>{t('section4.text4_part1')}</span>
+                  {t('section4.text4_part2')}
+                </p>
               </div>
             </div>
           </div>

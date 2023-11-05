@@ -65,6 +65,7 @@ section.section4 h2 {
 
 .tucan_card span.super {
   vertical-align: super;
+  color: var(--greenfont3);
 }
 
 .tucan_card span.green {

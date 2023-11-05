@@ -5,6 +5,7 @@ import Styles from '../app/css/setionorganigrama.module.css'
 import StylesPage from '../app/page.module.css'
 import clsx from 'clsx';
 import { useTranslation } from '../app/i18n'
+import Image from 'next/image';
 
 const SectionOrganigrama = async ({ lng }: { lng: string }) => {
 
@@ -16,12 +17,46 @@ const SectionOrganigrama = async ({ lng }: { lng: string }) => {
           {t('setionorganigrama.title')}
         </h2>
 
-        <div>
+        <div className={Styles.gridTop}>
           <div className={clsx(Styles.board, Styles.bubble)}>
             {t('setionorganigrama.text1')}
           </div>
           <div className={clsx(Styles.management, Styles.bubble)}>
             {t('setionorganigrama.subText1')}
+          </div>
+          <div className={Styles.secretariaTecnica}>
+            <div className={Styles.secretariaTecnicaImgWrap}>
+              <div className={Styles.firstDecor}>
+                {t('setionorganigrama.testaside')}
+              </div>
+              <div className={Styles.firstImg}>
+                <Image
+                  src={"/images/AMPB_logo.png"}
+                  fill={true}
+                  alt={"aria.imgAMPBLogo"}
+                  lang="es"
+                />
+              </div>
+              <div className={Styles.secImg}>
+                <Image
+                  src={"/images/coordinadmujereslogo.png"}
+                  fill={true}
+                  alt={"aria.imgEMDLLogo"}
+                  lang="es"
+                />
+              </div>
+              <div className={Styles.lastImg}>
+                <Image
+                  
+                  src={"/images/escuela_meso_logo.png"}
+                  fill={true}
+                  alt={"aria.imgCMLTMLogo"}
+                  lang="es"
+                />
+              </div >
+
+              <div className={Styles.lastDecor}></div>
+            </div>
           </div>
           <div className={Styles.directTop}>
             <div>
