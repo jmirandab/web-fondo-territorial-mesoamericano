@@ -116,7 +116,7 @@ section.setionorganigrama {
 
 .directTop {
   display: flex;
-  font-size: 0.8em;
+  font-size: 0.7em;
   gap: 0.5em;
   justify-content: space-around;
   position: relative;
