@@ -10,17 +10,14 @@ const SetionAMPBMembers = async ({ lng }: { lng: string }) => {
 
   const { t } = await useTranslation(lng);
 
-
-
-
   return (
     <Section id="AMPBMembers" className={Styles.section3}>
-
-      <div className={Styles.totalScreenBackgroung}>
-        <h2>
+      <h2>
           {t('section3.title')}
-        </h2>
-        <p className={Styles.mapText}>{t('section3.text1')}</p>
+      </h2>
+      <div className={Styles.totalScreenBackgroung}>
+        
+        <p className={Styles.mapTextDesktop}>{t('section3.text1')}</p>
         <div className={Styles.personitas}></div>
         <div className={clsx(Styles.personitas, Styles.personitas2)}></div>
         <div className={clsx(Styles.personitas, Styles.personitas3)}></div>
@@ -73,7 +70,7 @@ const SetionAMPBMembers = async ({ lng }: { lng: string }) => {
         </div>
 
       </div>
-
+      <p className={Styles.mapTextMobile}>{t('section3.text1')}</p>
     </Section>
   );
 };

@@ -14,7 +14,7 @@ section.sectionBoard {
 }
 
 section.sectionBoard h2 {
-  padding: 1em;
+  padding: 2em 0 1em;
 }
 
 section.sectionBoard h3 {
@@ -50,10 +50,11 @@ section.sectionBoard h3 {
   position: relative;
   margin: 0 0 2em;
   display: flex;
-  padding: 1em 1em;
+  padding: 1em 1em 2.5em;
   flex-direction: column;
-  max-width: 24em;
-  flex-basis: 24em;
+  max-width: 20em;
+  flex-basis: 20em;
+  z-index: 0;
   background-image: url(../../../public/images/backgreen.png);
   border-radius: 2em;
 }
@@ -146,3 +147,44 @@ section.sectionBoard h3 {
   background-size: contain;
   z-index: 1;
 } */
+
+
+.hojaDecor {
+  position: absolute;
+    aspect-ratio: 238/165;
+    height: 5em;
+    bottom: 0;
+    left: -3em;
+    z-index: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+  background-image: url(../../../public/images/hoja1.png);
+}
+
+.hojasDecor {
+  position: absolute;
+  aspect-ratio: 238/165;
+
+  height: 5em;
+  bottom: -0.6em;
+  right: -3em;
+  z-index: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/images/hojas14.png);
+
+}
+
+
+.stepsDecor {
+  position: absolute;
+  aspect-ratio: 238/165;
+  height: 8em;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/images/steps.png);
+
+}

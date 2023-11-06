@@ -3,42 +3,38 @@ section.section3 {
   min-height: min-content;
   text-align: center;
   color: white;
-
+  padding: 0 3em;
+  position: relative;
   background-blend-mode: multiply;
   background-image: url(../../../public/images/carton2.png);
 }
 
 section.section3 h2 {
-  padding: 0.5em 1em;
-  position: absolute;
-  font-size: 0.8em;
-  background-color: #26326f;
   border-radius: 2em;
   padding: 0.5em 1em;
-  position: absolute;
-  background-color: #26326f;
+  background-color: var(--greenfont2);
   border-radius: 3em;
-  top: 4%;
-  left: 50%;
-  transform: translate(-50%, 0);
+  width: fit-content;
+  margin: 1em auto;
 }
 
-section.section3 p {
+.mapTextDesktop {
   margin-left: 50%;
-  font-size: 0.6em;
   padding: 0 1em;
   position: absolute;
   right: 0;
   top: 20%
 }
 
+.mapTextMobile {
+  padding: 0.5em 0;
+}
+
 .totalScreenBackgroung {
 
   position: relative;
   margin: 0 auto;
-  /* min-height: 70vh; */
   max-width: 1000px;
-  /* min-height: 300px; */
   margin: 0 auto;
   aspect-ratio: 16/9;
   background-size: contain;
@@ -46,10 +42,13 @@ section.section3 p {
   background-image: url(../../../public/images/map.png);
 }
 
+.mapTextDesktop {
+  display: none;
+}
 
 .personitas {
   position: absolute;
-  width: 2.5%;
+  width: 2.7%;
   top: 27%;
   left: 18%;
 
@@ -311,13 +310,30 @@ section.section3 p {
     background-color: var(--blueOrg4);
   }
 
-  section.section3 p {
-    font-size: 0.75em;
+  /* section.section3 p {
+    font-size: 14px;
    
+  } */
+
+  .mapTextDesktop {
+    display: block;
   }
 
+  .mapTextMobile {
+    display: none;
+  } 
 
-section.section3 h2 {
-  font-size: 0.9em;
-}
+  section.section3 {
+    padding: 0;
+  }
+
+  section.section3 h2 {
+    position: absolute;
+    z-index: 2;
+    margin: 0;
+    top: 0.5em;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
 }

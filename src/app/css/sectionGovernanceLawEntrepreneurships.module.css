@@ -124,10 +124,12 @@ section.section7 {
 }
 
 .aims h2 {
-  font-size: 0.9em;
+  font-size: var(--fontSizeM);
+  line-height: var(--fontSizeM);
   margin: 1em auto 2em;
   background-color: #26326f;
   border-radius: 3em;
+  padding: 1em 2em;
 
 }
 
