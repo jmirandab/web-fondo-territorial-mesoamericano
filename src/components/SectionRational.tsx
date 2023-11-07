@@ -3,7 +3,6 @@ import Section from './Section';
 import Styles from '../app/css/setionRational.module.css'
 import StylesPage from '../app/page.module.css'
 import { useTranslation } from '../app/i18n'
-import clsx from 'clsx';
 
 
 const SectionRational = async ({ lng }: { lng: string }) => {
@@ -26,12 +25,12 @@ const SectionRational = async ({ lng }: { lng: string }) => {
                 </p>
                 <p>
                   {t('section4.text2_part1')}
-                  <span className={Styles.green}>{t('section4.text2_part2')}</span>
+                  {t('section4.text2_part2')}
                   {t('section4.text2_part3')}
                 </p>
                 <p>
                   {t('section4.text3_part1')}
-                  <span className={Styles.green}>{t('section4.text3_part2')}</span>
+                  <strong className={Styles.green}>{t('section4.text3_part2')}</strong>
                 </p>
 
                 <p className={Styles.small}>

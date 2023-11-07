@@ -13,10 +13,10 @@ const SetionAMPBMembers = async ({ lng }: { lng: string }) => {
   return (
     <Section id="AMPBMembers" className={Styles.section3}>
       <h2>
-          {t('section3.title')}
+        {t('section3.title')}
       </h2>
       <div className={Styles.totalScreenBackgroung}>
-        
+
         <p className={Styles.mapTextDesktop}>{t('section3.text1')}</p>
         <div className={Styles.personitas}></div>
         <div className={clsx(Styles.personitas, Styles.personitas2)}></div>
@@ -29,45 +29,90 @@ const SetionAMPBMembers = async ({ lng }: { lng: string }) => {
         <div className={clsx(Styles.personitas, Styles.personitas9)}></div>
         <div className={clsx(Styles.personitas, Styles.personitas10)}></div>
 
-        <div className={clsx(Styles.orgs, Styles.org1)}>
-          {t('section3.org1')}
+
+        <div className={clsx(Styles.orgs, Styles.orgN1)}>
+          <div className={Styles.leftLabel}>
+          <span className={Styles.nameWidth}>{t('section3.org1')}</span>
+            <span className={Styles.leftLabelLine}></span>
+          </div>
         </div>
 
-        <div className={clsx(Styles.orgs, Styles.org2)}>
-          {t('section3.org2')}
+
+        <div className={clsx(Styles.orgs, Styles.orgN2)}>
+          <div className={Styles.leftLabel}>
+
+            {t('section3.org2')}
+            <span className={Styles.leftLabelLine}></span>
+          </div>
         </div>
 
-        <div className={clsx(Styles.orgs, Styles.org3)}>
-          {t('section3.org3')}
+        <div className={clsx(Styles.orgs, Styles.orgN3)}>
+          <div className={Styles.leftLabel}>
+            {t('section3.org3')}
+            <span className={Styles.leftLabelLine}></span>
+
+          </div>
         </div>
 
-        <div className={clsx(Styles.orgs, Styles.org4)}>
-          {t('section3.org4')}
+        <div className={clsx(Styles.orgs, Styles.orgN4)}>
+          <div className={Styles.leftLabel}>
+
+            {t('section3.org4')}
+            <span className={Styles.leftLabelLine}></span>
+          </div>
         </div>
 
-        <div className={clsx(Styles.orgs, Styles.org5)}>
-          {t('section3.org5')}
+        <div className={clsx(Styles.orgs, Styles.orgN5)}>
+          <div className={Styles.leftLabel}>
+            <span className={Styles.leftLabelLine}></span>
+            {t('section3.org5')}
+
+          </div>
         </div>
 
-        <div className={clsx(Styles.orgs, Styles.org6)}>
-          {t('section3.org6')}
+
+        <div className={clsx(Styles.orgs, Styles.orgN6)}>
+          <div className={Styles.leftLabel}>
+            <span className={Styles.leftLabelLine}></span>
+            {t('section3.org6')}
+
+          </div>
         </div>
 
-        <div className={clsx(Styles.orgs, Styles.org7)}>
-          {t('section3.org7')}
+        <div className={clsx(Styles.orgs, Styles.orgN7)}>
+          <div className={Styles.leftLabel}>
+            {t('section3.org7')}
+            <span className={Styles.leftLabelLine}></span>
+
+          </div>
         </div>
 
-        <div className={clsx(Styles.orgs, Styles.org8)}>
-          {t('section3.org8')}
+        <div className={clsx(Styles.orgs, Styles.orgN8)}>
+          <div className={Styles.leftLabel}>
+            {t('section3.org8')}
+            <span className={Styles.leftLabelLine}></span>
+
+          </div>
         </div>
 
-        <div className={clsx(Styles.orgs, Styles.org9)}>
-          {t('section3.org9')}
+
+        <div className={clsx(Styles.orgs, Styles.orgN9)}>
+          <div className={Styles.leftLabel}>
+            <span className={Styles.nameWidth}>{t('section3.org9')}</span>
+            <span className={Styles.leftLabelLine}></span>
+
+          </div>
         </div>
 
-        <div className={clsx(Styles.orgs, Styles.org10)}>
-          {t('section3.org10')}
+        <div className={clsx(Styles.orgs, Styles.orgN10)}>
+          <div className={Styles.leftLabel}>
+            <span className={Styles.leftLabelLine}></span>
+
+            <span className={Styles.nameWidth}>{t('section3.org10')}</span>
+
+          </div>
         </div>
+
 
       </div>
       <p className={Styles.mapTextMobile}>{t('section3.text1')}</p>

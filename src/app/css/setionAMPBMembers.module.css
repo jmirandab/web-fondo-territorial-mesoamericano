@@ -3,7 +3,6 @@ section.section3 {
   min-height: min-content;
   text-align: center;
   color: white;
-  padding: 0 3em;
   position: relative;
   background-blend-mode: multiply;
   background-image: url(../../../public/images/carton2.png);
@@ -72,8 +71,8 @@ section.section3 h2 {
 }
 
 .personitas.personitas4 {
-  top: 48%;
-  left: 23%;
+  top: 49%;
+  left: 25.5%;
   background-image: url(../../../public/images/personita4.png);
 }
 
@@ -118,102 +117,239 @@ section.section3 h2 {
   position: absolute;
   top: 27%;
   left: 18%;
-  font-size: 7px;
-  
+  font-size: 9px;
+  color: var(--blueOrg4);
+
 }
 
-.orgs:after,
-.orgs:before {
+
+.leftLabel {
+  right: 100%;
+  bottom: 0;
   position: absolute;
-  content: " ";
+  white-space: nowrap;
+
 
 }
 
-.org1 {
-  top: 40%;
-  left: 9%;
-  max-width: 5em;
-  transform: translateX(-50%);
-  color: var(--blueOrg4);
+.leftLabelLine {
+  width: 11vw;
+  display: inline-block;
+  border-top: 2px solid var(--blueOrg4);
+  position: relative;
+  height: 100%;
+  margin: 0 2px;
 }
 
-.org2 {
+.orgN1 {
+  top: 50%;
+  left: 25%;
+  width: 2%;
+  height: 2%;
+}
+
+.orgN1 .nameWidth {
+  white-space: normal;
+    min-width: 8em;
+    text-align: right;
+}
+
+.orgN1 .leftLabel {
+  display: flex;
+  align-items: center;
+}
+
+.orgN1 .leftLabelLine {
+  width: 7vw;
+}
+
+.orgN2 {
   top: 59%;
-  left: 21%;
-  max-width: 5em;
-  transform: translateX(-50%);
-  color: var(--blueOrg4);
+  left: 41%;
+  width: 2%;
+  height: 2%;
 }
 
-.org3 {
-  top: 78%;
-  left: 35%;
-  white-space: nowrap;
-  transform: translateX(-50%);
-  color: var(--blueOrg4);
+.orgN2 .leftLabelLine {
+  width: 20vw;
 }
 
-.org4 {
-  top: 83%;
-  left: 35%;
-  white-space: nowrap;
 
-  transform: translateX(-50%);
-  color: var(--blueOrg4);
+.orgN3 {
+  top: 79%;
+  left: 55%;
+  width: 2%;
+  height: 2%;
 }
 
-.org5 {
-  top: 61%;
-  left: 57%;
-  white-space: nowrap;
 
-  transform: translateX(-50%);
-  color: var(--blueOrg4);
+.orgN3 .leftLabel {
+  right: unset;
+  left: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.org6 {
-  top: 67%;
-  left: 57%;
-  white-space: nowrap;
-
-  transform: translateX(-50%);
-  color: var(--blueOrg4);
+.orgN3 .leftLabelLine {
+  width: 0vw;
+  width: 0vw;
+  height: 2.5em;
+  border-top: 0;
+  border-left: 2px solid var(--blueOrg4);
 }
 
-.org7 {
-  top: 46%;
+.orgN4 {
+  top: 82%;
+  left: 56.5%;
+  width: 2%;
+  height: 2%;
+}
+
+
+.orgN4 .leftLabel {
+  bottom: -3em;
+    right: -1em;
+}
+
+.orgN4 .leftLabelLine {
+  width: 3em;
+  transform: rotate(-60deg);
+  transform-origin: left;
+}
+
+.orgN5 {
+  top: 68%;
   left: 49%;
-  white-space: nowrap;
-
-  transform: translateX(-50%);
-  color: var(--blueOrg4);
+  width: 2%;
+  height: 2%;
 }
 
-.org8 {
-  top: 52%;
-  left: 49%;
-  white-space: nowrap;
-
-  transform: translateX(-50%);
-  color: var(--blueOrg4);
+.orgN5 .leftLabel {
+  left: -5vw;
+  bottom: 7.5vw;
 }
 
-.org9 {
-  top: 63%;
-    left: 21%;
-    /* white-space: nowrap; */
-    transform: translateX(-50%);
-    color: var(--blueOrg4);
-    max-width: 22em;
-  color: var(--blueOrg4);
+.orgN5 .leftLabelLine {
+
+  transform: rotate(-60deg);
+  transform-origin: right;
 }
 
-.org10 {
-  top: 73%;
-  left: 23%;
-  white-space: nowrap;
-  transform: translateX(-50%);
-  color: var(--blueOrg4);
+.orgN6 {
+  top: 77%;
+  left: 48%;
+  width: 2%;
+  height: 2%;
+}
+
+.orgN6 .leftLabel {
+  left: -3vw;
+  bottom: 8.5vw;
+}
+
+.orgN6 .leftLabelLine {
+  width: 10vw;
+  transform: rotate(-60deg);
+  transform-origin: right;
+}
+
+.orgN7 {
+  top: 65%;
+  left: 44%;
+  width: 2%;
+  height: 2%;
+}
+
+.orgN7 .leftLabel {
+  right: unset;
+  left: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.orgN7 .leftLabelLine {
+  width: 0vw;
+  width: 0vw;
+  height: 11em;
+  border-top: 0;
+  border-left: 2px solid var(--blueOrg4);
+}
+
+.orgN8 {
+  top: 65%;
+  left: 46%;
+  width: 2%;
+  height: 2%;
+}
+
+.orgN8 .leftLabel {
+  right: unset;
+  left: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.orgN8 .leftLabelLine {
+  width: 0vw;
+  width: 0vw;
+  height: 8em;
+  border-top: 0;
+  border-left: 2px solid var(--blueOrg4);
+}
+
+.orgN9 {
+  top: 66%;
+  left: 40%;
+  width: 2%;
+  height: 2%;
+
+}
+
+.orgN9 .leftLabel {
+  display: flex;
+  align-items: center;
+  transform: translate(0, 50%);
+}
+
+.orgN9 .nameWidth {
+  white-space: normal;
+  min-width: 16em;
+  text-align: right;
+}
+
+.orgN9 .leftLabelLine {
+  width: 11vw;
+}
+
+
+.orgN10 {
+  top: 68%;
+  left: 41%;
+  width: 2%;
+  height: 2%;
+
+}
+
+.orgN10 .leftLabel {
+  top: 0;
+  bottom: unset;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.orgN10 .leftLabelLine {
+  width: 0vw;
+  width: 0vw;
+  height: 4em;
+  border-top: 0;
+  border-right: 2px solid var(--blueOrg4);
+}
+
+.orgN10 .nameWidth {
+  white-space: normal;
+  text-align: right;
+  min-width: 15em;
 }
 
 
@@ -230,95 +366,9 @@ section.section3 h2 {
 
   .orgs {
     font-size: 14px;
-    
+
   }
 
-  .org9::after {
-    top: 50%;
-    right: -2em;
-    width: 2em;
-    height: 2px;
-    background-color: var(--blueOrg4);
-  }
-
-  .org8::after {
-    top: 110%;
-    right: 90%;
-    width: 2px;
-    height: 350%;
-    background-color: var(--blueOrg4);
-
-    transform-origin: right;
-  }
-
-  .org7::after {
-    top: 110%;
-    right: 90%;
-    width: 2px;
-    height: 500%;
-    background-color: var(--blueOrg4);
-
-    transform-origin: right;
-  }
-
-  .org6::after {
-    top: 50%;
-    right: 105%;
-    width: 150%;
-    height: 2px;
-    background-color: var(--blueOrg4);
-    transform: rotate(-45deg);
-    transform-origin: right;
-  }
-
-
-  .org5::after {
-    top: 50%;
-    right: 105%;
-    width: 65%;
-    height: 2px;
-    background-color: var(--blueOrg4);
-    transform: rotate(-45deg);
-    transform-origin: right;
-  }
-
-  .org4::after {
-    top: 50%;
-    left: 105%;
-    width: 54%;
-    height: 2px;
-
-    background-color: var(--blueOrg4);
-  }
-
-  .org3::after {
-    top: 50%;
-    left: 105%;
-    width: 54%;
-    height: 2px;
-
-    background-color: var(--blueOrg4);
-  }
-
-  .org2::after {
-    top: 50%;
-    left: 105%;
-    width: 222%;
-    height: 2px;
-    background-color: var(--blueOrg4);
-  }
-  .org1::after {
-    top: 50%;
-    left: 105%;
-    width: 120%;
-    height: 2px;
-    background-color: var(--blueOrg4);
-  }
-
-  /* section.section3 p {
-    font-size: 14px;
-   
-  } */
 
   .mapTextDesktop {
     display: block;
@@ -326,7 +376,7 @@ section.section3 h2 {
 
   .mapTextMobile {
     display: none;
-  } 
+  }
 
   section.section3 {
     padding: 0;
@@ -340,5 +390,5 @@ section.section3 h2 {
     left: 50%;
     transform: translate(-50%, 0);
   }
-  
+
 }

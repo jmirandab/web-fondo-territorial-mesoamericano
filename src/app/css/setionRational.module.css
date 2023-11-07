@@ -68,7 +68,7 @@ section.section4 h2 {
   color: var(--greenfont3);
 }
 
-.tucan_card span.green {
+.tucan_card .green {
   color: var(--greenfont3);
 }
 
