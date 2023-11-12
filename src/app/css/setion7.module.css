@@ -16,8 +16,9 @@ section.section7 {
   margin: 0 auto;
   max-width: 800px;
   min-height: 338px;
-  margin: 0 1em;
   background-size: contain;
+  padding: 0 1em;
+  display: block;
 }
 
 .aims {

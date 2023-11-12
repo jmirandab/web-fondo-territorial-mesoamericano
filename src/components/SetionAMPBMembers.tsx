@@ -48,7 +48,7 @@ const SetionAMPBMembers = async ({ lng }: { lng: string }) => {
 
         <div className={clsx(Styles.orgs, Styles.orgN3)}>
           <div className={Styles.leftLabel}>
-            {t('section3.org3')}
+          <span className={Styles.nameWidth}>{t('section3.org3')}</span>
             <span className={Styles.leftLabelLine}></span>
 
           </div>
