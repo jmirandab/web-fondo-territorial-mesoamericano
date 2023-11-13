@@ -11,6 +11,7 @@ import { languages, languagesNames } from '../config/initi18n'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLanguage } from '@fortawesome/free-solid-svg-icons'
 import { useTranslation } from '../app/i18n/client'
+import clsx from 'clsx'
 
 
 const LngSwitcher = ({ lng }: { lng: string }) => {
@@ -38,7 +39,7 @@ const LngSwitcher = ({ lng }: { lng: string }) => {
     <button aria-label="language" onClick={langOnCLick}> 
       <FontAwesomeIcon className={Styles.icon} icon={faLanguage} /> { t("lang") } 
     </button>
-    {langsVisible && <ol>
+     <ol className={clsx(!langsVisible && Styles.langListHidden  )}>
       {languages.filter((l: string) => lng !== l).map((l, index) => {
         return (
           <li key={l}>
@@ -51,7 +52,7 @@ const LngSwitcher = ({ lng }: { lng: string }) => {
 
         )
       })}
-    </ol>}
+    </ol>
   </div>
   )
 }
