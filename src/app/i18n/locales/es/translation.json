@@ -173,6 +173,8 @@
   },
   "sectionBoard": {
     "title": "Junta Directiva",
+    "expandText": "Ver más",
+    "colapsedText": "Ver menos",
     "JeffreyCampbell_Name": "Jeffrey Campbell",
     "JeffreyCampbell_Desc1": "Actualmente jubilado en Estados Unidos después de más de treinta años de experiencia en el empoderamiento de comunidades en paisajes. Experiencia laboral en las Naciones Unidas (FAO) como Gerente, The Forest and Farm Facility, filantropía (The Christensen Fund, Ford Foundation), asistencia bilateral (AAAS/USAID), extensión universitaria (University of Connecticut) consultoría (Winrock International, FAO) , asesor/miembro de la junta (PROFOR, RECOFTC, NFP Facility...). ",
     "JeffreyCampbell_Desc2": "Centrado en organizaciones de productores forestales y agrícolas, silvicultura comunitaria, política forestal, diversidad biocultural y soberanía alimentaria, empoderamiento de los pueblos indígenas, medios de vida rurales basados ​​en el paisaje, desarrollo sostenible y resiliencia y adaptación al cambio climático.",

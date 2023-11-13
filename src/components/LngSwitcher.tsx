@@ -1,13 +1,9 @@
 
 "use client"
-
 import Link from 'next/link'
 import { useState } from 'react'
 import Styles from '../app/css/langSwitch.module.css'
 import { languages, languagesNames } from '../config/initi18n'
-// import { useTranslation } from '../app/i18n'
-
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLanguage } from '@fortawesome/free-solid-svg-icons'
 import { useTranslation } from '../app/i18n/client'
@@ -17,7 +13,6 @@ import clsx from 'clsx'
 const LngSwitcher = ({ lng }: { lng: string }) => {
   const { t } = useTranslation(lng, 'footer')
   const [langsVisible, setLangsVisible] = useState(false);
-  //   const pathname = usePathname()
 
   const langOnCLick = () => {
     setLangsVisible(!langsVisible)

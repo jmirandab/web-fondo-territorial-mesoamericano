@@ -1,12 +1,9 @@
 import React from 'react';
 import Section from './Section';
-
 import Styles from '../app/css/sectionBoard.module.css'
 import StylesPage from '../app/page.module.css'
-import clsx from 'clsx';
 import { useTranslation } from '../app/i18n'
-
-
+import DirectorsExpandableText from './DirectorsExpandableText'
 
 const SectionBoard = async ({ lng }: { lng: string }) => {
   const { t } = await useTranslation(lng);
@@ -45,47 +42,26 @@ const SectionBoard = async ({ lng }: { lng: string }) => {
 
           <li className={Styles.susan}>
             <h3>{t('sectionBoard.SusanKandel_Name')}</h3>
-            {/* <div className={Styles.imgWrap}>
-              <Image
-                src={"/images/SUSAN_KANDEL_foto.png"}
-                fill={true}
-                alt={"aria.imgAMPBLogo"}
-                lang="es"
-              />
-            </div> */}
+
             <div className={Styles.imgWrap2}></div>
-            <div>{SusanText}</div>
+            <DirectorsExpandableText lng={lng}>{SusanText}</DirectorsExpandableText>
             <div className={Styles.stepsDecor}></div>
           </li>
           <li className={Styles.jeffrey}>
 
             <h3>{t('sectionBoard.JeffreyCampbell_Name')}</h3>
-            {/* <div className={Styles.imgWrap}>
-  <Image
-    src={"/images/jeffrey_photo.jpeg"}
-    fill={true}
-    alt={"aria.imgAMPBLogo"}
-    lang="es"
-  />
-</div> */}
+
             <div className={Styles.imgWrap2}></div>
-            <div>{JeffreyText}</div>
+            <DirectorsExpandableText lng={lng}>{JeffreyText}</DirectorsExpandableText>
 
             
             <div className={Styles.hojaDecor}></div>
           </li>
           <li className={Styles.Kirse}>
             <h3>{t('sectionBoard.KirsiChavda_Name')}</h3>
-            {/* <div className={Styles.imgWrap}>
-              <Image
-                src={"/images/KC_foto.png"}
-                fill={true}
-                alt={"aria.imgAMPBLogo"}
-                lang="es"
-              />
-            </div> */}
+
             <div className={Styles.imgWrap2}></div>
-            <div>{KirseText}</div>
+            <DirectorsExpandableText lng={lng}>{KirseText}</DirectorsExpandableText>
             <div className={Styles.hojasDecor}></div>
           </li>
         </ol>

@@ -99,56 +99,6 @@ section.sectionBoard h3 {
   background-image: url(../../../public/images/KC_foto.png);
 }
 
-/* 
-.baordList li:nth-child(2)::before {
-  content: " ";
-  position: absolute;
-  height: 40%;
-  width: 5em;
-  display: block;
-  top: -0.5em;
-  left: 1em;
-  transform: rotate(45deg);
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-image: url(../../../public/images/hojas5.png);
-  background-size: contain;
-  z-index: 1;
-} */
-/* 
-.baordList li:nth-child(3)::before {
-  content: " ";
-  position: absolute;
-  height: 6em;
-  width: 6em;
-  display: block;
-  bottom: 0em;
-  right: -4em;
-  transform: rotate(100deg);
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-image: url(../../../public/images/hojas11.png);
-  background-size: contain;
-  z-index: -1;
-} */
-/* 
-.baordList li:nth-child(3)::after {
-  content: " ";
-  position: absolute;
-  height: 5em;
-  width: 5em;
-  display: block;
-  bottom: 0em;
-  right: -1.5em;
-  transform: rotate(310deg);
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-image: url(../../../public/images/hojas9.png);
-  background-size: contain;
-  z-index: 1;
-} */
-
-
 .hojaDecor {
   position: absolute;
     aspect-ratio: 238/165;
@@ -186,5 +136,28 @@ section.sectionBoard h3 {
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(../../../public/images/steps.png);
+
+}
+
+
+.personText {
+  max-height: 10em; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.personText.expanded {
+  max-height: fit-content;
+}
+
+
+.sectionBoard  button {
+  border: none;
+  margin: 1em 1em 1em auto;
+  background-color: var(--orange1);
+  color: var(--body-background-color);
+  border-radius: 0.5em;
+  padding: 0.5em;
+  font-size: var(--fontSizeM);
 
 }

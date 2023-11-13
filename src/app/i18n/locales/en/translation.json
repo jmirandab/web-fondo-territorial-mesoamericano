@@ -174,6 +174,8 @@
   },
   "sectionBoard": {
     "title": "Board of Directors",
+    "expandText": "Read more",
+    "colapsedText": "See less",
     "JeffreyCampbell_Name": "Jeffrey Campbell",
     "JeffreyCampbell_Desc1": "Currently retired in the US after over thirty years of experience in the empowerment of communities in landscapes. Work experience in the United Nations (FAO) as Manager, The Forest and Farm Facility, philanthropy (The Christensen Fund, Ford Foundation), bilateral assistance (AAAS/USAID), university extension (University of Connecticut) consulting (Winrock International, FAO), advisor/board member (PROFOR, RECOFTC, NFP Facility..). ",
     "JeffreyCampbell_Desc2": "Focused on Forest and Farm Producer Organizations, Community Forestry, Forest Policy, Biocultural diversity and Food Sovereignty, Indigenous Peoples Empowerment, Landscape-based Rural Livelihoods, Sustainable Development and Resilience and Adaptation to Climate Change.",
