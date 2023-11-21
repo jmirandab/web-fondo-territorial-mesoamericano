@@ -38,13 +38,9 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
       href: `/${lng}/home`,
       text: t("menu.option1"),
       subItems: [
-        // {
-        //   href: `/${lng}/home`,
-        //   text: t("menu.submenu1_1"),
-        // },
         {
           href: `/${lng}/home#whoarewe`,
-          text: t("menu.submenu1_2"),
+          text: t("menu.submenu1_1"),
         },
         {
           href: `/${lng}/home#AMPBMembers`,
@@ -84,6 +80,10 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
     {
       href: `/${lng}/strategic-partners`,
       text: t("menu.option4")
+    },
+    {
+      href: `/${lng}/form`,
+      text: t("menu.option5")
     },
   ]
 

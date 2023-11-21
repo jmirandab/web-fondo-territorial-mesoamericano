@@ -21,17 +21,10 @@ const SetionDirectTerritorialFinancing= async ({lng}: {lng:string}) => {
             <span>{t('section11.text3')}</span>
             <div>{t('section11.text4')}</div>
           </div>
-
           <div className={clsx(StylesPage.green_card, Styles.secundList)}>
             <strong>{t('section11.text5')}</strong>
             <div>{t('section11.text6')}</div>
           </div>
-
-   
-
-
-
-      
       </div>
       <div className={Styles.leftLeaves}></div>
       <div className={Styles.sectionTransition}></div>

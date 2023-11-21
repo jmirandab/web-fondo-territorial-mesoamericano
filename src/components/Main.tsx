@@ -36,7 +36,10 @@ export default function Main({
       <div className={styles.description}>
        <TopMenu isSmall={isSmallDesktopMenu} lng={lng} ></TopMenu>
       </div>
-      {children}
+      <div className={styles.overflowScroll}>
+        {children}
+      </div>
+      
     </main>
 
   )

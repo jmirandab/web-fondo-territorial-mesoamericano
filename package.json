@@ -20,6 +20,7 @@
     "@types/react-dom": "18.2.7",
     "@unly/universal-language-detector": "^2.0.3",
     "accept-language": "^3.0.18",
+    "axios": "^1.6.2",
     "clsx": "^2.0.0",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.19",
@@ -36,7 +37,6 @@
     "react-cookie": "^6.1.1",
     "react-dom": "18.2.0",
     "react-i18next": "^13.2.2",
-    "react-player": "^2.13.0",
     "typescript": "5.1.6"
   }
 }

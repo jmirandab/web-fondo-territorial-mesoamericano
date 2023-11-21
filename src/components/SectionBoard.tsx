@@ -54,7 +54,6 @@ const SectionBoard = async ({ lng }: { lng: string }) => {
             <div className={Styles.imgWrap2}></div>
             <DirectorsExpandableText lng={lng}>{JeffreyText}</DirectorsExpandableText>
 
-            
             <div className={Styles.hojaDecor}></div>
           </li>
           <li className={Styles.Kirse}>

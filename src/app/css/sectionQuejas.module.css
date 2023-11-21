@@ -1,0 +1,141 @@
+section.sectionQuejas {
+  outline: none;
+  min-height: min-content;
+  text-align: center; 
+  background-image: url(../../../public/images/blue_backg.png);
+
+  position: relative;
+  background-color: #0475b5;
+}
+
+.sectionQuejas dialog {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border: none;
+  padding: 2em;
+  border-radius: 1.5em;
+  width: 15em;
+  min-height: 10em;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.sectionQuejas dialog::backdrop {
+  background-color: #0475b5;
+  opacity: 0.7;
+}
+
+.dialogContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.dialogContent svg{
+  font-size: 3.5em;
+  margin-bottom: 0.5em;
+  display: none;
+}
+
+.loading svg{
+  color: var(--niceBlue);
+  display: block;
+}
+
+.success svg.success{
+  color: var(--greenfont3);
+  display: block;
+}
+
+.fail svg.fail{
+  color: var(--error-red);
+  display: block;
+}
+
+
+
+.totalScreenBackgroung {
+
+  position: relative;
+  margin: 0 auto;
+  min-height: 85vh;
+  margin: 0 auto;
+  background-size: contain;
+  color: var(--body-background-color);
+}
+
+.sectionQuejas  button {
+  border: none;
+  background-color: var(--orange1);
+  color: var(--body-background-color);
+  border-radius: 0.5em;
+  padding: 0.5em;
+  font-size: var(--fontSizeM);
+
+}
+
+.sectionQuejas form  button {
+  margin: 1em 1em 1em auto;
+
+}
+
+
+.sectionQuejas legend {
+ 
+  padding: 0 1em;
+
+}
+
+.sectionQuejas fieldset {
+  padding: 1em;
+  margin-bottom: 1em;
+  border-color: var(--olive-background-green);
+}
+
+.sectionQuejas label {
+  text-align: left;
+  font-weight: bold;
+}
+
+
+.sectionQuejas form {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: auto ;
+  padding: 1em;
+}
+
+.sectionQuejas input[type=text], .sectionQuejas input[type=email], .sectionQuejas  textarea {
+  width: 100%;
+}
+
+.sectionQuejas label {
+  padding-right: 1em;
+}
+
+
+.sectionQuejas textarea {
+  margin: 1em 0 0.5em;
+  min-height: 5em;
+}
+
+.control {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+
+  align-items: flex-start;
+  padding: 0.4em 0;
+}
+
+.controlVertical {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.4em 0;
+}

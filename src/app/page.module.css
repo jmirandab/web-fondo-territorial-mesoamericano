@@ -9,6 +9,12 @@
   overflow-x: hidden;
 }
 
+
+.overflowScroll {
+  overflow-y: scroll;
+  width: 100%;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;

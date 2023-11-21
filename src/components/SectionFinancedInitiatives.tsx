@@ -29,10 +29,6 @@ const SectionFinancedInitiatives = async ({ lng }: { lng: string }) => {
         <div className={Styles.wave}>
         </div>
       </div>
-      {/* <div className={Styles.wcontainer} >
-          <div className={Styles.wdivider} ></div>
-          <div className={Styles.wimage} ></div>
-        </div> */}
     </Section>
   );
 };

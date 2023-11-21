@@ -3,12 +3,12 @@
 import React from 'react';
 import Section from './Section';
 import Styles from '../app/css/setionAMPBMembers.module.css'
-import { useTranslation } from '../app/i18n'
+import { useTranslation } from '../app/i18n/client'
 import clsx from 'clsx';
 
-const SetionAMPBMembers = async ({ lng }: { lng: string }) => {
+const SetionAMPBMembers = ({ lng }: { lng: string }) => {
 
-  const { t } = await useTranslation(lng);
+  const { t } = useTranslation(lng);
 
   return (
     <Section id="AMPBMembers" className={Styles.section3}>
