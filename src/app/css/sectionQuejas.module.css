@@ -17,7 +17,7 @@ section.sectionQuejas {
   padding: 2em;
   border-radius: 1.5em;
   width: 15em;
-  height: fit-content;
+  height: max-content;
 }
 
 .sectionQuejas dialog::backdrop {
