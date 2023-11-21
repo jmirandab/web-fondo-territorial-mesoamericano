@@ -17,8 +17,7 @@ section.sectionQuejas {
   padding: 2em;
   border-radius: 1.5em;
   width: 15em;
-  /* display: flex;
-  flex-direction: column; */
+  height: fit-content;
 }
 
 .sectionQuejas dialog::backdrop {
@@ -55,10 +54,7 @@ section.sectionQuejas {
   display: block;
 }
 
-
-
 .totalScreenBackgroung {
-
   position: relative;
   margin: 0 auto;
   min-height: 85vh;
