@@ -31,8 +31,7 @@ const SectionBoard = ({ lng }: { lng: string }) => {
 
     dialogLoadingRef.current?.showModal();
     setformState({ isLoading: true, isSuccess: undefined })
-    //http://localhost:3001/send-email
-    //http://13.59.160.188:443/send-email
+
     console.log(formData);
     axios.post('/api/sendemail', formData)
       .then(function (response) {

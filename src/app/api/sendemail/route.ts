@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server";
 import nodemailer from 'nodemailer'
 
+
+const toEmailAddress = "juan.miranda.hr9@gmail.com, hr9.dmn@gmail.com";
+
 type fieldNamesType = {
   nombre: string;
   genero: string;
@@ -75,7 +78,7 @@ export const POST = async (req: Request, res: Response) => {
     // Create the email options
     const mailOptions = {
       from: 'testmailerjm@gmail.com',
-      to: "juan.miranda.hr9@gmail.com",
+      to: toEmailAddress,
       subject: subject,
       text: text,
       html: text,
