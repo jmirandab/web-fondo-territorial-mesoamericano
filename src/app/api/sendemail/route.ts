@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import nodemailer from 'nodemailer'
 
 
-const toEmailAddress = "juan.miranda.hr9@gmail.com, hr9.dmn@gmail.com";
+const toEmailAddress = "juan.miranda.hr9@gmail.com, gerencia@fondomesoamericano.org, comunicacion@alianzamesoamericana.org, dfinanzas@fondomesoamericano.org";
 
 type fieldNamesType = {
   nombre: string;
