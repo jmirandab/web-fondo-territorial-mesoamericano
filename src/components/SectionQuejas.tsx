@@ -85,15 +85,6 @@ const SectionBoard = ({ lng }: { lng: string }) => {
               />
             </div>
             <div className={Styles.control}>
-              <label htmlFor="genero">{t('sectionForm.genero')}</label>
-              <select id="genero" name="genero"
-              >
-                <option value="Masculino">{t('sectionForm.Masculino')}</option>
-                <option value="Femenino">{t('sectionForm.Femenino')}</option>
-                <option value="Otro">{t('sectionForm.Otro')}</option>
-              </select>
-            </div>
-            <div className={Styles.control}>
               <label htmlFor="telefono">{t('sectionForm.telefono')}</label>
               <input type="tel" id="telefono" name="telefono" required />
             </div>

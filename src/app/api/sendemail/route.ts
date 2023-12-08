@@ -1,8 +1,9 @@
 import { NextResponse } from "next/server";
 import nodemailer from 'nodemailer'
+import { useTranslation } from '../../i18n'
 
-
-const toEmailAddress = "juan.miranda.hr9@gmail.com, gerencia@fondomesoamericano.org, comunicacion@alianzamesoamericana.org, dfinanzas@fondomesoamericano.org";
+ const toEmailAddress = "juan.miranda.hr9@gmail.com, gerencia@fondomesoamericano.org, comunicacion@alianzamesoamericana.org, dproyectos@fondomesoamericano.org";
+// const toEmailAddress = "juan.miranda.hr9@gmail.com";
 
 type fieldNamesType = {
   nombre: string;
@@ -41,9 +42,22 @@ const fieldNames: fieldNamesType = {
   textarea5: 'Menciones que medidas correctivas y/o que soluciones de remediación y compensación se deberían de llevar a cabo frente a los posibles problemas causados'
 }
 
-function getFieldName(key: keyof fieldNamesType) {
-  return fieldNames[key] || key;
-}
+// "textarea1": "Motivo de preocupación y/o queja:",
+// "textarea2": "Indicar el nombre de la persona, agencia que ha causado la preocupación/ queja o reclamo (empresas contratistas, organizaciones implementadoras, instituciones del estado, personas particulares, técnicos, entre otros.):",
+// "textarea3": "Descripción de la situación o los hechos que preocupan o aquejan:",
+// "textarea4": "Qué procedimientos o principios considera que no se respetaron:",
+// "textarea5": "Menciones que medidas correctivas y/o que soluciones de remediación y compensación se deberían de llevar a cabo frente a los posibles problemas causados:",
+// "legend": "Datos generales de la parte afectada:",
+// "nombre": "Nombre:",
+// "telefono": "Teléfono:",
+// "correo": "Correo Electrónico:",
+// "etnia": "Pertenece a una comunidad:",
+// "comunidadLinguistica": "Idioma principal hablado su comunidad:",
+// "organizacion": "Organización:",
+// "comunidad": "Comunidad:",
+// "municipio": "Municipio:",
+// "departamento": "Departamento:",
+
 
 function getValue(val: string) {
   return val || "N/R";
@@ -55,6 +69,11 @@ export const GET = async (req: Request, res: Response) => {
 }
 
 export const POST = async (req: Request, res: Response) => {
+  const { t } = await useTranslation('es');
+  function getFieldName(key: keyof fieldNamesType) {
+    return t("sectionForm." + key) || fieldNames[key] || key;
+  }
+
   console.log(' > post');
   try {
     const formData = await req.json();
@@ -63,7 +82,7 @@ export const POST = async (req: Request, res: Response) => {
     let text = "<h1>" + subject + "</h1>";
     text += "<div>" + Date() + "</div>";
     formDataKeys.forEach((key: keyof fieldNamesType) => {
-      text = text + "<p>" + "<div><strong>" + getFieldName(key) + ": </strong></div>" + getValue(formData[key]) + "</p>";
+      text = text + "<p>" + "<div><strong>" + getFieldName(key) + "</strong></div>" + getValue(formData[key]) + "</p>";
     })
 
     // Create a nodemailer transporter
