@@ -25,29 +25,29 @@ i18next
   })
 
 export  function  useTranslation(lng, ns, options) {
-  console.log("useTranslation");
-  console.log(lng);
-  console.log(ns);
-  console.log(options);
-  console.log("[cookieName])" + [cookieName])
+  // console.log("useTranslation");
+  // console.log(lng);
+  // console.log(ns);
+  // console.log(options);
+  // console.log("[cookieName])" + [cookieName])
   const [cookies, setCookie] = useCookies([cookieName]);
   const ret = useTranslationOrg([cookieName], options)
   const { i18n } = ret
-  console.log(i18n)
+  // console.log(i18n)
 
-  console.log("i18n.resolvedLanguage " + i18n.resolvedLanguage)
-  console.log("document.cookie  "+ JSON.stringify(cookies))
+  // console.log("i18n.resolvedLanguage " + i18n.resolvedLanguage)
+  // console.log("document.cookie  "+ JSON.stringify(cookies))
   if (lng && i18n.resolvedLanguage !== lng) {
-    console.log("jm1 changeLanguage");
+    // console.log("jm1 changeLanguage");
      i18n.changeLanguage(lng);
 
-     console.log("??????? >>>>> setCookie1 "+lng)
+     // console.log("??????? >>>>> setCookie1 "+lng)
 
-     console.log("??????? >>>>> cookieName "+cookieName)
-     setCookie(cookieName, lng, { path: '/' })
+     // console.log("??????? >>>>> cookieName "+cookieName)
+   //  setCookie(cookieName, lng, { path: '/' })
   } else {
-    console.log("jm2 not changeLanguage");
-    setCookie(cookieName, lng, { path: '/' })
+    // console.log("jm2 not changeLanguage");
+    // setCookie(cookieName, lng, { path: '/' })
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [activeLng, setActiveLng] = useState(i18n.resolvedLanguage)
     // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -63,7 +63,7 @@ export  function  useTranslation(lng, ns, options) {
     // eslint-disable-next-line react-hooks/rules-of-hooks
     useEffect(() => {
       if (cookies.i18next === lng) return
-      console.log("setCookie2 "+lng)
+      // console.log("setCookie2 "+lng)
       setCookie(cookieName, lng, { path: '/' })
     }, [lng, cookies.i18next, setCookie])
   }
