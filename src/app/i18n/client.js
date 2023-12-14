@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from 'react'
 import i18next from 'i18next'
-import { initReactI18next, useTranslation as useTranslationOrg } from 'react-i18next'
+import { initReactI18next} from 'react-i18next/initReactI18next'
+import { useTranslation as useTranslationOrg } from 'next-i18next'
 import { useCookies } from 'react-cookie'
 import resourcesToBackend from 'i18next-resources-to-backend'
-// import LanguageDetector from 'i18next-browser-languagedetector'
 import { getOptions, languages, cookieName } from '../../config/initi18n'
 import i18nextMiddleware from 'i18next-http-middleware';
 
@@ -24,13 +24,16 @@ i18next
     preload: runsOnServerSide ? languages : []
   })
 
-export function useTranslation(lng, ns, options) {
-  const [cookies, setCookie] = useCookies([cookieName])
-  const ret = useTranslationOrg(ns, options)
+export  function  useTranslation(lng, ns, options) {
+  const [cookies, setCookie] = useCookies([cookieName]);
+  const ret = useTranslationOrg([cookieName], options)
   const { i18n } = ret
-  if (runsOnServerSide && lng && i18n.resolvedLanguage !== lng) {
-    i18n.changeLanguage(lng)
+  if (lng && i18n.resolvedLanguage !== lng) {
+     i18n.changeLanguage(lng);
+
+     setCookie(cookieName, lng, { path: '/' })
   } else {
+    setCookie(cookieName, lng, { path: '/' })
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [activeLng, setActiveLng] = useState(i18n.resolvedLanguage)
     // eslint-disable-next-line react-hooks/rules-of-hooks
