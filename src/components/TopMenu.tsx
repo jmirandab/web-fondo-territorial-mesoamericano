@@ -3,8 +3,7 @@
 import React from 'react';
 import LngSwitcher from './LngSwitcher';
 import Link from 'next/link'
-import { useState } from 'react';
-// import imf from "../../public/images/logo-FTM.svg"
+import { useState, useEffect } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faChevronLeft } from '@fortawesome/free-solid-svg-icons'
@@ -12,10 +11,10 @@ import { faBars, faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 import Styles from '../app/css/topMenu.module.css'
 import { useTranslation } from '../app/i18n/client'
 import clsx from 'clsx';
-// import { useTranslation } from '../../../i18n/client'
 
 const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) => {
-
+  // console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! LANG")
+  // console.log(lng)
   const { t } = useTranslation(lng);
   const [menuOpen, setMenuOpen] = useState(false)
 
@@ -94,7 +93,9 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
     </Link>
   </li>)
 
-  const menuOptions = menuItems.map((item) => <li className={Styles.menuItem} key={item?.href}>
+
+  useEffect(()=>{
+    const menuOptionsVar = menuItems.map((item) => <li className={Styles.menuItem} key={item?.href}>
     <Link href={item?.href || "#"} onClick={menuOff}>
       {item?.text}
       <FontAwesomeIcon className={Styles.chevrionIcon} icon={faChevronLeft} />
@@ -103,12 +104,20 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
       {SubMenuOptions(item?.subItems)}
     </ol>}
   </li>)
+  setMenuOptions(menuOptionsVar)
+
+  },[]);
+
+  const [menuOptions, setMenuOptions] = useState< React.JSX.Element[]>([])
 
 
+
+  // console.log("TOP "+ lng );
+  // console.log("homeLogo " + t('aria.homeLogo'));
 
   return (
-    <header className={clsx(Styles.allignTop, isSmall && Styles.smallMenu)}>
-      <Link aria-label={t('aria.homeLogo')} href={`/${lng}/home`}>
+    <header suppressHydrationWarning className={clsx(Styles.allignTop, isSmall && Styles.smallMenu)}>
+      <Link suppressHydrationWarning aria-label={t('aria.homeLogo')} href={`/${lng}/home`}>
         <span className={Styles.logo}>
         </span>
       </Link>
