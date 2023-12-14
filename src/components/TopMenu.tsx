@@ -94,8 +94,12 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
   </li>)
 
 
-  useEffect(()=>{
-    const menuOptionsVar = menuItems.map((item) => <li className={Styles.menuItem} key={item?.href}>
+
+
+//  const [menuOptions, setMenuOptions] = useState<React.JSX.Element[]>([])
+
+
+  const menuOptions = menuItems.map((item) => <li className={Styles.menuItem} key={item?.href}>
     <Link href={item?.href || "#"} onClick={menuOff}>
       {item?.text}
       <FontAwesomeIcon className={Styles.chevrionIcon} icon={faChevronLeft} />
@@ -104,13 +108,7 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
       {SubMenuOptions(item?.subItems)}
     </ol>}
   </li>)
-  setMenuOptions(menuOptionsVar)
-
-  },[]);
-
-  const [menuOptions, setMenuOptions] = useState< React.JSX.Element[]>([])
-
-
+  //setMenuOptions(menuOptionsVar)
 
   // console.log("TOP "+ lng );
   // console.log("homeLogo " + t('aria.homeLogo'));
