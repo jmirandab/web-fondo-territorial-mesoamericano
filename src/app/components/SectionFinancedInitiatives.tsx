@@ -1,10 +1,10 @@
 import React from 'react';
 import Section from './Section';
 
-import Styles from '../app/css/setionFinancedInitiatives.module.css'
-import StylesPages from '../app/page.module.css'
-import StylesPage from '../app/page.module.css'
-import { useTranslation } from '../app/i18n'
+import Styles from '../../app/css/setionFinancedInitiatives.module.css'
+import StylesPages from '../../app/page.module.css'
+import StylesPage from '../../app/page.module.css'
+import { useTranslation } from '../i18n'
 import clsx from 'clsx';
 
 const SectionFinancedInitiatives = async ({ lng }: { lng: string }) => {

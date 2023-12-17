@@ -1,7 +1,7 @@
 
-import Main from '@/components/Main'
+import Main from '@/app/components/Main'
 import { useTranslation } from '../../i18n'
-import SectionBoard from '../../../components/SectionBoard'
+import SectionBoard from '../../components/SectionBoard'
 
 
 

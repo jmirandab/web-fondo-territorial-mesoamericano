@@ -2,9 +2,9 @@
 
 import React, { FormEvent, MouseEvent, useState, useRef } from 'react';
 import Section from './Section';
-import Styles from '../app/css/sectionQuejas.module.css'
-import StylesPage from '../app/page.module.css'
-import { useTranslation } from '../app/i18n/client'
+import Styles from '../../app/css/sectionQuejas.module.css'
+import StylesPage from '../../app/page.module.css'
+import { useTranslation } from '../i18n/client'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSpinner, faCircleCheck, faExclamationCircle } from '@fortawesome/free-solid-svg-icons'
 import axios from 'axios'

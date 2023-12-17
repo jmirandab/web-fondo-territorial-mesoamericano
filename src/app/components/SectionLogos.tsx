@@ -1,11 +1,11 @@
 import React from 'react';
 import Section from './Section';
 
-import Styles from '../app/css/sectionLogos.module.css'
-import StylesPage from '../app/page.module.css'
+import Styles from '../../app/css/sectionLogos.module.css'
+import StylesPage from '../../app/page.module.css'
 import clsx from 'clsx';
-import { useTranslation } from '../app/i18n'
-import logosOrgs from '../constants/logosOrgs'
+import { useTranslation } from '../i18n'
+import logosOrgs from '../../constants/logosOrgs'
 import Image from 'next/image';
 import Link from 'next/link';
 

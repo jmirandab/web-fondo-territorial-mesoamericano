@@ -1,5 +1,5 @@
 import React from 'react';
-import Styles from '../app/page.module.css'
+import Styles from '../../app/page.module.css'
 import clsx from 'clsx';
 
 type SectionProps = {
@@ -15,7 +15,7 @@ export default function Section(props: SectionProps) {
         id,
       } = props
     return (
-        <section {...props} className={clsx(className, Styles.sectionHeight)} >
+        <section suppressHydrationWarning {...props} className={clsx(className, Styles.sectionHeight)} >
            {children}
         </section>
     );

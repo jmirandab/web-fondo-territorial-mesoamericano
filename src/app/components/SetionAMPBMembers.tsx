@@ -1,14 +1,14 @@
-"use client"
+
 
 import React from 'react';
 import Section from './Section';
-import Styles from '../app/css/setionAMPBMembers.module.css'
-import { useTranslation } from '../app/i18n/client'
+import Styles from '../../app/css/setionAMPBMembers.module.css'
+import { useTranslation } from '../i18n'
 import clsx from 'clsx';
 
-const SetionAMPBMembers = ({ lng }: { lng: string }) => {
+const SetionAMPBMembers = async ({ lng }: { lng: string }) => {
 
-  const { t } = useTranslation(lng);
+  const { t } = await useTranslation(lng);
 
   return (
     <Section id="AMPBMembers" className={Styles.section3}>

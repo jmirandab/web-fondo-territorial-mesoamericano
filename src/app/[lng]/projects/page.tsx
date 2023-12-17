@@ -1,9 +1,9 @@
 
 import styles from './../../page.module.css'
-import Section8 from '../../../components/Section8'
-import Section9 from '../../../components/Section9'
-import Section10 from '../../../components/Section10_old'
-import TopMenu from '../../../components/TopMenu'
+import Section8 from '../../components/Section8'
+import Section9 from '../../components/Section9'
+import Section10 from '../../components/Section10_old'
+import TopMenu from '../../components/TopMenu'
 //import i18next from '../../../config/initi18n';
 import { useTranslation } from '../../i18n'
 

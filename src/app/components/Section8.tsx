@@ -1,9 +1,9 @@
 import React from 'react';
 import Section from './Section';
 
-import Styles from '../app/css/setion8.module.css'
-import StylesPages from '../app/page.module.css'
-import { useTranslation } from '../app/i18n'
+import Styles from '../../app/css/setion8.module.css'
+import StylesPages from '../../app/page.module.css'
+import { useTranslation } from '../i18n'
 import Image from 'next/image';
 
 const Section8 = async ({ lng }: { lng: string }) => {

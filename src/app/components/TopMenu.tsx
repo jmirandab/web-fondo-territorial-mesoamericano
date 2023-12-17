@@ -3,19 +3,49 @@
 import React from 'react';
 import LngSwitcher from './LngSwitcher';
 import Link from 'next/link'
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 
-import Styles from '../app/css/topMenu.module.css'
-import { useTranslation } from '../app/i18n/client'
+import Styles from '../../app/css/topMenu.module.css'
 import clsx from 'clsx';
 
+
+const lng_en = {
+  "option1": "Who we are",
+  "option2": "What we fund",
+  "option3": "Board of Directors",
+  "option4": "Strategic Partners",
+  "option5": "Complaint Form",
+  "submenu1_1": "Home",
+  "submenu1_2": "Who we are",
+  "submenu1_3": "AMPB Members",
+  "submenu1_4": "Rationale",
+  "submenu1_5": "What do we finance?",
+  "submenu1_6": "How we work?",
+  "submenu1_7": "Organizational Chart"
+};
+
+const lng_es = {
+  "option1": "Quiénes somos",
+  "option2": "Qué financiamos",
+  "option3": "Junta Directiva",
+  "option4": "Socios Estratégicos",
+  "option5": "Formulario de quejas",
+  "submenu1_1": "Inicio",
+  "submenu1_2": "Quiénes somos",
+  "submenu1_3": "Miembros de la AMPB",
+  "submenu1_4": "Razón de ser",
+  "submenu1_5": "Qué financiamos",
+  "submenu1_6": "Cómo trabajamos",
+  "submenu1_7": "Organigrama FTM"
+}
+
+
+
 const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) => {
-  // console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! LANG")
-  // console.log(lng)
-  const { t } = useTranslation(lng);
+  const menu = lng === "es" ? lng_es : lng_en;
   const [menuOpen, setMenuOpen] = useState(false)
 
   const toggleMenu = () => {
@@ -35,54 +65,54 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
   let menuItems = [
     {
       href: `/${lng}/home`,
-      text: t("menu.option1"),
+      text: menu.option1,
       subItems: [
         {
           href: `/${lng}/home#whoarewe`,
-          text: t("menu.submenu1_1"),
+          text: menu.submenu1_1,
         },
         {
           href: `/${lng}/home#AMPBMembers`,
-          text: t("menu.submenu1_3"),
+          text: menu.submenu1_3,
         },
         {
           href: `/${lng}/home#rational`,
-          text: t("menu.submenu1_4"),
+          text: menu.submenu1_4,
         },
         {
           href: `/${lng}/home#whatdowefinance`,
-          text: t("menu.submenu1_5"),
+          text: menu.submenu1_5,
         },
         {
           href: `/${lng}/home#HowWeWork`,
-          text: t("menu.submenu1_6"),
+          text: menu.submenu1_6,
         },
         {
           href: `/${lng}/home#FTM-Organizational-Chart`,
-          text: t("menu.submenu1_7"),
+          text: menu.submenu1_7,
         }
       ]
     }, {
       href: `/${lng}/what-we-fund`,
-      text: t("menu.option2"),
+      text: menu.option2,
 
     },
     , {
       href: `/${lng}/board`,
-      text: t("menu.option3"),
+      text: menu.option3,
 
     },
     // {
     //   href: `/${lng}/how-we-operate`,
-    //   text: t("menu.option3")
+    //   text: menu.option3
     // },
     {
       href: `/${lng}/strategic-partners`,
-      text: t("menu.option4")
+      text: menu.option4
     },
     {
       href: `/${lng}/form`,
-      text: t("menu.option5")
+      text: menu.option5
     },
   ]
 
@@ -96,7 +126,7 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
 
 
 
-//  const [menuOptions, setMenuOptions] = useState<React.JSX.Element[]>([])
+  //  const [menuOptions, setMenuOptions] = useState<React.JSX.Element[]>([])
 
 
   const menuOptions = menuItems.map((item) => <li className={Styles.menuItem} key={item?.href}>
@@ -115,7 +145,8 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
 
   return (
     <header suppressHydrationWarning className={clsx(Styles.allignTop, isSmall && Styles.smallMenu)}>
-      <Link suppressHydrationWarning aria-label={t('aria.homeLogo')} href={`/${lng}/home`}>
+      {/* <Link suppressHydrationWarning aria-label={t('aria.homeLogo')} href={`/${lng}/home`}> */}
+      <Link suppressHydrationWarning href={`/${lng}/home`}>
         <span className={Styles.logo}>
         </span>
       </Link>
@@ -136,7 +167,7 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
         </div>
         <LngSwitcher lng={lng} />
       </div>
-      <h1 className={Styles.screen_reader_text}>{t('topH1')}</h1>
+      {/* <h1 className={Styles.screen_reader_text}>{t('topH1')}</h1> */}
     </header>
   );
 };

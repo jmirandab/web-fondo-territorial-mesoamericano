@@ -1,9 +1,9 @@
 import React from 'react';
 import Section from './Section';
 
-import Styles from '../app/css/setionDirectTerritorialFinancing.module.css'
-import StylesPage from '../app/page.module.css'
-import { useTranslation } from '../app/i18n'
+import Styles from '../../app/css/setionDirectTerritorialFinancing.module.css'
+import StylesPage from '../../app/page.module.css'
+import { useTranslation } from '../i18n'
 import clsx from 'clsx';
 
 const SetionDirectTerritorialFinancing= async ({lng}: {lng:string}) => {

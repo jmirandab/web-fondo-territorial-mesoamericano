@@ -28,7 +28,7 @@ export default function RootLayout({
 
 }) {
   return (
-    <html lang={lng} dir={dir(lng)}>
+    <html >
       <body className={inter.className}>{children}</body>
     </html>
   )

@@ -1,6 +1,6 @@
 
-import Main from '@/components/Main'
-import SectionLogos from '../../../components/SectionLogos'
+import Main from '@/app/components/Main'
+import SectionLogos from '../../components/SectionLogos'
 
 export default async function Home({ params: { lng } }: { params: { lng: string } }) {
   return (

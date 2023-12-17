@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
 import Section from './Section';
-import Styles from '../app/css/setionVideo.module.css'
+import Styles from '../../app/css/setionVideo.module.css'
 //]import video from '../../public/Fondo Territorial Mesoamericano.mp4'
 
 

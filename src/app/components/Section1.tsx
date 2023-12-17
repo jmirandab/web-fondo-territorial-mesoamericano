@@ -1,16 +1,14 @@
 import React from 'react';
 import Section from './Section';
-import Styles from '../app/css/setion1.module.css'
-import { useTranslation } from '../app/i18n'
+import Styles from '../../app/css/setion1.module.css'
 import clsx from 'clsx';
 
 
 const Section1 = async ({lng}: {lng:string}) => {
     
-    const { t } = await useTranslation(lng)
     return (
         <Section className={Styles.section1}>
-            <div className={Styles.totalScreenBackgroung}>
+            <div suppressHydrationWarning className={Styles.totalScreenBackgroung}>
                 <div className={Styles.layerBackGround}>
                     <div className={Styles.comunity}>
                     </div>

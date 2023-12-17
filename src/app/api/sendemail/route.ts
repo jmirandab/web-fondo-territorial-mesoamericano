@@ -64,7 +64,7 @@ function getValue(val: string) {
 }
 
 export const GET = async (req: Request, res: Response) => {
-  console.log("test G")
+
   return NextResponse.json({ text: 'Hello' }, { status: 200 });
 }
 
@@ -106,8 +106,6 @@ export const POST = async (req: Request, res: Response) => {
     // Send the email
     const info = await transporter.sendMail(mailOptions);
 
-    //console.log('Email sent:', info.response);
-    //  res.send('Email sent successfully >>> ' );
 
     return NextResponse.json({ text: 'Email sent successfully >>> ' }, { status: 200 });
   } catch (error) {

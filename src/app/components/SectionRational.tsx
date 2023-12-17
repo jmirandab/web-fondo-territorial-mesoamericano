@@ -1,8 +1,8 @@
 import React from 'react';
 import Section from './Section';
-import Styles from '../app/css/setionRational.module.css'
-import StylesPage from '../app/page.module.css'
-import { useTranslation } from '../app/i18n'
+import Styles from '../../app/css/setionRational.module.css'
+import StylesPage from '../../app/page.module.css'
+import { useTranslation } from '../i18n'
 
 
 const SectionRational = async ({ lng }: { lng: string }) => {

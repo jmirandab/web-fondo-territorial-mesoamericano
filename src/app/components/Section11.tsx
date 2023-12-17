@@ -1,9 +1,9 @@
 import React from 'react';
 import Section from './Section';
 
-import Styles from '../app/css/setion11.module.css'
-import StylesPage from '../app/page.module.css'
-import { useTranslation } from '../app/i18n'
+import Styles from '../../app/css/setion11.module.css'
+import StylesPage from '../../app/page.module.css'
+import { useTranslation } from '../i18n'
 
 const Section10= async ({lng}: {lng:string}) => {
 
