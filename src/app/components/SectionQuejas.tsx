@@ -122,10 +122,6 @@ const SectionBoard = ({ lng }: { lng: string }) => {
               <input type="text" id="comunidad" name="comunidad" />
             </div>
             <div className={Styles.control}>
-              <label htmlFor="municipio">{t('sectionForm.municipio')}</label>
-              <input type="text" id="municipio" name="municipio" />
-            </div>
-            <div className={Styles.control}>
               <label htmlFor="departamento">{t('sectionForm.departamento')}</label>
               <input type="text" id="departamento" name="departamento" />
             </div>

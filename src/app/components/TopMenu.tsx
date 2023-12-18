@@ -13,13 +13,13 @@ import clsx from 'clsx';
 
 
 const lng_en = {
-  "option1": "Who we are",
+  "option1": "About us",
   "option2": "What we fund",
   "option3": "Board of Directors",
   "option4": "Strategic Partners",
   "option5": "Complaint Form",
   "submenu1_1": "Home",
-  "submenu1_2": "Who we are",
+  "submenu1_2": "About us",
   "submenu1_3": "AMPB Members",
   "submenu1_4": "Rationale",
   "submenu1_5": "What do we finance?",

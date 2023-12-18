@@ -22,9 +22,8 @@ const Section7 = async ({ lng }: { lng: string }) => {
               {t('section7.text1')}
             </li>
             <li>
-              <strong>{t('section7.text2')}</strong> <br />
+              <strong>{t('section7.text2')}</strong> 
               {t('section7.text3')}
-
             </li>
 
           </ol>

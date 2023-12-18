@@ -2,28 +2,27 @@
   "topH1": "MESOAMERICAN TERRITORIAL FUND",
   "subH1": "by the Mesoamerican Alliance of Peoples and Forests",
   "to-second-page": "To second page",
-  "lang":"Language",
+  "lang": "Language",
   "aria": {
     "homeLogo": "Navigate home",
     "imgAMPBLogo": "Alianza Mesoamericana de Pueblos y Bosques",
     "imgEMDLLogo": "Escuela Mesoamericana de Liderazgo",
     "imgCMLTMLogo": "Coordinadora de Mujeres Líderes Territoriales de Mesoamérica"
   },
-  "menu" : {
-    "option1": "Who we are",
+  "menu": {
+    "option1": "About us",
     "option2": "What we fund",
     "option3": "Board of Directors",
     "option4": "Strategic Partners",
     "option5": "Complaint Form",
     "submenu1_1": "Home",
-    "submenu1_2": "Who we are",
+    "submenu1_2": "About us",
     "submenu1_3": "AMPB Members",
     "submenu1_4": "Rationale",
     "submenu1_5": "What do we finance?",
     "submenu1_6": "How we work?",
-    "submenu1_7":"Organizational Chart"
+    "submenu1_7": "Organizational Chart"
   },
-
   "sectionLogos": {
     "title": "Strategic Partners"
   },
@@ -35,14 +34,14 @@
   "section3": {
     "title": "AMPB Members",
     "text1": "The FTM focuses its work in Mesoamerica, working closely with the membership of the AMPB and other Indigenous Peoples and Local Communities organizations (IPLCs).",
-    "org1":"MOCAF NETWORK",
+    "org1": "MOCAF NETWORK",
     "org2": "ACOFOP",
     "org3": "GUNA GENERAL CONGRESS",
     "org4": "EMBERÁ-WOUNAAN COMARCA",
-    "org5":"YATAMA",
+    "org5": "YATAMA",
     "org6": "RIBCA",
     "org7": "FEPROAH",
-    "org8":"MASTA",
+    "org8": "MASTA",
     "org9": "NATIONAL ALLIANCE OF COMMUNITY FORESTRY ORGANIZATIONS OF GUATEMALA",
     "org10": " UTZ CHE’ COMMUNITY FORESTRY ASSOCIATION"
   },
@@ -58,7 +57,6 @@
     "text3_part2": "the creation and strengthening of capacities, promoting sustainability and positive impacts on the investment.",
     "text4_part1": "1.",
     "text4_part2": " 2021. Rainforest Foundation Norway. Falling Short: Donor funding for Indigenous Peoples and local communities to secure tenure rights and manage forests in tropical countries  (2011–2020)."
-    
   },
   "section5": {
     "title": "What do we finance?",
@@ -84,7 +82,7 @@
   "section7": {
     "title": "By 2028 the FTM aims to:",
     "text1": "Increase direct funding to an annual average of 30 to 40 donations with amounts starting at USD 50 thousand.",
-    "text2": "Extend the geographical areas and territories prioritized by the FTM",
+    "text2": "Extend the geographical areas and territories prioritized by the FTM, ",
     "text3": "involving more partners and strategic allies and expanding its support to other organizations beyond the AMPB membership."
   },
   "section8": {
@@ -100,7 +98,7 @@
     "title": "How we work?",
     "pre_text1": "Through a mechanism of open calls for proposals to finance small and medium-sized donations with lower transaction costs, with rights-based approach to IPLC organisations located in key ecosystems of forests, biodiversity and connectivity in Mesoamerica.",
     "pre_text2": "Continuous and culturally adapted accompaniment of Indigenous Peoples' and Local Communities' organisations through training processes, capacity building and methodologies to strengthen their institutional and governance processes, enhancing the sustainability and quantitative and qualitative impact of their work.",
-    "pre_text3":"In a collaborative and interdisciplinary manner with the different specialized units of the AMPB, which are the Mesoamerican School of Leadership (EML), and the Coordinating Committee of Territorial Women Leaders (CMLT).",
+    "pre_text3": "In a collaborative and interdisciplinary manner with the different specialized units of the AMPB, which are the Mesoamerican School of Leadership (EML), and the Coordinating Committee of Territorial Women Leaders (CMLT).",
     "text1": "FTM is governed by a 7-person Board of Directors*, composed of:",
     "text2": "4 members of the AMPB.",
     "text3": "3 independent persons",
@@ -142,11 +140,11 @@
     "col4-Text1": "audits conducted",
     "col4-Text2": "overall external evaluation of the pilot."
   },
-  "setionorganigrama" : {
+  "setionorganigrama": {
     "title": "FTM Organizational Chart",
     "testaside": "Technical Secretary of the",
     "text1": "Board of Directors",
-    "subText1": "Management", 
+    "subText1": "Management",
     "text2": "Administration and Finance Direction",
     "text3": "Project Management",
     "text4": "Fundraising and Management Direction",
@@ -156,13 +154,12 @@
     "text8": "Monitoring and Follow-up Officer",
     "text9": "Communication Officer"
   },
-  "SectionGovernanceLawEntrepreneurships" : {
+  "SectionGovernanceLawEntrepreneurships": {
     "title1": "GOVERNANCE AND LAW",
     "g1SubtTitle1": "ACOFOP",
     "g1SubtText1": "in Petén, Guatemala was supported to develop its advocacy process and achieved the renewal of 9 forestry concessions and the granting of two new concessions for 25 more years, respectively.",
     "g1SubtTitle2": "RIBCA",
     "g1SubtText2": "in Costa Rica promoted the executive decree of the general consultation mechanism, a legal instrument for institutions to carry out consultations under the principle of free, prior and informed consent (FPIC).",
-    
     "title2": "ENTREPRENEURSHIPS",
     "g2SubtTitle1": "25",
     "g2SubtText1": "entrepreneurial ventures supported on food self-sufficiency",
@@ -182,12 +179,10 @@
     "JeffreyCampbell_Desc2": "Focused on Forest and Farm Producer Organizations, Community Forestry, Forest Policy, Biocultural diversity and Food Sovereignty, Indigenous Peoples Empowerment, Landscape-based Rural Livelihoods, Sustainable Development and Resilience and Adaptation to Climate Change.",
     "JeffreyCampbell_Desc3": "Also publish poetry, perform and record music as jhaffur khan azad darakth, co-founder and composer with Orchestra naiF. ",
     "JeffreyCampbell_Desc4": " Born and raised in India, husband, father and grand-father.",
-   
     "SusanKandel_Name": "Susan Kandel",
     "SusanKandel_Desc1": "Susan Kandel is the Deputy Director and a senior researcher of PRISMA. ",
     "SusanKandel_Desc2": "She holds a B.A in Sociology, a M.A. in Regional and International Development from the University of California, Los Angeles (UCLA), and post-graduate studies in both Sustainable Resource Development from UC Berkeley, as well as in International Human Rights from the International Institute of Human Rights in France. ",
     "SusanKandel_Desc3": "Ms. Kandel’s areas of expertise include: Territorial governance and rural development; Climate Change and adaptation based mitigation; Migration, development and natural resource management; among other relevant topics. Before working at PRISMA, Ms. Kandel was the Director of the Human Rights Department of a Central American Refugee Center located in Los Angeles and Project Coordinator of the Index to Accountability, which directly informed the work of the UN-mandated Ad Hoc and Truth Commissions of El Salvador as part of the Peace Accords process.",
-    
     "KirsiChavda_Name": "Kirsi Chavda",
     "KirsiChavda_Desc1": "Kirsi Chavda is a programme coordinator at Siemenpuu Foundation, where she has supported Civil Society Organisations (CSOs) in several African, Asian and Latin American countries in varied environmental themes, including community-based forest conservation and sustainable use, as well as food sovereignty.",
     "KirsiChavda_Desc2": "Currently Ms. Chavda manages Siemenpuu’s programme on Feminist Agroecology and Community Forests with partners in Liberia and Mozambique. ",
@@ -198,36 +193,35 @@
   "sectionForm": {
     "title": "Complaint Form",
     "submit": "Submit",
-    "textarea1": "Reason for concern as a result of the following failures, neglects, or grievances:",
-    "textarea2": "Indicate the name of the person or agency causing the problem (contracting companies, implementing organizations, state institutions, individuals, technicians, among others.):",
-    "textarea3": "Description of the consequences resulting from the failures or neglects of FTM and/or other executing partners:",
-    "textarea4": "List (if known) of the project principles or procedures that are considered not to have been respected:",
-    "textarea5": "Specify corrective measures and/or remediation and compensation solutions that should be implemented in response to possible problems caused:",
-    "legend": "General information of the affected party:",
+    "textarea1": "Reason for concern and/or complaint:",
+    "textarea2": "Specify the name of the person, agency that has caused the concern/complaint or claim (contractor companies, implementing organizations, state institutions, individuals, technicians, among others.):",
+    "textarea3": "Description of the situation or facts:",
+    "textarea4": "Which procedures or principles do you believe were not respected?",
+    "textarea5": "Do you have any comments or suggestions to prevent or correct this situation currently or in the future?",
+    "legend": "General data of the affected party:",
     "nombre": "Name:",
     "genero": "Gender:",
     "telefono": "Phone:",
     "correo": "Email:",
-    "etnia": "Ethnic Origin:",
-    "comunidadLinguistica": "Linguistic Community:",
+    "etnia": "Community:",
+    "comunidadLinguistica": "Language:",
     "organizacion": "Organization:",
-    "comunidad": "Community:",
+    "comunidad": "Country:",
     "municipio": "Municipality:",
-    "departamento": "Department:",
+    "departamento": "Locality:",
     "Masculino": "Male",
     "Femenino": "Female",
     "Otro": "Other",
     "Indigena": "Indigenous",
     "Afrodescendiente": "Afrodescendant",
-    "Campesino": "Rural",
+    "Campesino": "Community",
     "Castellano": "Spanish",
     "Ingles": "English",
     "Miskitu": "Miskitu",
     "Cabécar": "Cabécar",
-    "loading": "Submitting, please wait",
+    "loading": "Sending, please wait",
     "close": "Close",
     "success": "Your complaint has been submitted",
-    "fail": "An error occurred, please try again later"
+    "fail": "An error has occurred, please try again later"
   }
-
 }
