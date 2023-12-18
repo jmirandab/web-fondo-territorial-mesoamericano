@@ -21,8 +21,8 @@ const Section7 = async ({ lng }: { lng: string }) => {
       <div className={Styles.totalScreenBackgroung}>
         
 
-        <ol className={clsx(Styles.aims, StylesPage.green_card)}>
-          <h2>
+        <ol aria-label={t('SectionGovernanceLawEntrepreneurships.title1')} className={clsx(Styles.aims, StylesPage.green_card)}>
+          <h2 aria-hidden>
             {t('SectionGovernanceLawEntrepreneurships.title1')}
           </h2>
           <li >
@@ -36,8 +36,8 @@ const Section7 = async ({ lng }: { lng: string }) => {
           </li>
         </ol>
 
-        <ol className={clsx(Styles.aims, StylesPage.green_card)}>
-          <h2>
+        <ol aria-label={t('SectionGovernanceLawEntrepreneurships.title2')} className={clsx(Styles.aims, StylesPage.green_card)}>
+          <h2 aria-hidden>
             {t('SectionGovernanceLawEntrepreneurships.title2')}
           </h2>
           <li>

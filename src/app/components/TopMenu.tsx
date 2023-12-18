@@ -146,7 +146,7 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
   return (
     <header suppressHydrationWarning className={clsx(Styles.allignTop, isSmall && Styles.smallMenu)}>
       {/* <Link suppressHydrationWarning aria-label={t('aria.homeLogo')} href={`/${lng}/home`}> */}
-      <Link suppressHydrationWarning href={`/${lng}/home`}>
+      <Link suppressHydrationWarning aria-label={menu.submenu1_1} href={`/${lng}/home`}>
         <span className={Styles.logo}>
         </span>
       </Link>

@@ -67,6 +67,11 @@ section.section7 {
 
 }
 
+
+.alignRelatice {
+  position: relative;
+}
+
 .deerDecor {
   position: absolute;
   aspect-ratio: 163/239;
