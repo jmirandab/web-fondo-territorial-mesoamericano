@@ -32,7 +32,7 @@ const LngSwitcher = ({ lng }: { lng: string }) => {
         Switch to:
       </Trans> */}
 
-    <button suppressHydrationWarning aria-label="language" onClick={langOnCLick}> 
+    <button suppressHydrationWarning onClick={langOnCLick}> 
       <FontAwesomeIcon className={Styles.icon} icon={faLanguage} /> { lang } 
     </button>
      <ol className={clsx(!langsVisible && Styles.langListHidden  )}>
