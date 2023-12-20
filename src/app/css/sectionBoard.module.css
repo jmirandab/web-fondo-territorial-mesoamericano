@@ -99,6 +99,19 @@ section.sectionBoard h3 {
   background-image: url(../../../public/images/KC_foto.png);
 }
 
+.gustavo .imgWrap2 {
+  background-image: url(../../../public/images/gustavo_photo.jpg);
+}
+
+.giuseppe .imgWrap2 {
+  background-image: url(../../../public/images/Giuseppe_photo.png);
+}
+
+
+.sara .imgWrap2 {
+  background-image: url(../../../public/images/Sara_photo.jpeg);
+}
+
 .hojaDecor {
   position: absolute;
     aspect-ratio: 238/165;

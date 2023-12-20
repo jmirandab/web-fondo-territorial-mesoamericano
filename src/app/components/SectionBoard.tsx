@@ -29,6 +29,23 @@ const SectionBoard = async ({ lng }: { lng: string }) => {
     <p>{t('sectionBoard.JeffreyCampbell_Desc4')}</p>
   </>
 
+  const GustavoText = <>
+    <p>{t('sectionBoard.GustavoSanchez_Desc1')}</p>
+    <p>{t('sectionBoard.GustavoSanchez_Desc2')}</p>
+    <p>{t('sectionBoard.GustavoSanchez_Desc3')}</p>
+  </>
+
+  const GiuseppeText = <>
+    
+    <p>{t('sectionBoard.GiuseppeOlo_Desc1')}</p>
+    <p>{t('sectionBoard.GiuseppeOlo_Desc2')}</p>
+    <p>{t('sectionBoard.GiuseppeOlo_Desc3')}</p>
+  </>
+
+  const SaraText = <>
+    <p>{t('sectionBoard.SaraMadriz_Desc1')}</p>
+    <p>{t('sectionBoard.SaraMadriz_Desc2')}</p>
+  </>
 
 
   return (
@@ -63,6 +80,30 @@ const SectionBoard = async ({ lng }: { lng: string }) => {
             <DirectorsExpandableText lng={lng}>{KirseText}</DirectorsExpandableText>
             <div className={Styles.hojasDecor}></div>
           </li>
+          <li className={Styles.gustavo}>
+            <h3>{t('sectionBoard.GustavoSanchez_Name')}</h3>
+
+            <div className={Styles.imgWrap2}></div>
+            <DirectorsExpandableText lng={lng}>{GustavoText}</DirectorsExpandableText>
+            <div className={Styles.hojasDecor}></div>
+          </li>
+
+          <li className={Styles.sara}>
+            <h3>{t('sectionBoard.SaraMadriz_Name')}</h3>
+
+            <div className={Styles.imgWrap2}></div>
+            <DirectorsExpandableText lng={lng}>{SaraText}</DirectorsExpandableText>
+            <div className={Styles.hojasDecor}></div>
+          </li>
+
+          <li className={Styles.giuseppe}>
+            <h3>{t('sectionBoard.GiuseppeOlo_Name')}</h3>
+
+            <div className={Styles.imgWrap2}></div>
+            <DirectorsExpandableText lng={lng}>{GiuseppeText}</DirectorsExpandableText>
+            <div className={Styles.hojasDecor}></div>
+          </li>
+
         </ol>
       </div>
     </Section>
