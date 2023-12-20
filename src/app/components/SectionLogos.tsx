@@ -32,7 +32,7 @@ const SectionLogos = async ({ lng }: { lng: string }) => {
 
   const { t } = await useTranslation(lng);
   return (
-    <Section className={Styles.sectionLogos}>
+    <Section id="FTM-partners" className={Styles.sectionLogos}>
 
       <div className={Styles.totalScreenBackgroung}>
         <h2 className={StylesPage.whiteH2}>  

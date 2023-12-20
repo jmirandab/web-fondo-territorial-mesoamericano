@@ -22,9 +22,10 @@ const lng_en = {
   "submenu1_2": "About us",
   "submenu1_3": "AMPB Members",
   "submenu1_4": "Rationale",
-  "submenu1_5": "What do we finance?",
+  // "submenu1_5": "What do we finance?", moved`
   "submenu1_6": "How we work?",
-  "submenu1_7": "Organizational Chart"
+  "submenu1_7": "Organizational Chart",
+  "submenu1_8": "Board of Directors",
 };
 
 const lng_es = {
@@ -39,7 +40,8 @@ const lng_es = {
   "submenu1_4": "Razón de ser",
   "submenu1_5": "Qué financiamos",
   "submenu1_6": "Cómo trabajamos",
-  "submenu1_7": "Organigrama FTM"
+  "submenu1_7": "Organigrama FTM",
+  "submenu1_8": "Junta Directiva",
 }
 
 
@@ -79,10 +81,10 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
           href: `/${lng}/home#rational`,
           text: menu.submenu1_4,
         },
-        {
-          href: `/${lng}/home#whatdowefinance`,
-          text: menu.submenu1_5,
-        },
+        // {
+        //   href: `/${lng}/home#whatdowefinance`,
+        //   text: menu.submenu1_5,
+        // }, moved
         {
           href: `/${lng}/home#HowWeWork`,
           text: menu.submenu1_6,
@@ -91,25 +93,26 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
           href: `/${lng}/home#FTM-Organizational-Chart`,
           text: menu.submenu1_7,
         }
+        ,
+        {
+          href: `/${lng}/home#FTM-board`,
+          text: menu.submenu1_8,
+        }
       ]
     }, {
       href: `/${lng}/what-we-fund`,
       text: menu.option2,
 
     },
-    , {
-      href: `/${lng}/board`,
-      text: menu.option3,
+    // , {
+    //   href: `/${lng}/board`,
+    //   text: menu.option3,
 
-    },
+    // },
     // {
     //   href: `/${lng}/how-we-operate`,
     //   text: menu.option3
     // },
-    {
-      href: `/${lng}/strategic-partners`,
-      text: menu.option4
-    },
     {
       href: `/${lng}/form`,
       text: menu.option5

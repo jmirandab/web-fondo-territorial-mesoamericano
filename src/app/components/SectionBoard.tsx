@@ -49,7 +49,7 @@ const SectionBoard = async ({ lng }: { lng: string }) => {
 
 
   return (
-    <Section className={Styles.sectionBoard}>
+    <Section id={"FTM-board"} className={Styles.sectionBoard}>
 
       <div className={Styles.totalScreenBackgroung}>
         <h2 className={StylesPage.whiteH2}>

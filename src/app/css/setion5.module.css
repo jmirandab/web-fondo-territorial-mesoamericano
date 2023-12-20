@@ -1,15 +1,14 @@
 section.section5 {
   outline: none;
   min-height: min-content;
-  padding-bottom: 2em;
   text-align: center;
-
-  background-image: url(../../../public/images/hojasTansp1.png);
-  background-position: bottom -1em right -1em;
-  background-size: 12em;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  z-index: 3;
+  background-image: url(../../../public/images/backgreen.png), url(../../../public/images/plantwhite.png), url(../../../public/images/steps.png);
+  /* background-image: url(../../../public/images/plantwhite.png); */
+  background-size: cover, 12em, 12em;
+  background-repeat: repeat, no-repeat, no-repeat;
+  background-attachment: local, fixed, local;
+  background-blend-mode: soft-light;
+  background-position: center, top left, bottom 2em right 2em;
 }
 
 section.section5 h2,
@@ -23,6 +22,8 @@ section.section5 h3 {
 
 section.section5 h2 {
   padding: 2em 0 1em;
+  color: var(--body-background-color);
+    filter: drop-shadow(0 2px 2px #222);
 }
 
 .totalScreenBackgroung {

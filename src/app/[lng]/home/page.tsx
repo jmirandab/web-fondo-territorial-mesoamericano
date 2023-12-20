@@ -8,13 +8,15 @@ import Section1 from '../../components/Section1'
 import Section2 from '../../components/Section2'
 import SectionRational from '../../components/SectionRational'
 import SetionAMPBMembers from '../../components/SetionAMPBMembers'
-import Section5 from '../../components/Section5'
+// import Section5 from '../../components/Section5'
 import Section7 from '../../components/Section7'
 import Section8 from '../../components/Section8'
 import SectionHowWeWork8 from '../../components/SectionHowWeWork'
 import SectionOrganigrama9 from '../../components/SectionOrganigrama'
 import SectionVideo from '@/app/components/SectionVideo'
+import SectionBoard from '@/app/components/SectionBoard'
 import Main from '@/app/components/Main'
+import SectionLogos from '@/app/components/SectionLogos'
 
 
 export default function Home({ params: { lng } }: { params: { lng: string } }) {
@@ -26,11 +28,13 @@ export default function Home({ params: { lng } }: { params: { lng: string } }) {
       <Section2 lng={lng} />
       <SetionAMPBMembers lng={lng} />
       <SectionRational lng={lng} />
-      <Section5 lng={lng} />
+      {/* <Section5 lng={lng} /> */}
       <Section7 lng={lng} />
       <Section8 lng={lng} />
       <SectionHowWeWork8 lng={lng} />
       <SectionOrganigrama9 lng={lng} />
+      <SectionBoard  lng={lng} />
+      <SectionLogos lng={lng}/>
 
     </Main>
   )
