@@ -85,15 +85,15 @@ const SectionBoard = async ({ lng }: { lng: string }) => {
 
             <div className={Styles.imgWrap2}></div>
             <DirectorsExpandableText lng={lng}>{GustavoText}</DirectorsExpandableText>
-            <div className={Styles.hojasDecor}></div>
+            <div className={Styles.hojasDecor4}></div>
           </li>
 
           <li className={Styles.sara}>
             <h3>{t('sectionBoard.SaraMadriz_Name')}</h3>
-
+            <div className={Styles.hojasDecor3}></div>
             <div className={Styles.imgWrap2}></div>
             <DirectorsExpandableText lng={lng}>{SaraText}</DirectorsExpandableText>
-            <div className={Styles.hojasDecor}></div>
+            
           </li>
 
           <li className={Styles.giuseppe}>
@@ -101,7 +101,7 @@ const SectionBoard = async ({ lng }: { lng: string }) => {
 
             <div className={Styles.imgWrap2}></div>
             <DirectorsExpandableText lng={lng}>{GiuseppeText}</DirectorsExpandableText>
-            <div className={Styles.hojasDecor}></div>
+            <div className={Styles.hojasDecor2}></div>
           </li>
 
         </ol>
