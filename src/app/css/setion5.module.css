@@ -2,7 +2,7 @@ section.section5 {
   outline: none;
   min-height: min-content;
   text-align: center;
-  background-image: url(../../../public/images/backgreen.png), url(../../../public/images/plantwhite.png), url(../../../public/images/steps.png);
+  /* background-image: url(../../../public/images/backgreen.png), url(../../../public/images/plantwhite.png), url(../../../public/images/steps.png); */
   /* background-image: url(../../../public/images/plantwhite.png); */
   background-size: cover, 12em, 12em;
   background-repeat: repeat, no-repeat, no-repeat;
@@ -22,8 +22,6 @@ section.section5 h3 {
 
 section.section5 h2 {
   padding: 2em 0 1em;
-  color: var(--body-background-color);
-    filter: drop-shadow(0 2px 2px #222);
 }
 
 .totalScreenBackgroung {
