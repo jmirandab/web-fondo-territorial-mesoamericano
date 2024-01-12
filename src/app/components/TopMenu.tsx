@@ -39,7 +39,7 @@ const lng_es = {
   "submenu1_3": "Miembros de la AMPB",
   "submenu1_4": "Razón de ser",
   "submenu1_5": "Qué financiamos",
-  "submenu1_6": "Cómo trabajamos",
+  "submenu1_6": "¿Cómo trabajamos?",
   "submenu1_7": "Organigrama FTM",
   "submenu1_8": "Junta Directiva",
 }

@@ -5,6 +5,8 @@ import Styles from '../../app/css/sectionHowWeWork.module.css'
 import StylesPage from '../../app/page.module.css'
 import { useTranslation } from '../i18n'
 import clsx from 'clsx'
+import Link from 'next/link'
+
 const SectionHowWeWork = async ({ lng }: { lng: string }) => {
 
   const { t } = await useTranslation(lng);
@@ -20,7 +22,12 @@ const SectionHowWeWork = async ({ lng }: { lng: string }) => {
 
         <p>{t('section9.pre_text2')}</p>
 
-        <p>{t('section9.pre_text3')}</p>
+        <p>
+          {t('section9.pre_text3')}
+          <Link target="_blank" href="https://www.alianzamesoamericana.org/es/escuela-liderazgo/">{t('section9.pre_text4')}</Link>
+          {t('section9.pre_text5')}
+          <Link target="_blank" href="https://www.mujeresmesoamericanas.org/">{t('section9.pre_text6')}</Link>
+        </p>
 
         <div className={Styles.greenText}>{t('section9.text1')}</div>
         <div className={Styles.firstRow}>

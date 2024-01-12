@@ -18,6 +18,14 @@ section.section9 {
   color: var(--blueOrg4)
 }
 
+.section9 a {
+  color: var(--niceBlue);
+}
+
+.section9 a:hover {
+  text-decoration: underline;
+}
+
 
 
 .greenText {

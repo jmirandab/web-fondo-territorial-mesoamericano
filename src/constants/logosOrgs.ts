@@ -29,6 +29,11 @@ export default [
         file: "Re-wild_Logo_RGB_green.png",
         descKey: "",
         url: "www.rewild.org"
+    },{
+        name: "Ford Foundation",
+        file: "ford_foundation.jpg",
+        descKey: "",
+        url: "https://www.fordfoundation.org/"
     }
 
 ]

@@ -112,6 +112,11 @@ section.sectionLogos strong {
   width: 5.5em;
 }
 
+.orgslist li:nth-child(7) .logoWrap {
+
+  width: 9.5em;
+}
+
 .orgslist li:nth-child(2)::before {
   content: " ";
   position: absolute;
