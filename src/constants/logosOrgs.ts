@@ -33,7 +33,7 @@ export default [
         name: "Ford Foundation",
         file: "ford_foundation.jpg",
         descKey: "",
-        url: "https://www.fordfoundation.org/"
+        url: "fordfoundation.org"
     }
 
 ]

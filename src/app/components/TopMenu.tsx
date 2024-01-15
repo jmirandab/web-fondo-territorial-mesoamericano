@@ -29,16 +29,16 @@ const lng_en = {
 };
 
 const lng_es = {
-  "option1": "Quiénes somos",
-  "option2": "Qué financiamos",
+  "option1": "¿Quiénes somos?",
+  "option2": "¿Qué financiamos?",
   "option3": "Junta Directiva",
   "option4": "Socios Estratégicos",
   "option5": "Formulario de quejas",
   "submenu1_1": "Inicio",
-  "submenu1_2": "Quiénes somos",
+  "submenu1_2": "¿Quiénes somos?",
   "submenu1_3": "Miembros de la AMPB",
   "submenu1_4": "Razón de ser",
-  "submenu1_5": "Qué financiamos",
+  "submenu1_5": "¿Qué financiamos?",
   "submenu1_6": "¿Cómo trabajamos?",
   "submenu1_7": "Organigrama FTM",
   "submenu1_8": "Junta Directiva",

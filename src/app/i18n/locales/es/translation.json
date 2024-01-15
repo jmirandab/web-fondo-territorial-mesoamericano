@@ -9,16 +9,16 @@
     "imgCMLTMLogo": "Coordinadora de Mujeres Líderes Territoriales de Mesoamérica"
   },
   "menu": {
-    "option1": "Quiénes somos",
-    "option2": "Qué financiamos",
+    "option1": "¿Quiénes somos?",
+    "option2": "¿Qué financiamos?",
     "option3": "Junta Directiva",
     "option4": "Socios Estratégicos",
     "option5": "Formulario de quejas",
     "submenu1_1": "Inicio",
-    "submenu1_2": "Quiénes somos",
+    "submenu1_2": "¿Quiénes somos?",
     "submenu1_3": "Miembros de la AMPB",
     "submenu1_4": "Razón de ser",
-    "submenu1_5": "Qué financiamos",
+    "submenu1_5": "¿Qué financiamos?",
     "submenu1_6": "¿Cómo trabajamos?",
     "submenu1_7": "Organigrama FTM"
   },
@@ -26,7 +26,7 @@
     "title": "Socios Estratégicos"
   },
   "section2": {
-    "title": "Quiénes somos",
+    "title": "¿Quiénes somos?",
     "text1": "El Fondo Territorial Mesoamericano (FTM) es un mecanismo financiero alternativo diseñado por la Alianza Mesoamericana de Pueblos y Bosques (AMPB), por y para los Pueblos Indígenas y Comunidades Locales (PICLs)",
     "text2": "Nuestro objetivo es promover la inversión directa con enfoque de derechos, eficiente y eficaz en los territorios claves de Mesoamérica y, a su vez, garantizar costos menores de transacción y manejo de los fondos apegado a protocolos claros y rendición de cuentas."
   },
