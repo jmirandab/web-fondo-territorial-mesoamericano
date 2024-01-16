@@ -147,7 +147,9 @@ const SectionBoard = ({ lng }: { lng: string }) => {
             <textarea id="textarea5" name="textarea5" ></textarea>
           </div>
           <button type="submit" >{t('sectionForm.submit')}</button>
+          
         </form>
+        <div className={Styles.decorBottom}></div>
       </div>
     </Section>
   );

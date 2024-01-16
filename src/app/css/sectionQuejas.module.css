@@ -2,7 +2,17 @@ section.sectionQuejas {
   outline: none;
   min-height: min-content;
   text-align: center; 
-  background-image: url(../../../public/images/blue_backg.png);
+  
+
+  background-image: url(../../../public/images/blue_backg.png), url(../../../public/images/plantwhite.png);
+  /* background-image: url(../../../public/images/plantwhite.png); */
+  background-size: cover, 12em;
+  background-repeat: repeat, no-repeat;
+  background-attachment: local, fixed;
+  background-blend-mode: soft-light;
+  background-position: center, top 7em left -1em;
+  
+
 
   position: relative;
   background-color: #0475b5;
@@ -91,6 +101,23 @@ section.sectionQuejas {
   padding: 1em;
   margin-bottom: 1em;
   border-color: var(--olive-background-green);
+  background-image: url(../../../public/images/blue_backg.png);
+}
+
+.sectionQuejas form::before {
+  content: " ";
+  position: absolute; 
+  width: 11em;
+  display: block;
+  top: 16em;
+  left: 0;
+  transform: translate(-50%, -33%);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-image: url(../../../public/images/hojas4.png);
+  background-size: contain;
+  z-index: -1;
+  aspect-ratio: 539/741;
 }
 
 .sectionQuejas label {
@@ -100,11 +127,14 @@ section.sectionQuejas {
 
 
 .sectionQuejas form {
-  max-width: 600px;
+  max-width: 800px;
   display: flex;
   flex-direction: column;
   margin: auto ;
-  padding: 1em;
+  padding: 1em 1em 6em 1em;
+  z-index: 2;
+
+  position: relative;
 }
 
 .sectionQuejas input[type=text], .sectionQuejas input[type=email], .sectionQuejas  textarea {
@@ -139,4 +169,18 @@ section.sectionQuejas {
   flex-direction: column;
   align-items: flex-start;
   padding: 0.4em 0;
+}
+
+
+.sectionQuejas .decorBottom {
+  position: absolute  ;
+  right: -1em;
+  bottom: -1em;
+  z-index: 1;
+  background-image: url(../../../public/images/hoja1.png), url(../../../public/images/hojasTansp1.png);
+  background-size: 6em, 7em;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  height: 8em;
+  width: 7em;
 }
