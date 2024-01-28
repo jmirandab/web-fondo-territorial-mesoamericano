@@ -20,6 +20,10 @@ section.sectionBoard h2 {
 section.sectionBoard h3 {
   color: var(--body-background-color);
   filter: drop-shadow(0 2px 2px #222);
+  min-height: 2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .totalScreenBackgroung {
@@ -109,9 +113,12 @@ section.sectionBoard h3 {
 }
 
 .giuseppe .imgWrap2 {
-  background-image: url(../../../public/images/Giuseppe_photo.png);
+  background-image: url(../../../public/images/macedonio_foto.png);
 }
 
+.anibal .imgWrap2 {
+  background-image: url(../../../public/images/anibal_foto.jpeg);
+}
 
 .sara .imgWrap2 {
   background-image: url(../../../public/images/Sara_photo.jpeg);
