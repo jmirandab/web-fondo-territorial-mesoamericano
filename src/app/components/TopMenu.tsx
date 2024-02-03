@@ -18,14 +18,17 @@ const lng_en = {
   "option3": "Board of Directors",
   "option4": "Strategic Partners",
   "option5": "Complaint Form",
+
+  "option6": "Resources",
   "submenu1_1": "Home",
   "submenu1_2": "About us",
   "submenu1_3": "AMPB Members",
   "submenu1_4": "Rationale",
-  // "submenu1_5": "What do we finance?", moved`
   "submenu1_6": "How we work?",
   "submenu1_7": "Organizational Chart",
   "submenu1_8": "Board of Directors",
+
+  "submenu6_1": "Events",
 };
 
 const lng_es = {
@@ -34,6 +37,7 @@ const lng_es = {
   "option3": "Junta Directiva",
   "option4": "Socios Estratégicos",
   "option5": "Formulario de quejas",
+  "option6": "Recursos",
   "submenu1_1": "Inicio",
   "submenu1_2": "¿Quiénes somos?",
   "submenu1_3": "Miembros de la AMPB",
@@ -42,6 +46,8 @@ const lng_es = {
   "submenu1_6": "¿Cómo trabajamos?",
   "submenu1_7": "Organigrama FTM",
   "submenu1_8": "Junta Directiva",
+
+  "submenu6_1": "Eventos",
 }
 
 
@@ -104,18 +110,19 @@ const TopMenu = ({ lng, isSmall = false }: { lng: string, isSmall?: boolean }) =
       text: menu.option2,
 
     },
-    // , {
-    //   href: `/${lng}/board`,
-    //   text: menu.option3,
-
-    // },
-    // {
-    //   href: `/${lng}/how-we-operate`,
-    //   text: menu.option3
-    // },
     {
       href: `/${lng}/form`,
       text: menu.option5
+    },
+    {
+      href: `/${lng}/resources`,
+      text: menu.option6,
+      subItems: [
+        {
+          href: `/${lng}/resources`,
+          text: menu.submenu6_1,
+        }
+      ]
     },
   ]
 

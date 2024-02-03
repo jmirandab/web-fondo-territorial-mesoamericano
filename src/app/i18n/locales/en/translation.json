@@ -246,5 +246,9 @@
     "close": "Close",
     "success": "Your complaint has been submitted",
     "fail": "An error has occurred, please try again later"
+  },
+
+  "sectionDialogo": {
+    "title": "SCHEDULE"
   }
 }

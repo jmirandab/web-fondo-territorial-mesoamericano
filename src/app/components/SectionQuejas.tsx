@@ -1,6 +1,6 @@
 "use client"
 
-import React, { FormEvent, MouseEvent, useState, useRef } from 'react';
+import React, { FormEvent, useState, useRef } from 'react';
 import Section from './Section';
 import Styles from '../../app/css/sectionQuejas.module.css'
 import StylesPage from '../../app/page.module.css'
