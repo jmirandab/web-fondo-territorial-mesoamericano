@@ -176,6 +176,11 @@ section.sectionEventBanner .topWrap{
   padding-top: 1.5em;
 }
 
+.topText a {
+  color: var(--background-orange1);
+  text-decoration: underline;
+}
+
 .topText li {
   padding-bottom: 0.5em;
   list-style-type: disc;
