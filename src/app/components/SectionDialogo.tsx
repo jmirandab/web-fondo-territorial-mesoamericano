@@ -7,6 +7,8 @@ import StylesPage from '../../app/page.module.css'
 import { useTranslation } from '../i18n/client'
 import clsx from 'clsx';
 
+import Link from 'next/link'
+
 
 const SectionDialogo = ({ lng }: { lng: string }) => {
   const { t } = useTranslation(lng);
@@ -36,9 +38,9 @@ const SectionDialogo = ({ lng }: { lng: string }) => {
               <li>Organizaciones territoriales socias.</li>
               <li>Empresas privadas con programas efectivos de responsabilidad social empresarial en la región.</li>
             </ul>
-            <p>El evento es cerrado, pero se realizarán transmisiones en vivo de paneles, debates y presentaciones mediante la plataforma Zoom y se transmitirán en vivo en la página Facebook  y Youtube de la AMPB. En caso de no poder asistir en vivo, las sesiones quedarán grabadas en la página de Facebook y Youtube de la Alianza Mesoamericana de Pueblos y Bosques.
-              Agregar banner de invitación
-              Agregar imagen de la agenda de ambos días Ambos materiales los estará enviando la diseñadora.
+            <p>El evento es cerrado, pero se realizarán transmisiones en vivo de paneles, debates y presentaciones mediante la plataforma Zoom y se transmitirán en vivo en la página
+               <Link target="_blank" href="https://www.facebook.com/alianzabosques/">Facebook</Link>  y <Link  target="_blank" href="https://www.youtube.com/channel/UCpjaCSauXCxms3PLMxFkgEA">Youtube</Link> de la AMPB. En caso de no poder asistir en vivo, las sesiones quedarán grabadas en la página de <Link target="_blank" href="https://www.facebook.com/alianzabosques/">Facebook</Link> y <Link  target="_blank" href="https://www.youtube.com/channel/UCpjaCSauXCxms3PLMxFkgEA">Youtube</Link> de la Alianza Mesoamericana de Pueblos y Bosques.
+             
             </p>
           </div>
         </div>
