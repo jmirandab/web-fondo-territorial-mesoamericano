@@ -143,7 +143,7 @@ section.sectionEventBanner .topWrap{
 .totalScreenBackgroung {
   position: relative;
   margin: 0 auto;
-  min-height: 90vh;
+  min-height: 70vh;
   margin: 0 auto;
   background-size: contain;
   color: var(--body-background-color);

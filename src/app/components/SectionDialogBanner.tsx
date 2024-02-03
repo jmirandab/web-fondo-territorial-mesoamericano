@@ -33,8 +33,7 @@ const SectionDialogo = ({ lng }: { lng: string }) => {
                   unoptimized={true}
                 />
                 </div>
-          <p>13 y 14 de febrero</p>
-          <p>San José, Costa Rica</p>
+          <p>13 y 14 de febrero <br />San José, Costa Rica</p>
 
         </div>
       </div>
