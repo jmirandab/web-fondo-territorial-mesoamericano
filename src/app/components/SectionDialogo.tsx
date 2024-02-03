@@ -22,13 +22,12 @@ const SectionDialogo = ({ lng }: { lng: string }) => {
         <div className={Styles.topWrap}>
           <div className={Styles.topText}>
             <h3>Objetivo General:</h3>
-            Posicionar al Fondo Territorial Mesoamericano (FTM) como una herramienta eficaz para agilizar el financiamiento territorial directo y generar impactos positivos.
-
+            Posicionar al Fondo Territorial Mesoamericano (FTM) como una herramienta eficaz para agilizar el financiamiento territorial directo y generar impactos positivos para los Pueblos Indígenas y Comunidades Locales, los bosques y la biodiversidad.
             <h3>Objetivos Específicos:</h3>
             <ul>
-              <li>Facilitar el intercambio de experiencias sobre el desarrollo del financiamiento territorial directo. </li>
+              <li>Facilitar el intercambio de experiencias sobre el fortalecimiento del financiamiento territorial directo. </li>
               <li>Presentar experiencias de organizaciones de Pueblos Indígenas y Comunidades Locales en la implementación del financiamiento territorial directo. </li>
-              <li>Actualizar sobre el compromiso del FTFG y los avances del financiamiento territorial directo en Mesoamérica. </li>
+              <li>Actualizar sobre el compromiso de la cooperación internacional y filantrópica sobre los avances del financiamiento territorial directo en Mesoamérica. </li>
               <li>Proponer ideas y acuerdos para avanzar en los objetivos del financiamiento climático en la región mesoamericana. </li>
             </ul>
             <h3>PARTICIPANTES:</h3>
