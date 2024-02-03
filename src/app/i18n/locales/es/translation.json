@@ -242,5 +242,9 @@
     "close": "Cerrar",
     "success": "Su queja ha sido enviada",
     "fail": "Ha ocurrido un error, por favor inténtelo de nuevo más tarde"
+  },
+
+  "sectionDialogo": {
+    "title": "AGENDA"
   }
 }

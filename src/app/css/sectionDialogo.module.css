@@ -1,0 +1,186 @@
+section.sectionQuejas, section.sectionEventBanner{
+  outline: none;
+  min-height: min-content;
+  text-align: center; 
+  
+
+  background-image: url(../../../public/images/blueBackg2.svg);
+  /* background-image: url(../../../public/images/plantwhite.png); */
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: local;
+  background-blend-mode: soft-light;
+  background-position: center;
+  
+  position: relative;
+  background-color: #0475b5;
+  padding-bottom: 0;
+}
+
+section.sectionEventBanner .topWrap p{
+  font-size: var(--fontSizeL);
+  padding: 0.7em 0;
+  font-weight: bold;
+}
+
+section.sectionEventBanner .topWrap p:first-child{
+  font-size: var(--fontSizeL);
+  padding: 2.5em 1em .7em;
+}
+
+.imgWrap {
+  width: 80%;
+  height: 5px;
+  margin: auto;
+  position: relative;
+}
+
+
+.sectionEventBanner .decorBottom {
+  position: absolute  ;
+  right: 0em;
+  bottom: 0em;
+  z-index: 1;
+  background-image: url(../../../public/images/test.png)  ;
+  background-size: 6em, 7em;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  height: 8em;
+  width: 7em;
+}
+
+
+.sectionEventBanner .decorBottom2 {
+  position: absolute  ;
+  left: 0em;
+  top: 0em;
+  z-index: 1;
+  background-image: url(../../../public/images/newDeco2.png)  ;
+  background-size: 6em, 7em;
+  background-position: left top;
+  background-repeat: no-repeat;
+  height: 8em;
+  width: 7em;
+}
+
+.sectionEventBanner .backGroundDecor {
+  position: absolute  ;
+  left: 50%;
+  bottom: 0em;
+  z-index: 1;
+  background-image: url(../../../public/images/bigLeaf.png)  ;
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  transform: translate(-50%, 0);
+}
+
+
+
+
+
+section.sectionEventBanner .topWrap{
+  max-width: 950px;
+  margin: auto;
+}
+
+.topWrap {
+  overflow: auto;
+  padding: 0.5em;
+}
+
+.sectionQuejas table, .sectionQuejas  th, .sectionQuejas  td {
+  border: 1px solid #5c7cb6ff;
+  border-collapse: collapse;
+}
+
+ .sectionQuejas td {
+  padding: 1em;
+}
+
+
+.sectionQuejas table {
+
+  margin: 2.5em auto;
+  max-width: 900px;
+}
+
+.sectionQuejas table>tr:first-child>td {
+  /* background: #267cac; */
+  background: #205c8f;
+  font-size: var(--fontSizeM);
+
+}
+
+.sectionQuejas table>tr:nth-child(3)>td {
+  background: #205c8f;
+  font-size: var(--fontSizeM);
+}
+
+.sectionQuejas table>tr:nth-child(2)>td {
+  /* background: #83a8cc; */
+  background: #c4d6e7;
+
+  color: var(--blueOrg4);
+  font-size: var(--fontSizeM);
+}
+
+
+.sectionQuejas tr:nth-child(n+4) td {
+  background-color: var(--body-background-color);
+  /* color: #1e4e9d; */
+  color: var(--blueOrg4);
+}
+
+.sectionQuejas tr:nth-child(n+4) td:first-child {
+  white-space: nowrap;
+}
+
+
+
+.totalScreenBackgroung {
+  position: relative;
+  margin: 0 auto;
+  min-height: 90vh;
+  margin: 0 auto;
+  background-size: contain;
+  color: var(--body-background-color);
+  z-index: 2;
+}
+
+
+.sectionQuejas .decorBottom {
+  position: absolute  ;
+  right: -1em;
+  bottom: -1em;
+  z-index: 1;
+  background-image: url(../../../public/images/hoja1.png), url(../../../public/images/hojasTansp1.png);
+  background-size: 6em, 7em;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  height: 8em;
+  width: 7em;
+}
+
+.topText {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  text-align: left;
+}
+
+.topText p, .topText h3{
+  padding-bottom: 0.5em ;
+  padding-top: 1.5em;
+}
+
+.topText li {
+  padding-bottom: 0.5em;
+  list-style-type: disc;
+}
+
+.topText ul {
+  padding-left: 2em;
+}
