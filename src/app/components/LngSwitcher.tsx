@@ -27,10 +27,7 @@ const LngSwitcher = ({ lng }: { lng: string }) => {
   const lang = lng === 'es'? "Lenguaje" :"Language"
 
   return (<div suppressHydrationWarning onBlur={langHid} className={Styles.lngSwitcher}>
-    {/* 
-      <Trans i18nKey="languageSwitcher" t={t}>
-        Switch to:
-      </Trans> */}
+
 
     <button suppressHydrationWarning onClick={langOnCLick}> 
       <FontAwesomeIcon className={Styles.icon} icon={faLanguage} /> { lang } 

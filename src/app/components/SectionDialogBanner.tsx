@@ -20,9 +20,7 @@ const SectionDialogo = ({ lng }: { lng: string }) => {
         {/* <div className={Styles.decorBottom}></div> */}
         <div className={Styles.topWrap}>
 
-          <p >"DIÁLOGO SOBRE EL IMPACTO DEL FINANCIAMIENTO 
-            TERRITORIAL DIRECTO A PUEBLOS INDÍGENAS
-            Y COMUNIDADES LOCALES EN MESOAMÉRICA"</p>
+          <p >{t('evento_dialogo.title')}</p>
             <div className={Styles.imgWrap}>
             <Image
                   src={"../images/orangeSeparator.png"}
@@ -33,7 +31,7 @@ const SectionDialogo = ({ lng }: { lng: string }) => {
                   unoptimized={true}
                 />
                 </div>
-          <p>13 y 14 de febrero <br />San José, Costa Rica</p>
+          <p>{t('evento_dialogo.date')} <br />San José, Costa Rica</p>
 
         </div>
       </div>

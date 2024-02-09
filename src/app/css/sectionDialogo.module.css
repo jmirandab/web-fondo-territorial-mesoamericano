@@ -3,9 +3,6 @@ section.sectionQuejas, section.sectionEventBanner{
   min-height: min-content;
   text-align: center; 
   
-
-  background-image: url(../../../public/images/blueBackg2.svg);
-  /* background-image: url(../../../public/images/plantwhite.png); */
   background-size: cover;
   background-repeat: repeat;
   background-attachment: local;
@@ -13,7 +10,7 @@ section.sectionQuejas, section.sectionEventBanner{
   background-position: center;
   
   position: relative;
-  background-color: #0475b5;
+  background-color: #00357e;
   padding-bottom: 0;
 }
 
@@ -78,6 +75,22 @@ section.sectionEventBanner .topWrap p:first-child{
 }
 
 
+.icon {
+  font-size: 40px;
+  padding-right: 0.5em;
+}
+
+
+.downloadLink { 
+  padding: 2em;
+  margin: 1em;
+  font-size: var(--fontSizeM);
+  background-color: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%,  rgba(0, 0, 0, 0.4));
+  display: flex;  
+  width: fit-content;
+  align-items: center;
+}
 
 
 
@@ -165,18 +178,29 @@ section.sectionEventBanner .topWrap{
 }
 
 .topText {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   padding: 1em;
   text-align: left;
+
+}
+
+.allignColumn {
+  display: flex;
+
+  flex-direction: column;
+  column-gap: 2em;
 }
 
 .topText p, .topText h3{
   padding-bottom: 0.5em ;
   padding-top: 1.5em;
 }
+.topText p, .topText ul {
+  font-size: var(--fontSizeS);
+}
 
-.topText a {
+.topText p a {
   color: var(--background-orange1);
   text-decoration: underline;
 }
@@ -188,4 +212,17 @@ section.sectionEventBanner .topWrap{
 
 .topText ul {
   padding-left: 2em;
+}
+
+
+@media (min-width: 800px) {
+  .half {
+    min-width: 50%;
+    width: 50%;
+  }
+
+  .allignColumn {
+  
+    flex-direction: row;
+  }
 }
