@@ -64,7 +64,7 @@ const SectionDialogo = ({ lng }: { lng: string }) => {
             <p>{t('evento_dialogo.agendatext')}</p>
 
 
-            <a className={Styles.downloadLink} href={downloadUrl} download>
+            <a className={Styles.downloadLink} href={downloadUrl} target='_blank'>
               <FontAwesomeIcon className={Styles.icon} icon={faFilePdf} />
               {t('evento_dialogo.downloadpdf')}
             </a>
