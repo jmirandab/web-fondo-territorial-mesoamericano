@@ -4,10 +4,11 @@
   "lang": "lenguaje",
   "evento_dialogo": {
     "downloadpdf": "Descargar Agenda Pdf ",
+    "downloadNotepdf": "Descargar Nota Concepto Pdf ",
     "title": "“DIÁLOGO SOBRE EL IMPACTO DEL FINANCIAMIENTO TERRITORIAL DIRECTO A PUEBLOS INDÍGENAS Y COMUNIDADES LOCALES EN MESOAMÉRICA“",
     "date": "13 y 14 de febrero",
     "location": "San José, Costa Rica",
-    "agendatext":"AGENDA: Puedes descargar a continuación el programa de los dos días de paneles y talleres."
+    "agendatext":"Puedes descargar a continuación la agenda y la nota conceptual de nuestro evento."
   },
   "aria": {
     "homeLogo": "Ir al inicio",

@@ -5,10 +5,11 @@
   "lang": "Language",
   "evento_dialogo": {
     "downloadpdf": "Download Pdf Agenda",
+    "downloadNotepdf": "Download Concept Note Pdf ",
     "title": "“DIALOGUE ON THE IMPACT OF DIRECT TERRITORIAL FINANCING TO INDIGENOUS PEOPLES AND LOCAL COMMUNITIES IN MESOAMERICA”",
     "date": "February 13 & 14, 2024",
     "location": "San José, Costa Rica",
-    "agendatext":"AGENDA: Please download the program for the two day panels and workshops below."
+    "agendatext":"Below, you can download the agenda and conceptual note for the two days of panels and workshops."
   },
   "aria": {
     "homeLogo": "Navigate home",
