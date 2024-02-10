@@ -80,16 +80,26 @@ section.sectionEventBanner .topWrap p:first-child{
   padding-right: 0.5em;
 }
 
+.linksWrap {
+  margin: 1em;
+  display: flex;
+  /* gap: 1em; */
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 
 .downloadLink { 
   padding: 2em;
-  margin: 1em;
   font-size: var(--fontSizeM);
   background-color: rgba(0, 0, 0, 0.5);
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%,  rgba(0, 0, 0, 0.4));
   display: flex;  
   width: fit-content;
   align-items: center;
+  flex-grow: 1;
+    flex-basis: 16em;
+    max-width: 24em;
+    margin: 0 0.5em;
 }
 
 
@@ -208,7 +218,17 @@ section.sectionEventBanner .topWrap{
 .topText li {
   padding-bottom: 0.5em;
   list-style-type: disc;
+  
 }
+/* .topText li::marker {
+  color: var(--background-orange1);;
+
+}
+
+.topText h3 {
+  color: #55c0ba;
+} */
+
 
 .topText ul {
   padding-left: 2em;

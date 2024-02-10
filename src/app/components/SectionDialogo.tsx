@@ -102,16 +102,17 @@ const SpecificObjectives = isSpanish? <div>
             </div>
             {eventLinksAndSSMM}
             <p>{t('evento_dialogo.agendatext')}</p>
+            <div className={Styles.linksWrap}>
+              <a className={Styles.downloadLink} href={downloadAgendaUrl} target='_blank'>
+                <FontAwesomeIcon className={Styles.icon} icon={faFilePdf} />
+                {t('evento_dialogo.downloadpdf')}
+              </a>
 
-            <a className={Styles.downloadLink} href={downloadAgendaUrl} target='_blank'>
-              <FontAwesomeIcon className={Styles.icon} icon={faFilePdf} />
-              {t('evento_dialogo.downloadpdf')}
-            </a>
-
-            <a className={Styles.downloadLink} href={downloadNoteUrl} target='_blank'>
-              <FontAwesomeIcon className={Styles.icon} icon={faFilePdf} />
-              {t('evento_dialogo.downloadNotepdf')}
-            </a>
+              <a className={Styles.downloadLink} href={downloadNoteUrl} target='_blank'>
+                <FontAwesomeIcon className={Styles.icon} icon={faFilePdf} />
+                {t('evento_dialogo.downloadNotepdf')}
+              </a>
+            </div>
           </div>
         </div>
       </div>
