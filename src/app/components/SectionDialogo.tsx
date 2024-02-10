@@ -25,7 +25,7 @@ const SectionDialogo = ({ lng }: { lng: string }) => {
   </>
     : <>
       <p>While the event will take place in a closed setting, we want to assure you that you can actively participate through our live broadcasts in Spanish, which will be available on the <Link target="_blank" href="https://www.facebook.com/alianzabosques/">Facebook</Link> and <Link target="_blank" href="https://www.youtube.com/channel/UCpjaCSauXCxms3PLMxFkgEA">Youtube</Link> pages of the Mesoamerican Alliance of Peoples and Forests. For those who do not speak Spanish, we will offer the option to join via <Link target="_blank" href="https://us06web.zoom.us/j/81501342987?pwd=Ufnddj6ajNuiJb3HnoHxzkxerP5ArE.1">Zoom</Link>, where English interpretation will be provided.</p>
-      <p>Below, you can download the agenda and conceptual note for the two days of panels and workshops.</p>
+      <p>So, regardless of your availability or language, we invite you to join us and be part of this experience at any time that suits you! We are excited to share this event with you and hope you enjoy all the sessions, both live and recorded versions.</p>
     </>
 
   const participants = isSpanish ? <div>
